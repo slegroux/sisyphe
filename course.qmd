@@ -1,5 +1,5 @@
 ---
-pagetitle: "Sideman course — a melodic house track, start to finish"
+pagetitle: "Sideman course: a melodic house track, start to finish"
 description: "Ten lessons that build one melodic house track from an empty Ableton Live Set, with Claude doing the work through Sideman."
 format:
   html:

@@ -1,5 +1,5 @@
 ---
-pagetitle: "Lineage — two decades of situated systems"
+pagetitle: "Lineage: two decades of situated systems"
 description: "The situated systems behind Sisyphe, from Re(per)curso in 2007 to Sideman and mjdrone in 2026."
 format:
   html:

@@ -1,6 +1,7 @@
 ---
-pagetitle: "Sideman — an MCP server for Ableton Live"
+pagetitle: "Sideman, an Ableton Live MCP server for Claude"
 description: "Sideman is an open-source MCP server that gives Claude the whole of Ableton Live 12 through Live's own object model."
+image: assets/brand/og.png
 format:
   html:
     page-layout: article

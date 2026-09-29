@@ -1,6 +1,7 @@
 ---
-pagetitle: "Sisyphe — AI that acts in the world"
+pagetitle: "AI that acts in the world"
 description: "Sisyphe builds situated agents: systems that perceive a live environment, reason about it, and act inside it. Maker of Sideman, the Ableton Live MCP server."
+image: assets/brand/og.png
 format:
   html:
     page-layout: full

@@ -1,6 +1,7 @@
 ---
-pagetitle: "About Sisyphe"
+pagetitle: "About"
 description: "Sisyphe is the company of Sylvain Le Groux. It builds AI that acts in the world."
+image: assets/brand/og.png
 format:
   html:
     page-layout: article

@@ -13,6 +13,7 @@ website:
   site-url: https://slegroux.github.io/sisyphe
   description: "Sisyphe builds AI that acts in the world: agents that perceive a live environment and work inside it. Maker of Sideman, the Ableton Live MCP server."
   favicon: assets/brand/favicon.svg
+  image: assets/brand/og.png
   open-graph: true
   twitter-card:
     creator: "@slegroux"
@@ -58,6 +59,7 @@ format:
     link-external-newwindow: true
     include-in-header:
       - file: _analytics.html
+      - file: _seo.html
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
           <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

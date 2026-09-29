@@ -1,5 +1,5 @@
 ---
-pagetitle: "Work with Sisyphe"
+pagetitle: "Work with us"
 description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, and research-to-product work."
 format:
   html:
