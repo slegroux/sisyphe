@@ -1,5 +1,6 @@
 ---
 pagetitle: "Lineage: two decades of situated systems"
+aliases: [instruments.html]
 description: "The situated systems behind Sisyphe, from Re(per)curso in 2007 to Sideman and mjdrone in 2026."
 format:
   html:
@@ -16,7 +17,7 @@ Sideman is not the first system we have built that perceives what is happening a
 
 ::: {.timeline}
 
-::: {.tl .no-media}
+::: {.tl}
 <div class="year">2026</div>
 <div>
 ### mjdrone and sim-to-real
@@ -24,9 +25,26 @@ Sideman is not the first system we have built that perceives what is happening a
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 A MuJoCo quadrotor simulator that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a personal sim-to-real project on NVIDIA Cosmos. The actuator is a machine this time, simulated for now.
 </div>
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
+  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
+    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
+  </g>
+  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
+  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
+  <circle class="a" cx="300" cy="70" r="6"/>
+  <g transform="translate(200 96)">
+    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
+    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
+    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
+    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
+    <circle class="r" cx="0" cy="0" r="4"/>
+  </g>
+  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
+</svg></div>
 :::
 
-::: {.tl .no-media}
+::: {.tl}
 <div class="year">2026</div>
 <div>
 ### Sideman
@@ -34,10 +52,11 @@ A MuJoCo quadrotor simulator that speaks MAVLink, so flight scripts written for 
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 All three layers in one box. Observers report what you do by hand, a skill teaches the model how Live's paths are shaped, and thirty tools write into the Set with real undo. [About Sideman →](sideman.html)
 </div>
+<div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
 :::
 
 
-::: {.tl .no-media}
+::: {.tl}
 <div class="year">2025–2026</div>
 <div>
 ### Westside LA Events
@@ -45,9 +64,10 @@ All three layers in one box. Observers report what you do by hand, a skill teach
 <div class="chips"><span class="chip perceive">perceive</span></div>
 Sixty scrapers over venues, museums and community calendars on LA's Westside, unified into one search with maps and analytics, deployed on Cloud Run. A city as an archive: the perceive layer, at civic scale.
 </div>
+<div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: a grid of event cards with filters and a map toggle"></div>
 :::
 
-::: {.tl .no-media}
+::: {.tl}
 <div class="year">2023–2025</div>
 <div>
 ### Sisyphe, the practice
@@ -55,10 +75,23 @@ Sixty scrapers over venues, museums and community calendars on LA's Westside, un
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 Sisyphe started as a consulting practice. Real-time conversational voice pipelines for Persona, scientific advice on music source separation for Parts Order, and fractional CTO for Tamada, where the team built visual search over an art collection on CLIP embeddings and a vector index. An archive as an environment.
 </div>
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="Three engagements: voice, source separation, art curation">
+  <g transform="translate(30 70)"><rect class="fill-panel ink" x="0" y="0" width="100" height="130" rx="8" stroke-width="2"/>
+    <g class="p"><rect x="26" y="52" width="5" height="26" rx="2"/><rect x="36" y="40" width="5" height="50" rx="2"/><rect x="46" y="30" width="5" height="70" rx="2"/><rect x="56" y="44" width="5" height="42" rx="2"/><rect x="66" y="56" width="5" height="18" rx="2"/></g>
+    <text class="cap" x="0" y="155">voice</text></g>
+  <g transform="translate(150 70)"><rect class="fill-panel ink" x="0" y="0" width="100" height="130" rx="8" stroke-width="2"/>
+    <g class="rs" stroke-width="4" stroke-linecap="round" fill="none"><path d="M20 40 H80"/><path d="M20 65 H60"/><path d="M20 90 H72"/></g>
+    <g class="r"><circle cx="80" cy="65" r="5"/><circle cx="80" cy="90" r="5"/></g>
+    <text class="cap" x="0" y="155">stems</text></g>
+  <g transform="translate(270 70)"><rect class="fill-panel ink" x="0" y="0" width="100" height="130" rx="8" stroke-width="2"/>
+    <rect class="as" x="22" y="28" width="56" height="44" rx="3" stroke-width="3" fill="none"/><rect class="a" x="30" y="86" width="40" height="8" rx="2" opacity="0.8"/><rect class="a" x="30" y="100" width="24" height="8" rx="2" opacity="0.5"/>
+    <text class="cap" x="0" y="155">curation</text></g>
+  <text class="cap" x="30" y="260">persona · parts order · tamada</text>
+</svg></div>
 :::
 
 
-::: {.tl .no-media}
+::: {.tl}
 <div class="year">2016–2023</div>
 <div>
 ### Speech at scale
@@ -66,6 +99,22 @@ Sisyphe started as a consulting practice. Real-time conversational voice pipelin
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. Nimrod, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
 </div>
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
 :::
 
 

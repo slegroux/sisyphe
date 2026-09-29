@@ -87,7 +87,7 @@ Speech recognition, synthesis, speaker recognition, audio classification and the
 ### Interactive systems for art and performance
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
-<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="instruments.html">the lineage</a>.</div>
+<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="lineage.html">the lineage</a>.</div>
 </div>
 :::
 

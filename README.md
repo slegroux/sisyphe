@@ -10,7 +10,7 @@ Company site for Sisyphe LLC ("AI that acts in the world"). Quarto, static, no e
 | `sideman.qmd` | Sideman product summary; the full landing page stays with the code |
 | `course.qmd` | The ten-lesson course |
 | `work.qmd` | Services and proof |
-| `instruments.qmd` | Lineage: a timeline of situated systems from 2007 to now |
+| `lineage.qmd` | Lineage: a timeline of situated systems from 2007 to now |
 | `about.qmd` | Founder and company |
 
 ## Render

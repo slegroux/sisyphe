@@ -28,7 +28,7 @@ website:
         text: Course
       - href: work.qmd
         text: Work with us
-      - href: instruments.qmd
+      - href: lineage.qmd
         text: Lineage
       - href: about.qmd
         text: About

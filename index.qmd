@@ -102,7 +102,7 @@ We build the thing that pushes the rock. You keep the part that needs you: the t
 Before Sideman there was a string quartet played by four people's brain signals, a room that composed music from how you moved through it, and an arena where robots drove the score. A policy driving a robot from what its camera sees is the same idea with a different actuator: a system that perceives what is happening and answers with an action.
 :::
 
-[See the lineage →](instruments.html)
+[See the lineage →](lineage.html)
 
 ## Who
 
