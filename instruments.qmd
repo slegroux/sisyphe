@@ -16,67 +16,13 @@ Sideman is not the first system we have built that perceives what is happening a
 
 ::: {.timeline}
 
-::: {.tl}
-<div class="year">2007</div>
-<div>
-### Re(per)curso
-<div class="eyebrow meta">Multimedia performance · SPECS and Jonatas Manzolli</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Narrative, music and dance fused with real-time synthetic composition, video art and 3D graphics. Sylvain designed the interactive music system, integrated it with the lab's neural network simulator, built the software for an interactive percussion carpet, produced the music and played live electronics.
-</div>
-{{< video https://www.youtube.com/embed/qln4f1kUpZU title="Re(per)curso" >}}
-:::
-
-::: {.tl}
-<div class="year">2007–2009</div>
-<div>
-### The eXperience Induction Machine
-<div class="eyebrow meta">Mixed reality space · SPECS, Barcelona</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-A real-world composition and performance system inside a large intelligent multimodal space. The music is produced in real time by the interaction between the system and its human and non-human environment. The music system inside XIM became the subject of the Ph.D.: a room as an instrument.
-</div>
-{{< video https://www.youtube.com/embed/XAlptm4aHNA title="XIM" >}}
-:::
-
-::: {.tl}
-<div class="year">2009</div>
-<div>
-### The Brain Orchestra
-<div class="eyebrow meta">Brain-computer interface · with SPECS, Jonatas Manzolli and g.tec</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Four performers control the expressivity of a virtual string quartet with their brain signals alone. Sylvain designed and built the interactive music system on top of the BCI, produced the music with Decco, and played live guitar and electronics.
-</div>
-{{< video https://vimeo.com/35514990 title="The Brain Orchestra" >}}
-:::
-
-::: {.tl}
-<div class="year">2010</div>
-<div>
-### The Robot Arena
-<div class="eyebrow meta">Sónar, Barcelona · SPECS</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-The behaviour of robots in an arena modulates a musical composition generated live by SiMS, the Situated Interactive Music Server. Its biomimetic architecture uses algorithmic composition, sound synthesis and expression rules validated in psychoacoustics and emotion experiments.
-</div>
-{{< video https://www.youtube.com/embed/HDmjGJ9sqeI title="The Robot Arena" >}}
-:::
-
 ::: {.tl .no-media}
-<div class="year">2016–2023</div>
+<div class="year">2026</div>
 <div>
-### Speech at scale
-<div class="eyebrow meta">Ava · Voicea · Cisco</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. Nimrod, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
-</div>
-:::
-
-::: {.tl .no-media}
-<div class="year">2023–2025</div>
-<div>
-### Sisyphe, the practice
-<div class="eyebrow meta">Persona · Parts Order · Tamada</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Sisyphe started as a consulting practice. Real-time conversational voice pipelines for Persona, scientific advice on music source separation for Parts Order, and fractional CTO for Tamada, where the team built visual search over an art collection on CLIP embeddings and a vector index. An archive as an environment.
+### mjdrone and sim-to-real
+<div class="eyebrow meta">Simulation · sim-to-real · personal projects</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A MuJoCo quadrotor simulator that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a personal sim-to-real project on NVIDIA Cosmos. The actuator is a machine this time, simulated for now.
 </div>
 :::
 
@@ -90,15 +36,76 @@ All three layers in one box. Observers report what you do by hand, a skill teach
 </div>
 :::
 
+
 ::: {.tl .no-media}
-<div class="year">2026</div>
+<div class="year">2023–2025</div>
 <div>
-### mjdrone and sim-to-real
-<div class="eyebrow meta">Simulation · sim-to-real · personal projects</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-A MuJoCo quadrotor simulator that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a personal sim-to-real project on NVIDIA Cosmos. The actuator is a machine this time, simulated for now.
+### Sisyphe, the practice
+<div class="eyebrow meta">Persona · Parts Order · Tamada</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+Sisyphe started as a consulting practice. Real-time conversational voice pipelines for Persona, scientific advice on music source separation for Parts Order, and fractional CTO for Tamada, where the team built visual search over an art collection on CLIP embeddings and a vector index. An archive as an environment.
 </div>
 :::
+
+
+::: {.tl .no-media}
+<div class="year">2016–2023</div>
+<div>
+### Speech at scale
+<div class="eyebrow meta">Ava · Voicea · Cisco</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. Nimrod, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
+</div>
+:::
+
+
+::: {.tl}
+<div class="year">2010</div>
+<div>
+### The Robot Arena
+<div class="eyebrow meta">Sónar, Barcelona · SPECS</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+The behaviour of robots in an arena modulates a musical composition generated live by SiMS, the Situated Interactive Music Server. Its biomimetic architecture uses algorithmic composition, sound synthesis and expression rules validated in psychoacoustics and emotion experiments.
+</div>
+{{< video https://www.youtube.com/embed/HDmjGJ9sqeI title="The Robot Arena" >}}
+:::
+
+
+::: {.tl}
+<div class="year">2009</div>
+<div>
+### The Brain Orchestra
+<div class="eyebrow meta">Brain-computer interface · with SPECS, Jonatas Manzolli and g.tec</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+Four performers control the expressivity of a virtual string quartet with their brain signals alone. Sylvain designed and built the interactive music system on top of the BCI, produced the music with Decco, and played live guitar and electronics.
+</div>
+{{< video https://vimeo.com/35514990 title="The Brain Orchestra" >}}
+:::
+
+
+::: {.tl}
+<div class="year">2007–2009</div>
+<div>
+### The eXperience Induction Machine
+<div class="eyebrow meta">Mixed reality space · SPECS, Barcelona</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
+A real-world composition and performance system inside a large intelligent multimodal space. The music is produced in real time by the interaction between the system and its human and non-human environment. The music system inside XIM became the subject of the Ph.D.: a room as an instrument.
+</div>
+{{< video https://www.youtube.com/embed/XAlptm4aHNA title="XIM" >}}
+:::
+
+
+::: {.tl}
+<div class="year">2007</div>
+<div>
+### Re(per)curso
+<div class="eyebrow meta">Multimedia performance · SPECS and Jonatas Manzolli</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+Narrative, music and dance fused with real-time synthetic composition, video art and 3D graphics. Sylvain designed the interactive music system, integrated it with the lab's neural network simulator, built the software for an interactive percussion carpet, produced the music and played live electronics.
+</div>
+{{< video https://www.youtube.com/embed/qln4f1kUpZU title="Re(per)curso" >}}
+:::
+
 
 :::
 
