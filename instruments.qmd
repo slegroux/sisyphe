@@ -38,6 +38,16 @@ All three layers in one box. Observers report what you do by hand, a skill teach
 
 
 ::: {.tl .no-media}
+<div class="year">2025–2026</div>
+<div>
+### Westside LA Events
+<div class="eyebrow meta">Events aggregator · personal project · <a href="https://westside-events-406046958598.us-west1.run.app">live</a></div>
+<div class="chips"><span class="chip perceive">perceive</span></div>
+Sixty scrapers over venues, museums and community calendars on LA's Westside, unified into one search with maps and analytics, deployed on Cloud Run. A city as an archive: the perceive layer, at civic scale.
+</div>
+:::
+
+::: {.tl .no-media}
 <div class="year">2023–2025</div>
 <div>
 ### Sisyphe, the practice

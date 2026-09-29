@@ -138,3 +138,27 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   .a { font-weight: 500; }
   .w { font-size: 0.85rem; color: var(--ink-3); text-align: right; }
   @media (max-width: 600px) { > div { grid-template-columns: 56px minmax(0, 1fr); } .w { display: none; } } }
+
+// Work page: illustrated offerings, worked-with strip, steps
+.offer2 { border-top: 1px solid var(--rule); padding: 2.2rem 0; display: grid; grid-template-columns: minmax(0, 5fr) minmax(0, 7fr); gap: 2rem; align-items: start;
+  &.flip { grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); .fig { order: 2; } }
+  .fig { border-radius: 8px; overflow: hidden; border: 1px solid var(--rule); background: var(--panel); aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center;
+    img { width: 100%; height: 100%; object-fit: cover; display: block; }
+    svg { width: 100%; height: 100%; display: block; } }
+  h3 { margin: 0 0 0.2rem; font-size: 1.5rem; }
+  .chips { margin-bottom: 0.9rem; }
+  p { margin: 0 0 0.8rem; }
+  .evidence { font-size: 0.9rem; color: var(--ink-2); border-left: 2px solid var(--rule); padding-left: 0.9rem; margin-top: 1rem; }
+  @media (max-width: 720px) { grid-template-columns: 1fr; &.flip { grid-template-columns: 1fr; .fig { order: 0; } } } }
+.ill { .ink { stroke: var(--ink-2); } .ink3 { stroke: var(--ink-3); } .fill-panel { fill: var(--panel-2); }
+  .p { fill: var(--perceive); } .r { fill: var(--reason); } .a { fill: var(--act); }
+  .ps { stroke: var(--perceive); } .rs { stroke: var(--reason); } .as { stroke: var(--act); }
+  .mono { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--on-layer); text-anchor: middle; dominant-baseline: central; }
+  .cap { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.08em; fill: var(--ink-3); text-transform: uppercase; } }
+.worked { p { display: contents; } margin: 1rem 0 0; padding: 1.2rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; align-items: center;
+  span { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; color: var(--ink-2); }
+  span.faint { color: var(--ink-3); font-weight: 500; font-size: 0.8rem; font-family: "IBM Plex Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; } }
+.steps { display: grid; gap: 1.2rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 1.5rem 0; }
+.step { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 1.2rem 1.3rem;
+  .n { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -0.03em; color: var(--act); line-height: 1; margin-bottom: 0.5rem; }
+  h3 { margin: 0 0 0.4rem; font-size: 1.15rem; } p { margin: 0; color: var(--ink-2); } }

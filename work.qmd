@@ -1,6 +1,7 @@
 ---
 pagetitle: "Work with us"
-description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, and research-to-product work."
+description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, and research-to-product work."
+image: assets/brand/og.png
 format:
   html:
     page-layout: article
@@ -14,68 +15,128 @@ format:
 Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
 :::
 
-::: {.offer}
+::: {.worked}
+<span class="faint">Worked with</span>
+<span>Cisco</span><span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Persona</span><span>Parts Order</span><span>Tamada</span><span>Stanford</span><span>Pompeu Fabra</span><span>Georgia Tech</span><span>Sónar+D</span>
+:::
+
+::: {.offer2}
+<div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with three tracks Claude created and a filter automation curve it wrote"></div>
 <div>
 ### Agents inside real tools
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-<div class="evidence">Proof: Sideman, 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has. Persona, real-time conversational voice pipelines built as an embedded ML engineer.</div>
-</div>
-<div>
 MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see, build the bridge into your object model or your archive, and write the evaluation harness that tells you when coverage slips. We have done this against Ableton Live and inside a real-time voice product.
+<div class="evidence">Sideman: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has. Persona: real-time conversational voice pipelines built as an embedded ML engineer.</div>
 </div>
 :::
 
-::: {.offer}
+::: {.offer2 .flip}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
+  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
+    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
+  </g>
+  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
+  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
+  <circle class="a" cx="300" cy="70" r="6"/>
+  <g transform="translate(200 96)">
+    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
+    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
+    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
+    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
+    <circle class="r" cx="0" cy="0" r="4"/>
+  </g>
+  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
+</svg></div>
 <div>
 ### Robotics, simulation and learned policies
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-<div class="evidence">Proof: since 2025 the day job is vision-language-action training pipelines spanning physics simulation, synthetic data, sim-to-real transfer, reinforcement learning and edge deployment. That work is not for hire. Public evidence: mjdrone, a MuJoCo quadrotor simulator that speaks MAVLink so Udacity course flight scripts connect unchanged, headless at 30 to 60 times real time, and a personal sim-to-real project on NVIDIA Cosmos.</div>
-</div>
-<div>
 Simulators that are fast, inspectable and scriptable. Reinforcement learning and vision-language-action policies, and the sim-to-real gap between them and a machine that moves. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.
+<div class="evidence">Since 2025 the day job is vision-language-action training pipelines spanning physics simulation, synthetic data, sim-to-real transfer, reinforcement learning and edge deployment. That work is not for hire. Public evidence: mjdrone, a MuJoCo quadrotor simulator that speaks MAVLink so Udacity course flight scripts connect unchanged, headless at 30 to 60 times real time, and a personal sim-to-real project on NVIDIA Cosmos.</div>
 </div>
 :::
 
-::: {.offer}
+::: {.offer2}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
 <div>
 ### Speech, language and audio
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-<div class="evidence">Proof: principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. Nimrod, a personal open-source toolkit for speech, audio and language modelling.</div>
-</div>
-<div>
 Speech recognition, synthesis, speaker recognition, audio classification and the language models around them. Data pipelines, training, evaluation, and the unglamorous work of getting a model into a product that millions of people use without noticing it.
+<div class="evidence">Principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. Nimrod, a personal open-source toolkit for speech, audio and language modelling.</div>
 </div>
 :::
 
-::: {.offer}
+::: {.offer2 .flip}
+<div class="fig"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"></div>
 <div>
 ### Interactive systems for art and performance
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-<div class="evidence">Proof: The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="instruments.html">the lineage</a>.</div>
-</div>
-<div>
 Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
+<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="instruments.html">the lineage</a>.</div>
 </div>
 :::
 
-::: {.offer}
+::: {.offer2}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A paper turning into a shipped product">
+  <g transform="translate(50 70)">
+    <rect class="fill-panel ink" x="0" y="0" width="110" height="140" rx="6" stroke-width="2"/>
+    <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M18 26 H70 M18 44 H92 M18 62 H84 M18 80 H92 M18 98 H60"/></g>
+    <path class="rs" d="M18 116 H70" stroke-width="3" stroke-linecap="round"/>
+    <text class="cap" x="0" y="165">paper · prototype</text>
+  </g>
+  <path class="ink" d="M180 140 L215 140 M206 132 L215 140 L206 148" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g transform="translate(240 75)">
+    <path class="a" d="M0 40 L55 12 L110 40 L55 68 Z" opacity="0.9"/>
+    <path class="a" d="M0 40 L55 68 L55 130 L0 102 Z" opacity="0.7"/>
+    <path class="a" d="M55 68 L110 40 L110 102 L55 130 Z" opacity="0.5"/>
+    <path d="M40 72 L52 84 L76 56" stroke="var(--on-layer)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text class="cap" x="0" y="165">shipped</text>
+  </g>
+</svg></div>
 <div>
 ### Research to product
 <div class="chips"><span class="chip reason">reason</span></div>
-<div class="evidence">Proof: Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
-</div>
-<div>
 You have a paper, a lab prototype or a data set and need it to become software. We have been on both sides: a decade in research labs, a decade in industry. We can read the paper, talk to the scientists, and ship the code.
+<div class="evidence">Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Westside LA Events, an aggregator over sixty scraped sources with search, maps and analytics, running on Cloud Run. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
 </div>
 :::
 
 ## How it works
 
-**Scoped engagements.** A written brief, a fixed number of weeks, a demo at the end. We prefer two to eight weeks with a clear question over open-ended retainers.
+::: {.steps}
+::: {.step}
+<div class="n">1</div>
+### A written brief
+Half a page: what you are building, where it is stuck, what a demo would need to show. We reply with a scope, a number of weeks and a price.
+:::
+::: {.step}
+<div class="n">2</div>
+### Two to eight weeks
+A fixed engagement with a clear question. Working code in your repo from the first week, a check-in each week, and no open-ended retainers.
+:::
+::: {.step}
+<div class="n">3</div>
+### A demo, then a decision
+It ends with the thing running in front of you and a written account of what worked and what did not. You decide what happens next.
+:::
+:::
 
-**Advisory.** A few hours a month to review architecture, models or an agent design before you commit a team to it.
-
-**Open source first.** If the work belongs in Sideman or a public library, we will say so and price it accordingly.
+**Advisory** is the other shape: a few hours a month to review architecture, models or an agent design before you commit a team to it. **Open source first:** if the work belongs in Sideman or a public library, we will say so and price it accordingly.
 
 ## Start a conversation
 
