@@ -1,0 +1,53 @@
+---
+pagetitle: "Sideman course — a melodic house track, start to finish"
+description: "Ten lessons that build one melodic house track from an empty Ableton Live Set, with Claude doing the work through Sideman."
+format:
+  html:
+    page-layout: article
+---
+
+<div class="eyebrow">Course · in preparation</div>
+
+# A melodic house track, start to finish.
+
+::: {.lede .muted}
+Ten lessons that build one track from an empty Set. 122 BPM, F minor, five and a half minutes. Intro, build, drop, breakdown, second drop, outro. Claude does the work in Ableton Live through Sideman. Every lesson leaves a state in the Set you can check with a question rather than a feeling.
+:::
+
+The course is one track told twice. Pick the telling that fits you.
+
+::: {.cards}
+::: {.card-s}
+<div class="eyebrow">Track 1</div>
+### Make a track with Claude
+For musicians. You type what you want. The page tells you what Claude does, what you will see in Live, and how to check it. No code, nothing to install beyond Sideman and Claude Code. One lesson uses a third-party plug-in and one a vocal sample. Both have a stock-Live alternative.
+:::
+::: {.card-s}
+<div class="eyebrow">Track 2</div>
+### Under the hood
+For programmers and the curious. The same ten lessons as executed notebooks driving Sideman's Python client, every cell's output frozen from a real Set. Read them, or run them against your own Live.
+:::
+:::
+
+## The ten lessons
+
+1. Orientation. Tempo, key, and asking Claude what is in the Set before changing it.
+2. Drums. A kick that sits and hats that breathe.
+3. Bass. A sub and a mid on Drift, and the first automation.
+4. Harmony. Four chords in F minor and why the voicing matters.
+5. Melody and arp. A hook, then the arp that carries it.
+6. Sound design. Racks, macros, sends, and where plug-ins stop.
+7. Movement. A 16-bar build: filter, reverb throw, riser.
+8. Arrangement. From loop to five and a half minutes.
+9. Audio. A vocal chop, warped to the tempo and placed in the breakdown.
+10. Mixing. You set drums and bass by ear. Claude balances the rest and watches what you change.
+
+## Before you start
+
+- Sideman installed and showing up in Claude Code. The [install page](https://slegroux.github.io/sideman/#install) takes a few minutes.
+- Ableton Live open on a fresh, unsaved Set. Lesson 1 starts there.
+- Ten minutes with [Start here](https://slegroux.github.io/sideman/learn/make/00-start-here.html), three prompts that show the whole idea before you commit to ten lessons.
+
+## Get notified
+
+The course is being finished now. Write to [sylvain.legroux@gmail.com](mailto:sylvain.legroux@gmail.com?subject=Sideman%20course) with "course" in the subject and you will hear when it ships.

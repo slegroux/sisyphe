@@ -1,0 +1,14 @@
+/*-- scss:defaults --*/
+$ground:  #17181B;
+$panel:   #1F2024;
+$panel-2: #2A2B30;
+$ink:     #ECEBE6;
+$ink-2:   #A6A5A0;
+$ink-3:   #75746F;
+$rule:    #34363B;
+$perceive: #5BA8E0;
+$reason:   #9A8CF0;
+$act:      #FF6B52;
+$on-layer: #17181B;
+/*-- scss:rules --*/
+.navbar .navbar-logo { filter: invert(1) hue-rotate(180deg); }

@@ -1,0 +1,6 @@
+_site/
+.quarto/
+/.omc/
+.DS_Store
+
+/.quarto/

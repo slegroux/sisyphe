@@ -1,0 +1,67 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "*.qmd"
+  resources:
+    - "assets/**"
+
+# The company does not own sisyphe.ai (registered by a third party as of
+# 2026-09-28). Change site-url once a domain is chosen; nothing else depends on it.
+website:
+  title: "sisyphe"
+  site-url: https://slegroux.github.io/sisyphe
+  description: "Sisyphe builds AI that acts in the world: agents that perceive a live environment and work inside it. Maker of Sideman, the Ableton Live MCP server."
+  favicon: assets/brand/favicon.svg
+  open-graph: true
+  twitter-card:
+    creator: "@slegroux"
+  navbar:
+    logo: assets/brand/mark.svg
+    logo-alt: "Sisyphe"
+    title: "sisyphe"
+    left:
+      - href: sideman.qmd
+        text: Sideman
+      - href: course.qmd
+        text: Course
+      - href: work.qmd
+        text: Work with us
+      - href: instruments.qmd
+        text: Lineage
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/slegroux/sideman
+        aria-label: GitHub
+    tools-collapse: true
+  page-footer:
+    left: "© 2026 Sisyphe LLC"
+    center: "One must imagine Sisyphus shipping."
+    right:
+      - icon: github
+        href: https://github.com/slegroux
+      - icon: linkedin
+        href: https://www.linkedin.com/in/slegroux
+      - icon: envelope
+        href: mailto:sylvain.legroux@gmail.com
+
+format:
+  html:
+    theme:
+      dark: [theme.scss, theme-dark.scss]
+      light: [theme.scss]
+    css: styles.css
+    toc: false
+    smooth-scroll: true
+    link-external-newwindow: true
+    include-in-header:
+      - file: _analytics.html
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+execute:
+  enabled: false

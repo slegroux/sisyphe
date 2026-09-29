@@ -1,0 +1,116 @@
+---
+pagetitle: "Sisyphe — AI that acts in the world"
+description: "Sisyphe builds situated agents: systems that perceive a live environment, reason about it, and act inside it. Maker of Sideman, the Ableton Live MCP server."
+format:
+  html:
+    page-layout: full
+---
+
+::: {.hero}
+<div>
+<div class="eyebrow">Sisyphe · situated AI</div>
+
+# AI that acts in the world.
+
+<p class="lede">We build situated agents: systems that perceive a live environment, reason about it, and act inside it, then notice what changed. A studio, a simulator, a robot, an archive. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
+
+<div class="btn-row">
+<a class="btn-accent" href="sideman.html">See Sideman</a>
+<a class="btn-quiet" href="work.html">Work with us</a>
+</div>
+</div>
+
+<svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around the world">
+  <circle class="ring" cx="180" cy="180" r="120"/>
+  <path class="arc perceive" d="M180,60 A120,120 0 0 1 283.9,240"/>
+  <path class="arc reason"   d="M283.9,240 A120,120 0 0 1 76.1,240"/>
+  <path class="arc act"      d="M76.1,240 A120,120 0 0 1 180,60"/>
+  <circle class="dot" r="6">
+    <animateMotion dur="7s" repeatCount="indefinite" path="M180,60 A120,120 0 1 1 179.9,60"/>
+  </circle>
+  <circle class="node perceive" cx="180" cy="60" r="38"/>
+  <text class="label" x="180" y="60">perceive</text>
+  <circle class="node reason" cx="283.9" cy="240" r="38"/>
+  <text class="label" x="283.9" y="240">reason</text>
+  <circle class="node act" cx="76.1" cy="240" r="38"/>
+  <text class="label" x="76.1" y="240">act</text>
+  <text class="world" x="180" y="176">the world</text>
+  <text class="sub" x="180" y="202">DAW · SIM · ROBOT · ARCHIVE</text>
+</svg>
+:::
+
+::: {.layers}
+::: {.layer .perceive}
+<div class="eyebrow c-perceive">Layer one</div>
+### Perceive
+What the model can see decides what it can do. We build the senses: bridges into an application's object model, observers that report what a human did by hand, embeddings over an archive, simulators that expose true state.
+:::
+::: {.layer .reason}
+<div class="eyebrow c-reason">Layer two</div>
+### Reason
+Grammars, skills and evaluation. We teach the model how a domain is shaped so it looks instead of guessing, and we measure coverage against the real system rather than claiming it.
+:::
+::: {.layer .act}
+<div class="eyebrow c-act">Layer three</div>
+### Act
+Real writes with real undo, control loops that move a machine in simulation or in the world, and a guard before anything destructive. An agent that acts has to be safe to be wrong.
+:::
+:::
+
+::: {.proofstrip}
+<div><span class="n">Sideman</span><span class="l">An MCP server that gives Claude the 922 measured members of Ableton Live, and sees what you do by hand.</span></div>
+<div><span class="n">mjdrone</span><span class="l">A MuJoCo quadrotor simulator that speaks MAVLink, so Udacity course flight scripts connect unchanged.</span></div>
+<div><span class="n">Tamada</span><span class="l">Fractional CTO for AI-augmented art curation: visual search over a collection on CLIP embeddings and a vector index.</span></div>
+<div><span class="n">The Brain Orchestra</span><span class="l">A string quartet played by four people's brain signals, 2009.</span></div>
+:::
+
+## Products
+
+::: {.cards}
+::: {.card-s}
+<div class="eyebrow">Open source</div>
+### Sideman
+An MCP server for Ableton Live 12 built on Live's own object model rather than a hand-written list of commands. Everything Live can do is in reach, and it notices what you do by hand.
+<a class="card-link" href="sideman.html">About Sideman →</a>
+:::
+::: {.card-s}
+<div class="eyebrow">Course</div>
+### A track, start to finish
+Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live. Told twice: once for musicians, once for programmers.
+<a class="card-link" href="course.html">About the course →</a>
+:::
+::: {.card-s}
+<div class="eyebrow">Services</div>
+### Work with us
+Agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, and the road from a research prototype to a product.
+<a class="card-link" href="work.html">What we take on →</a>
+:::
+:::
+
+## Why Sisyphe
+
+::: {.measure}
+Sisyphus pushed the same rock up the same hill, forever. Skilled work has more of that than anyone admits: the fortieth track rename, the thousandth labelled frame, the sim run you relaunch because one parameter was wrong. It all has to be done, and none of it needs you.
+
+We build the thing that pushes the rock. You keep the part that needs you: the taste, the judgment, the call.
+:::
+
+## Two decades of situated systems, one idea
+
+::: {.measure}
+Before Sideman there was a string quartet played by four people's brain signals, a room that composed music from how you moved through it, and an arena where robots drove the score. A policy driving a robot from what its camera sees is the same idea with a different actuator: a system that perceives what is happening and answers with an action.
+:::
+
+[See the lineage →](instruments.html)
+
+## Who
+
+::: {.founder}
+<img src="assets/sylvain.jpg" alt="Sylvain Le Groux">
+
+<div>
+**Sylvain Le Groux** founded Sisyphe after a decade in industry shipping speech and language models to millions of users, and a decade before that in research labs, building interactive music systems and studying how sound moves people. These days the day job is autonomy and robotics, and the side projects are simulators and a DAW. Ph.D. in computer and cognitive science, M.A. in music composition, a long-time musician who now mostly makes electronic music.
+
+[About Sisyphe →](about.html)
+</div>
+:::

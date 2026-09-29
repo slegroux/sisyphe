@@ -1,0 +1,82 @@
+---
+pagetitle: "Work with Sisyphe"
+description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, and research-to-product work."
+format:
+  html:
+    page-layout: article
+---
+
+<div class="eyebrow">Services</div>
+
+# Five things we take on.
+
+::: {.lede .muted}
+Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
+:::
+
+::: {.offer}
+<div>
+### Agents inside real tools
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
+<div class="evidence">Proof: Sideman, 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has. Persona, real-time conversational voice pipelines built as an embedded ML engineer.</div>
+</div>
+<div>
+MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see, build the bridge into your object model or your archive, and write the evaluation harness that tells you when coverage slips. We have done this against Ableton Live and inside a real-time voice product.
+</div>
+:::
+
+::: {.offer}
+<div>
+### Robotics, simulation and learned policies
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+<div class="evidence">Proof: since 2025 the day job is vision-language-action training pipelines spanning physics simulation, synthetic data, sim-to-real transfer, reinforcement learning and edge deployment. That work is not for hire. Public evidence: mjdrone, a MuJoCo quadrotor simulator that speaks MAVLink so Udacity course flight scripts connect unchanged, headless at 30 to 60 times real time, and a personal sim-to-real project on NVIDIA Cosmos.</div>
+</div>
+<div>
+Simulators that are fast, inspectable and scriptable. Reinforcement learning and vision-language-action policies, and the sim-to-real gap between them and a machine that moves. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.
+</div>
+:::
+
+::: {.offer}
+<div>
+### Speech, language and audio
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+<div class="evidence">Proof: principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. Nimrod, a personal open-source toolkit for speech, audio and language modelling.</div>
+</div>
+<div>
+Speech recognition, synthesis, speaker recognition, audio classification and the language models around them. Data pipelines, training, evaluation, and the unglamorous work of getting a model into a product that millions of people use without noticing it.
+</div>
+:::
+
+::: {.offer}
+<div>
+### Interactive systems for art and performance
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+<div class="evidence">Proof: The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="instruments.html">the lineage</a>.</div>
+</div>
+<div>
+Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
+</div>
+:::
+
+::: {.offer}
+<div>
+### Research to product
+<div class="chips"><span class="chip reason">reason</span></div>
+<div class="evidence">Proof: Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
+</div>
+<div>
+You have a paper, a lab prototype or a data set and need it to become software. We have been on both sides: a decade in research labs, a decade in industry. We can read the paper, talk to the scientists, and ship the code.
+</div>
+:::
+
+## How it works
+
+**Scoped engagements.** A written brief, a fixed number of weeks, a demo at the end. We prefer two to eight weeks with a clear question over open-ended retainers.
+
+**Advisory.** A few hours a month to review architecture, models or an agent design before you commit a team to it.
+
+**Open source first.** If the work belongs in Sideman or a public library, we will say so and price it accordingly.
+
+## Start a conversation
+
+Write to [sylvain.legroux@gmail.com](mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe) with what you are building and where it is stuck. You will get a reply from the person who would do the work.

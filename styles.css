@@ -1,0 +1,3 @@
+/* Page-level tweaks that don't need Sass. */
+#quarto-content > * { max-width: 1120px; }
+.page-columns .content { padding-bottom: 3rem; }

@@ -1,0 +1,109 @@
+---
+pagetitle: "Sideman — an MCP server for Ableton Live"
+description: "Sideman is an open-source MCP server that gives Claude the whole of Ableton Live 12 through Live's own object model."
+format:
+  html:
+    page-layout: article
+---
+
+<div class="product-logo">
+<img class="logo-light" alt="Sideman" src="assets/brand/sideman-light.svg" width="320">
+<img class="logo-dark" alt="Sideman" src="assets/brand/sideman-dark.svg" width="320">
+</div>
+
+<div class="eyebrow">Product · open source · GPL-3.0-or-later</div>
+
+# Say it. It lands in your Set.
+
+::: {.lede .muted}
+Sideman is an MCP server for Ableton Live 12. Claude gets the whole of Live, not a menu of twenty commands. Ask for a loop, a sound, a filter sweep. Watch it appear.
+:::
+
+<div class="btn-row">
+<a class="btn-accent" href="https://github.com/slegroux/sideman/releases">Download the installer</a>
+<a class="btn-quiet" href="https://slegroux.github.io/sideman/">Full product page</a>
+<a class="btn-quiet" href="https://github.com/slegroux/sideman">Source on GitHub</a>
+</div>
+
+::: {.stats}
+<div class="stat"><span class="n">922</span><span class="l">reachable members</span></div>
+<div class="stat"><span class="n">47</span><span class="l">object types</span></div>
+<div class="stat"><span class="n">30</span><span class="l">tools</span></div>
+<div class="stat"><span class="n">Live 12</span><span class="l">any edition, macOS</span></div>
+:::
+
+<p class="muted" style="font-size:0.85rem">Coverage numbers measured on Live 12.2.7.</p>
+
+## Three layers in one box
+
+::: {.layers}
+::: {.layer .perceive}
+<div class="eyebrow c-perceive">Perceive</div>
+### It sees the whole instrument
+Live's object model, read at runtime: 47 types, 922 members. Observers report what you change by hand, so Claude knows when you nudged a fader.
+:::
+::: {.layer .reason}
+<div class="eyebrow c-reason">Reason</div>
+### It looks before it guesses
+A skill teaches the model how Live's paths are shaped. When "cutoff" finds nothing, it searches Drift's parameters and finds LP Freq, then reads the range before writing.
+:::
+::: {.layer .act}
+<div class="eyebrow c-act">Act</div>
+### It writes with undo
+Thirty tools, and batched writes that undo as one step where Live allows it. Anything that removes, clears or crops waits for confirmation.
+:::
+:::
+
+## Why this one
+
+Every other Ableton MCP server hand-writes one command per feature, so what Claude can reach is whatever someone found time to type. Sideman exposes Live's own object model, the same `path` / `get` / `set` / `call` contract Max for Live uses. Any property Live has is reachable without shipping new code.
+
+**Everything, not a menu.** Every parameter on every native device, every clip property, every mixer control. Coverage is measured against a running Live, not counted from a README. The largest command-list server stops at 128.
+
+**It sees what you do.** Nudge a fader, rename a track, drop a clip with your hands, and Claude knows. Nothing else in the field reports changes you make yourself.
+
+**⌘Z still works.** Edits land as real undo steps. A batch of renames, colours and time signatures collapses into one. Tempo, volume and device parameters keep their own step, so occasionally it is ⌘Z twice.
+
+**It asks before it deletes.** Anything that removes, clears or crops waits for confirmation. Your Set is not in version control, and the server behaves like it knows that.
+
+**New Live, nothing to update.** The object model is read from Live at runtime. When Live adds a function, it is reachable the day you upgrade.
+
+## Three things you'd actually say
+
+> Give me a 4-bar house loop. Chords, bass, drums. Name the tracks and colour them.
+
+A third MIDI track created, all three named and coloured, six writes in one undo step. Drift loaded from the browser. Four-bar clips written, kick on every quarter, hats offbeat with alternating velocity. Scene 1 fired.
+
+> Open the filter over the loop. Closed at the start, wide by bar 4.
+
+Searches Drift's parameters by name. "Cutoff" finds nothing, so it looks instead of guessing and finds LP Freq. Reads the range, writes a rising sweep one step a bar, then reads the envelope back so you can check it before it plays.
+
+> I was dragging the tempo just now. Where did I land?
+
+Observers were already watching. Tempo 123.5 → 122.5 → 123.5, and a fader on track 1 moved to 0.72. Those are real events from the tutorial run.
+
+## Install
+
+**Musicians:** download the `.pkg` from the [releases page](https://github.com/slegroux/sideman/releases). It installs into your home folder, needs no password and brings its own Python. It is not yet notarized, so the first time macOS will refuse a double-click: right-click the `.pkg` → Open → Open, or on macOS 15 and later, System Settings → Privacy & Security → Open Anyway. The one step no installer can do for you: Preferences → Link, Tempo & MIDI → Control Surface → AbletonLOM. Then restart Live once and your Claude session once.
+
+**Developers:** clone, make a Python 3.11 venv, run the install script, pick AbletonLOM as a Control Surface in Live's preferences, register with Claude Code, then restart Live and your Claude session.
+
+```bash
+git clone https://github.com/slegroux/sideman && cd sideman
+uv venv --python 3.11 .venv
+VIRTUAL_ENV=.venv uv pip install -e .
+./scripts/install.sh
+claude mcp add --scope user sideman -- "$PWD/.venv/bin/python" -m mcp_server.server
+```
+
+The [full install guide](https://slegroux.github.io/sideman/#install), the [tutorial](https://github.com/slegroux/sideman/blob/main/docs/TUTORIAL.md) and the [tool reference](https://github.com/slegroux/sideman/blob/main/docs/TOOLS.md) live with the code.
+
+## Works with
+
+| | |
+|---|---|
+| Ableton Live | Live 12, any edition. It is a Remote Script, so Max for Live is not required. |
+| Computer | macOS. Windows untested. |
+| Assistant | Claude Code, Codex, or any MCP client. |
+| Plugins | Every parameter of every native device and rack. VST/AU parameters you have exposed with Live's Configure button. |
+| Network | None. Talks to Live on localhost, on its own port, so it coexists with other Ableton servers. |
