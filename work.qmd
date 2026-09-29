@@ -1,6 +1,6 @@
 ---
 pagetitle: "Work with us"
-description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, and research-to-product work."
+description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, research-to-product work, and teaching."
 image: assets/brand/og.png
 format:
   html:
@@ -9,7 +9,7 @@ format:
 
 <div class="eyebrow">Services</div>
 
-# Five things we take on.
+# Six things we take on.
 
 ::: {.lede .muted}
 Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
@@ -17,7 +17,7 @@ Sisyphe is small on purpose. One senior engineer, with trusted collaborators whe
 
 ::: {.worked}
 <span class="faint">Worked with</span>
-<span>Cisco</span><span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Persona</span><span>Parts Order</span><span>Tamada</span><span>Stanford</span><span>Pompeu Fabra</span><span>Georgia Tech</span><span>Sónar+D</span>
+<span>Cisco</span><span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Persona</span><span>Parts Order</span><span>Tamada</span><span>Stanford</span><span>Pompeu Fabra</span><span>Georgia Tech</span><span>Museaic Labs</span><span>Fundación Orange</span><span>Sónar+D</span>
 :::
 
 ::: {.offer2}
@@ -112,7 +112,35 @@ Real-time composition, sound and visual systems that respond to sensors, biosign
 ### Research to product
 <div class="chips"><span class="chip reason">reason</span></div>
 You have a paper, a lab prototype or a data set and need it to become software. We have been on both sides: a decade in research labs, a decade in industry. We can read the paper, talk to the scientists, and ship the code.
-<div class="evidence">Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Westside LA Events, an aggregator over sixty scraped sources with search, maps and analytics, running on Cloud Run. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
+<div class="evidence">Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Westside LA Events, an aggregator over sixty scraped sources with search, maps and analytics, running on Cloud Run. Museaic Labs, an emotion-driven music recommendation system. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
+</div>
+:::
+
+::: {.offer2 .flip}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A whiteboard with the perceive, reason, act loop sketched on it, and a room of people">
+  <rect class="fill-panel ink" x="60" y="34" width="280" height="150" rx="6" stroke-width="2"/>
+  <g transform="translate(200 109) scale(0.42)">
+    <circle cx="0" cy="0" r="120" fill="none" class="ink3" stroke-width="3"/>
+    <path class="ps" d="M0,-120 A120,120 0 0 1 103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path class="rs" d="M103.9,60 A120,120 0 0 1 -103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path class="as" d="M-103.9,60 A120,120 0 0 1 0,-120" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle class="p" cx="0" cy="-120" r="26"/><circle class="r" cx="103.9" cy="60" r="26"/><circle class="a" cx="-103.9" cy="60" r="26"/>
+  </g>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M80 60 H120 M80 74 H110 M292 150 H320 M292 164 H312"/></g>
+  <g class="ink" fill="none" stroke-width="2">
+    <g transform="translate(90 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(145 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(200 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(255 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(310 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+  </g>
+  <text class="cap" x="60" y="290">workshops · courses · studios</text>
+</svg></div>
+<div>
+### Teaching and workshops
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
+Sideman workshops for studios, schools and labs: a day, a weekend, or a term, from "what's in my Set?" to a finished track. Custom courses on agents for creative tools, audio machine learning, and sensor-to-actuator systems, taught by someone who has done it at graduate level and in industry.
+<div class="evidence">Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, including one built around the sensor-to-actuator loop. The <a href="course.html">Sideman course</a> is the current syllabus.</div>
 </div>
 :::
 

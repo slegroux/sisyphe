@@ -48,6 +48,10 @@ For programmers and the curious. The same ten lessons as executed notebooks driv
 - Ableton Live open on a fresh, unsaved Set. Lesson 1 starts there.
 - Ten minutes with [Start here](https://slegroux.github.io/sideman/learn/make/00-start-here.html), three prompts that show the whole idea before you commit to ten lessons.
 
+## Workshops
+
+The same material runs as a live workshop: a day for a studio or a label, a weekend for a school, or a term as a graduate module. Sylvain designed and taught four graduate courses at Georgia Tech and Pompeu Fabra University and teaches this one himself. Ask on the [work with us](work.html) page.
+
 ## Get notified
 
 The course is being finished now. Write to [sylvain.legroux@gmail.com](mailto:sylvain.legroux@gmail.com?subject=Sideman%20course) with "course" in the subject and you will hear when it ships.
