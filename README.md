@@ -32,6 +32,14 @@ quarto render       # writes _site/
 
 Quarto emits title/description, Open Graph and Twitter cards, `sitemap.xml` and `robots.txt`. On top of that: `_seo.html` adds JSON-LD (Organization, founder Person, Sideman SoftwareApplication) to every page's head, and `assets/brand/og.png` (1200×630, dark card with the loop) is the site-wide share image, forced on pages that contain a photo via `image:` front matter. Regenerate the card from the scratch HTML in the session notes if the tagline changes. Update the URLs in `_seo.html` when the domain changes.
 
+### Google Search Console (next step)
+
+1. Open https://search.google.com/search-console, add a **URL prefix** property for `https://slegroux.github.io/sisyphe/` (switch to a **Domain** property once a domain exists, verified by DNS TXT).
+2. Pick the **HTML tag** method, copy the `content` value, paste it into the commented `<meta name="google-site-verification">` in `_seo.html`, uncomment, commit, push, wait for the deploy, then click Verify.
+3. Sitemaps → submit `https://slegroux.github.io/sisyphe/sitemap.xml`.
+4. Bing Webmaster Tools can import the Search Console property in one click.
+5. After a domain move: add the new property, resubmit the sitemap, and use Change of Address.
+
 ## Analytics
 
 Cloudflare Web Analytics, via `_analytics.html`, included in every page's `<head>`. It sets no cookies, so no consent banner. Create the site under Analytics & Logs → Web Analytics in the Cloudflare dashboard (any hosting, not only Cloudflare Pages), copy the token from the snippet it shows, and replace `REPLACE_WITH_CLOUDFLARE_TOKEN` in `_analytics.html`. Until then the beacon loads with a bogus token and records nothing.
