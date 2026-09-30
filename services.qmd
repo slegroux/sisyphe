@@ -64,7 +64,8 @@ Working software in your repo, measured against the real environment it has to r
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 <p class="outcome">You get speech and audio models that hold up in production, not only on a benchmark.</p>
 <p>Speech recognition and synthesis, speaker recognition, music source separation, audio classification and the language models around them. Data pipelines, training, evaluation, and getting a model into a product people use without noticing it.</p>
-<ul class="proof"><li>Cisco, after acquiring Voicea: multilingual ASR and Cisco's first speaker-diarization system, shipped to millions of Webex users.</li><li>US patent on privacy-preserving speech recognition with federated learning.</li><li>Earlier, speech and speaker recognition at Ava and Voicea.</li><li><a href="https://slegroux.github.io/nimrod">Nimrod</a>: an open-source toolkit for speech, audio and language modelling.</li></ul>
+<ul class="proof"><li>Persona: real-time conversational voice pipelines.</li><li>Parts Order: scientific advice on music source separation.</li><li><a href="https://slegroux.github.io/nimrod">Nimrod</a> (personal, open source): a toolkit for speech, audio and language modelling.</li></ul>
+<p class="before"><span>Before Sisyphe</span> Speech recognition and speaker diarization shipped to millions of Webex users at Cisco; speech and speaker recognition at Ava and Voicea.</p>
 </div>
 :::
 
@@ -76,7 +77,8 @@ Working software in your repo, measured against the real environment it has to r
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 <p class="outcome">You get a real-time system that answers people, sensors or signals, with a mapping you can defend.</p>
 <p>Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state: installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
-<ul class="proof"><li>The Brain Orchestra, XIM and the Sónar Robot Arena: see <a href="about.html#background">the background</a>.</li></ul>
+
+<p class="before"><span>Before Sisyphe</span> The Brain Orchestra, XIM and the Sónar Robot Arena, built in research labs in Barcelona. See <a href="about.html#background">the background</a>.</p>
 </div>
 :::
 
@@ -104,7 +106,7 @@ Working software in your repo, measured against the real environment it has to r
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 <p class="outcome">You get a simulator and training loop you can trust, and an honest answer on whether the policy learned the task or the simulator.</p>
 <p>Simulators that are fast, inspectable and scriptable; reinforcement learning and vision-language-action policies; and the sim-to-real gap between them. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.</p>
-<ul class="proof"><li><a href="projects.html">Bestiary</a>: a MuJoCo quadrotor that speaks MAVLink, so Udacity course flight scripts connect unchanged, at 30 to 60 times real time.</li><li>A personal sim-to-real project on NVIDIA Cosmos.</li><li>Since 2025 the day job is vision-language-action training pipelines. That work is not for hire.</li></ul>
+<ul class="proof"><li><a href="projects.html">Bestiary</a> (personal): a MuJoCo quadrotor that speaks MAVLink, so Udacity course flight scripts connect unchanged, at 30 to 60 times real time.</li><li>A personal sim-to-real project on NVIDIA Cosmos.</li><li>Since 2025 the day job is vision-language-action training pipelines. That work is not for hire.</li></ul>
 </div>
 :::
 
@@ -141,7 +143,8 @@ Read the paper, run the experiment, and say plainly what will work before you bu
 <div class="chips"><span class="chip reason">reason</span></div>
 <p class="outcome">You get a senior second opinion, or your prototype turned into software, before you commit a team to it.</p>
 <p>You have a paper, a lab prototype or a data set that needs to become software, or a team that needs a senior second opinion. We read the paper, talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor. A decade in research labs, a decade in industry.</p>
-<ul class="proof"><li>Tamada: fractional CTO for AI-augmented art curation, visual search over a collection from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li><li>Museaic Labs: an emotion-driven music recommendation system.</li><li>Technology transfer on interactive systems for autism with Fundación Orange and Universitat de València.</li></ul>
+<ul class="proof"><li>Tamada: fractional CTO for AI-augmented art curation, visual search over a collection from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li></ul>
+<p class="before"><span>Before Sisyphe</span> Museaic Labs, an emotion-driven music recommendation system; technology transfer on interactive systems for autism with Fundación Orange and Universitat de València.</p>
 </div>
 :::
 
@@ -180,7 +183,8 @@ So your team can do it without us.
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 <p class="outcome">You get a team that can build and run agents without us.</p>
 <p>Sideman workshops for studios, schools and labs, from a day to a term, from “what’s in my Set?” to a finished track. Custom courses on agents for creative tools, audio machine learning and sensor-to-actuator systems.</p>
-<ul class="proof"><li>Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, one built around the sensor-to-actuator loop.</li><li>The <a href="course.html">Sideman course</a> is the current syllabus.</li><li><a href="https://slegroux.github.io/pappus/">Pappus</a>, our learning notebook: the AI hints, the learner runs the code.</li></ul>
+<ul class="proof"><li>The <a href="course.html">Sideman course</a> is the current syllabus.</li><li><a href="https://slegroux.github.io/pappus/">Pappus</a>, our learning notebook: the AI hints, the learner runs the code.</li></ul>
+<p class="before"><span>Before Sisyphe</span> Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, one built around the sensor-to-actuator loop.</p>
 </div>
 :::
 
