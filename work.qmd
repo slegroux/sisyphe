@@ -22,7 +22,8 @@ Sisyphe is small on purpose. One senior engineer, with trusted collaborators whe
 
 ::: {.worked .before}
 <span class="faint">Before Sisyphe</span>
-<span>Cisco</span><span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Stanford</span><span>Pompeu Fabra</span><span>Georgia Tech</span><span>Museaic Labs</span><span>Fundación Orange</span><span>Sónar+D</span>
+<img class="logo cisco" src="assets/logos/cisco.svg" alt="Cisco"><img class="logo gt" src="assets/logos/georgia-tech.svg" alt="Georgia Tech"><img class="logo upf" src="assets/logos/upf.png" alt="Pompeu Fabra University">
+<span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Stanford</span><span>Museaic Labs</span><span>Fundación Orange</span><span>Sónar+D</span>
 :::
 
 ::: {.offer2}
