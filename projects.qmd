@@ -12,16 +12,21 @@ format:
 # What we have built.
 
 ::: {.lede .muted}
-Products, public tools, personal projects and client work, almost all of it since Sisyphe began in 2023. Filter by field; each card is also tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
+Products, public tools, personal projects and client work, almost all of it since Sisyphe began in 2023. Each card is tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
 :::
 
-<div class="layerfilter" role="group" aria-label="Filter by field"><button class="on" data-f="all">All</button><button data-f="music">Music production</button><button data-f="agents">Agents & simulated worlds</button><button data-f="creativeml">Creative ML</button><button data-f="learning">Learning</button><button data-f="culture">Culture & events</button><button data-f="clients">Clients</button></div>
+<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML</a> · <a href="#learning-culture">Learning & culture</a> · <a href="#clients">Client work</a></nav>
+
+## Music production {#music}
+
+::: {.group-lede .muted}
+Tools that work inside your DAW, on your session, with real undo.
+:::
 
 ::: {.projgrid}
-::: {.proj data-layers="perceive reason act" data-cat="music"}
+::: {.proj data-layers="perceive reason act"}
 <div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
 <div class="body">
-<div class="cat">Music production</div>
 <div class="eyebrow meta"><span class="status">Product</span> · 2026 · Ableton Live MCP server</div>
 ### Sideman
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
@@ -30,7 +35,7 @@ Gives Claude the whole of Ableton Live through Live's own object model. Observer
 </div>
 :::
 
-::: {.proj data-layers="perceive act" data-cat="music"}
+::: {.proj data-layers="perceive act"}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="One mixed waveform splitting into four coloured stem lanes">
   <g class="ink3">
     <rect x="30" y="120" width="5" height="60" rx="2"/><rect x="40" y="100" width="5" height="100" rx="2"/><rect x="50" y="112" width="5" height="76" rx="2"/><rect x="60" y="90" width="5" height="120" rx="2"/><rect x="70" y="108" width="5" height="84" rx="2"/><rect x="80" y="96" width="5" height="108" rx="2"/><rect x="90" y="118" width="5" height="64" rx="2"/><rect x="100" y="104" width="5" height="92" rx="2"/>
@@ -45,7 +50,6 @@ Gives Claude the whole of Ableton Live through Live's own object model. Observer
   <text class="cap" x="30" y="290">one track · four stems · into Live</text>
 </svg></div>
 <div class="body">
-<div class="cat">Music production</div>
 <div class="eyebrow meta"><span class="status">Open source</span> · 2026 · Stem separation for Ableton Live 12</div>
 ### Roadie
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
@@ -53,11 +57,18 @@ From finished track to Live set. A recording of your own track or set in, a Live
 <a class="card-link" href="https://slegroux.github.io/roadie/">Roadie site →</a>
 </div>
 :::
+:::
 
-::: {.proj data-layers="perceive act" data-cat="agents"}
+## Agents & simulated worlds {#agents}
+
+::: {.group-lede .muted}
+Worlds full of agents that perceive what is around them and act on it: an ecosystem that composes, a simulator that flies.
+:::
+
+::: {.projgrid}
+::: {.proj data-layers="perceive act"}
 <div class="fig"><img src="assets/work/dreamfauna.png" alt="dreamfauna: watercolour creatures swarming in a generative ecosystem"></div>
 <div class="body">
-<div class="cat">Agents & simulated worlds</div>
 <div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Generative-art instrument</div>
 ### Dream Fauna
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
@@ -66,7 +77,7 @@ A real-time generative-art instrument. Watercolour creatures, lifted into 3D by 
 </div>
 :::
 
-::: {.proj data-layers="perceive act" data-cat="agents"}
+::: {.proj data-layers="perceive act"}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
   <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
     <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
@@ -85,18 +96,24 @@ A real-time generative-art instrument. Watercolour creatures, lifted into 3D by 
   <text class="cap" x="40" y="280">sim · 30–60× real time</text>
 </svg></div>
 <div class="body">
-<div class="cat">Agents & simulated worlds</div>
 <div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Simulation · sim-to-real</div>
 ### Bestiary
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 A MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a sim-to-real project on NVIDIA Cosmos.
 </div>
 :::
+:::
 
-::: {.proj data-layers="act" data-cat="creativeml"}
+## Creative ML {#creative-ml}
+
+::: {.group-lede .muted}
+Generative models that set paintings in motion, and the audio toolkit underneath the music work.
+:::
+
+::: {.projgrid}
+::: {.proj data-layers="act"}
 <div class="fig"><video src="assets/work/bosch.mp4" poster="assets/work/bosch.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Diffusing Bosch: a Bosch painting dreamed into motion"></video></div>
 <div class="body">
-<div class="cat">Creative ML</div>
 <div class="eyebrow meta"><span class="status">Personal</span> · 2022 · Diffusion-animated paintings</div>
 ### Moving Paintings
 <div class="chips"><span class="chip act">act</span></div>
@@ -105,7 +122,7 @@ Still paintings dreamed into motion with diffusion models. Each piece takes one 
 </div>
 :::
 
-::: {.proj data-layers="perceive reason" data-cat="creativeml"}
+::: {.proj data-layers="perceive reason"}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
   <g class="p">
     <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
@@ -123,7 +140,6 @@ Still paintings dreamed into motion with diffusion models. Each piece takes one 
   <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
 </svg></div>
 <div class="body">
-<div class="cat">Creative ML</div>
 <div class="eyebrow meta"><span class="status">Public</span> · 2023– · Speech and audio toolkit</div>
 ### Nimrod
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
@@ -131,8 +147,16 @@ A personal open-source toolkit for speech, audio and language modelling: modules
 <a class="card-link" href="https://slegroux.github.io/nimrod">Nimrod docs →</a>
 </div>
 :::
+:::
 
-::: {.proj data-layers="perceive reason" data-cat="learning"}
+## Learning & culture {#learning-culture}
+
+::: {.group-lede .muted}
+Tools that help people learn by doing, and find what is on in their city.
+:::
+
+::: {.projgrid}
+::: {.proj data-layers="perceive reason"}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
   <rect class="fill-panel ink" x="30" y="24" width="236" height="236" rx="8" stroke-width="2"/>
   <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M48 50 H158 M48 64 H214 M48 78 H188"/></g>
@@ -155,7 +179,6 @@ A personal open-source toolkit for speech, audio and language modelling: modules
   <text class="cap" x="30" y="290">note · code · ask · you run it</text>
 </svg></div>
 <div class="body">
-<div class="cat">Learning</div>
 <div class="eyebrow meta"><span class="status">Public</span> · 2026 · Learning notebook</div>
 ### Pappus
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
@@ -164,10 +187,9 @@ A local-first notebook that teaches. The AI sees every cell above your question 
 </div>
 :::
 
-::: {.proj data-layers="perceive" data-cat="culture"}
+::: {.proj data-layers="perceive"}
 <div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: category filters and a map of event clusters across LA's Westside"></div>
 <div class="body">
-<div class="cat">Culture & events</div>
 <div class="eyebrow meta"><span class="status">Live</span> · 2025–2026 · Events aggregator</div>
 ### Westside LA Events
 <div class="chips"><span class="chip perceive">perceive</span></div>
@@ -175,15 +197,17 @@ Sixty scrapers over venues, museums and community calendars on LA's Westside, un
 <a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app →</a> <span class="wake">It may take a few seconds to wake.</span>
 </div>
 :::
-
 :::
 
-## Client work
+## Client work {#clients}
+
+::: {.group-lede .muted}
+Engagements for companies building AI into creative, cultural and voice products.
+:::
 
 ::: {.projgrid .compact}
-::: {.proj data-layers="perceive reason" data-cat="clients"}
+::: {.proj data-layers="perceive reason"}
 <div class="body">
-<div class="cat">Client work</div>
 <div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Fractional CTO</div>
 ### Tamada × Visto
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
@@ -191,9 +215,8 @@ An AI curation engine for <a href="https://www.visto.art/">Visto</a>, the art co
 </div>
 :::
 
-::: {.proj data-layers="perceive reason" data-cat="clients"}
+::: {.proj data-layers="perceive reason"}
 <div class="body">
-<div class="cat">Client work</div>
 <div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · ML engineer, embedded</div>
 ### Persona
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
@@ -201,30 +224,14 @@ Real-time conversational voice pipelines, built inside the product team.
 </div>
 :::
 
-::: {.proj data-layers="perceive" data-cat="clients"}
+::: {.proj data-layers="perceive"}
 <div class="body">
-<div class="cat">Client work</div>
 <div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Scientific advisor</div>
 ### Parts Order
 <div class="chips"><span class="chip perceive">perceive</span></div>
 Scientific advice on music source separation.
 </div>
 :::
-
 :::
-
-<script>
-document.querySelectorAll('.layerfilter button').forEach(function (b) {
-  b.addEventListener('click', function () {
-    var f = b.dataset.f;
-    document.querySelectorAll('.layerfilter button').forEach(function (x) { x.classList.toggle('on', x === b); });
-    document.querySelectorAll('.proj').forEach(function (c) {
-      c.hidden = f !== 'all' && c.dataset.cat !== f;
-    });
-    var grid = document.querySelector('.projgrid.compact'), h = document.getElementById('client-work');
-    if (grid && h) h.hidden = !grid.querySelector('.proj:not([hidden])');
-  });
-});
-</script>
 
 {{< include _cta.qmd >}}
