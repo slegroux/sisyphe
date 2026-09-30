@@ -94,13 +94,13 @@ A recorded DJ set in, a Live session out: bass, drums, synths and vocals separat
 :::
 
 ::: {.proj data-layers="perceive"}
-<div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: a grid of event cards with filters and a map toggle"></div>
+<div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: category filters and a map of event clusters across LA's Westside"></div>
 <div class="body">
 <div class="eyebrow meta"><span class="status">Live</span> · 2025–2026 · Events aggregator</div>
 ### Westside LA Events
 <div class="chips"><span class="chip perceive">perceive</span></div>
 Sixty scrapers over venues, museums and community calendars on LA's Westside, unified into one search with maps and analytics, deployed on Cloud Run. A city as an archive: the perceive layer, at civic scale.
-<a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app (takes a few seconds to wake) →</a>
+<a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app →</a> <span class="wake">It may take a few seconds to wake.</span>
 </div>
 :::
 
