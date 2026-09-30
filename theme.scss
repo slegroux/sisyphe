@@ -289,3 +289,4 @@ div.sourceCode, pre.sourceCode { background: var(--panel) !important; }
 .tile .tile-ill { width: 100%; aspect-ratio: 16 / 9; display: block; margin-bottom: 0.4rem; }
 .proj .fig img { object-position: top left; }
 .proj .body .wake { font-size: 0.8rem; color: var(--ink-3); }
+.proj .cat { font-family: $font-family-monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--act); }
