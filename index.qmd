@@ -1,5 +1,5 @@
 ---
-pagetitle: "AI that acts in the world"
+pagetitle: "AI that acts in the studio, on stage, in the world"
 description: "Sisyphe builds AI for art, music and creative tools: agents that work inside DAWs, plug-ins, collections and installations. Maker of Sideman, the Ableton Live MCP server."
 image: assets/brand/og.png
 format:
@@ -11,7 +11,7 @@ format:
 <div>
 <div class="eyebrow">Sisyphe · creative AI</div>
 
-# AI that acts in the world.
+# AI that acts<br> in the studio,<br> on stage,<br> in the world.
 
 <p class="lede">We build AI that works inside the instruments, tools and spaces artists already use: DAWs and plug-ins, collections and archives, installations and stages. Not a chatbot beside them, but agents that see the whole environment, act in it safely, and notice what changed. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
 
@@ -25,7 +25,7 @@ format:
 <p class="founderline">Founded by Sylvain Le Groux, former Principal AI Engineer at Cisco. Ph.D., two US patents. <a href="https://ccrma.stanford.edu/~slegroux">Background →</a></p>
 </div>
 
-<svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around a DAW, a stage, a gallery or an archive">
+<svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around a studio, a stage or a gallery">
   <circle class="ring" cx="180" cy="180" r="120"/>
   <path class="arc perceive" d="M180,60 A120,120 0 0 1 283.9,240"/>
   <path class="arc reason"   d="M283.9,240 A120,120 0 0 1 76.1,240"/>
@@ -40,7 +40,7 @@ format:
   <circle class="node act" cx="76.1" cy="240" r="38"/>
   <text class="label" x="76.1" y="240">act</text>
   <text class="world" x="180" y="170">the world</text>
-  <text class="sub" x="180" y="192">DAW · STAGE · GALLERY · ARCHIVE</text>
+  <text class="sub" x="180" y="192">STUDIO · STAGE · GALLERY</text>
 </svg>
 :::
 

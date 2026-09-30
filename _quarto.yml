@@ -11,7 +11,7 @@ project:
 website:
   title: "sisyphe"
   site-url: https://slegroux.github.io/sisyphe
-  description: "Sisyphe builds AI that acts in the world: agents that perceive a live environment and work inside it. Maker of Sideman, the Ableton Live MCP server."
+  description: "Sisyphe builds AI that acts in the studio, on stage and in the world: agents that work inside DAWs, plug-ins, collections and installations. Maker of Sideman, the Ableton Live MCP server."
   favicon: assets/brand/favicon.svg
   image: assets/brand/og.png
   open-graph: true
