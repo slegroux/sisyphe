@@ -62,16 +62,6 @@ Real writes with real undo, sound, light and machines that answer in real time, 
 :::
 :::
 
-::: {.feature}
-<div class="fig"><img src="assets/work/dreamfauna.png" alt="dreamfauna: watercolour creatures swarming in a generative ecosystem"></div>
-<div class="body">
-<div class="eyebrow">From the studio · 2026</div>
-### Dream Fauna
-An artificial ecosystem that composes. Watercolour creatures, lifted into 3D by an AI pipeline, perceive only what is near them; the food web, the swarms and the boom-and-bust cycles emerge on their own, and every creature's motion plays a voice in a live melodic-techno set. The music drives the swarm back.
-<a class="card-link" href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/dreamfauna.html">See Dream Fauna →</a>
-</div>
-:::
-
 ## What we offer
 
 ::: {.offers}
