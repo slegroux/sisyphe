@@ -1,0 +1,10 @@
+<!-- Copy-to-clipboard for the contact address, for visitors whose mailto: opens no mail app. -->
+<script>
+document.querySelectorAll('.copy-email').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var done = function () { b.textContent = 'Copied'; setTimeout(function () { b.textContent = 'Copy'; }, 1800); };
+    if (navigator.clipboard) { navigator.clipboard.writeText(b.dataset.email).then(done, function () { window.prompt('Copy the address:', b.dataset.email); }); }
+    else { window.prompt('Copy the address:', b.dataset.email); }
+  });
+});
+</script>

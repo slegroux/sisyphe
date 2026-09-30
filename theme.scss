@@ -228,3 +228,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .svc p.outcome { color: var(--ink); font-weight: 600; margin-top: 0.3rem; }
 .more { text-align: right; margin: -0.6rem 0 1.5rem; font-weight: 600; }
 .navbar a.nav-link[href$="services.html#contact"] { background: var(--act); color: var(--on-layer) !important; border-radius: 6px; padding: 0.3rem 0.8rem !important; margin-right: 0.6rem; font-weight: 600; }
+.cta .addr { margin: 1rem 0 0; font-size: 0.92rem; color: var(--ink-2);
+  code { background: transparent; color: var(--ink); padding: 0; font-size: 0.95em; user-select: all; }
+  .copy-email { margin-left: 0.4rem; font: 600 0.8rem/1 $font-family-sans-serif; padding: 0.35rem 0.7rem; border-radius: 5px; border: 1px solid var(--rule); background: var(--ground); color: var(--ink); cursor: pointer; }
+  .copy-email:hover { border-color: var(--ink-3); } }
