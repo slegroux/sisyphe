@@ -17,7 +17,7 @@ format:
 
 <div class="btn-row">
 <a class="btn-accent" href="sideman.html">See Sideman</a>
-<a class="btn-quiet" href="work.html">Work with us</a>
+<a class="btn-quiet" href="services.html">Work with us</a>
 </div>
 </div>
 
@@ -65,6 +65,8 @@ Real writes with real undo, control loops that move a machine in simulation or i
 <div><span class="n">The Brain Orchestra</span><span class="l">A string quartet played by four people's brain signals, 2009.</span></div>
 :::
 
+[All projects →](projects.html)
+
 ## Products
 
 ::: {.cards .grid-2}
@@ -90,7 +92,7 @@ Ten lessons that build one melodic house track from an empty Set, with Claude do
 <div class="eyebrow">Services</div>
 ### Work with us
 Agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, research to product, and teaching.
-<a class="card-link" href="work.html">What we take on →</a>
+<a class="card-link" href="services.html">What we take on →</a>
 :::
 :::
 
@@ -108,7 +110,7 @@ We build the thing that pushes the rock. You keep the part that needs you: the t
 Before Sideman there was a string quartet played by four people's brain signals, a room that composed music from how you moved through it, and an arena where robots drove the score. A policy driving a robot from what its camera sees is the same idea with a different actuator: a system that perceives what is happening and answers with an action.
 :::
 
-[See the lineage →](lineage.html)
+[See the background →](about.html#background)
 
 ## Who
 

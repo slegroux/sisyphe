@@ -1,0 +1,194 @@
+---
+pagetitle: "Projects"
+aliases: [lineage.html, instruments.html]
+description: "What Sisyphe has built since 2023: Sideman, Pappus, Bestiary, yt2live, Westside LA Events, Nimrod, and client work for Tamada, Persona and Parts Order."
+format:
+  html:
+    page-layout: article
+---
+
+<div class="eyebrow">Projects</div>
+
+# What we have built.
+
+::: {.lede .muted}
+Products, public tools, personal projects and client work since Sisyphe began in 2023. Each is tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
+:::
+
+<div class="layerfilter" role="group" aria-label="Filter by layer"><button class="on" data-f="all">All</button><button data-f="perceive">Perceive</button><button data-f="reason">Reason</button><button data-f="act">Act</button></div>
+
+::: {.projgrid}
+::: {.proj data-layers="perceive reason act"}
+<div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Product</span> · 2026 · Ableton Live MCP server</div>
+### Sideman
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
+Gives Claude the whole of Ableton Live through Live's own object model. Observers report what you do by hand, a skill teaches the model how Live's paths are shaped, and thirty tools write into the Set with real undo.
+<a class="card-link" href="sideman.html">About Sideman →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive reason"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
+  <rect class="fill-panel ink" x="40" y="24" width="250" height="236" rx="8" stroke-width="2"/>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M60 50 H170 M60 64 H230 M60 78 H200"/></g>
+  <rect class="fill-panel ink" x="56" y="96" width="218" height="58" rx="5" stroke-width="1.5"/>
+  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M70 114 H120 M128 114 H170 M70 128 H100 M108 128 H190 M70 142 H140"/></g>
+  <text class="cap" x="240" y="148">run</text>
+  <rect class="fill-panel ink" x="56" y="170" width="218" height="72" rx="5" stroke-width="1.5"/>
+  <circle class="r" cx="74" cy="188" r="7"/>
+  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M90 188 H200 M74 210 H250 M74 224 H220"/></g>
+  <path class="rs" d="M290 206 C 325 206, 344 170, 344 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
+  <g transform="translate(344 96)">
+    <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
+    <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
+  </g>
+  <g transform="translate(344 214)">
+    <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
+    <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
+    <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
+  </g>
+  <text class="cap" x="40" y="290">note · code · ask · you run it</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Public</span> · 2026 · Learning notebook</div>
+### Pappus
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+A local-first notebook that teaches. The AI sees every cell above your question and answers a hint or a guiding question at a time. It never runs a cell, and by default it cannot write files: running the code stays the learner's job. Built on Answer.AI's SolveIt method.
+<a class="card-link" href="https://slegroux.github.io/pappus/">Pappus site →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive act"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
+  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
+    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
+  </g>
+  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
+  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
+  <circle class="a" cx="300" cy="70" r="6"/>
+  <g transform="translate(200 96)">
+    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
+    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
+    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
+    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
+    <circle class="r" cx="0" cy="0" r="4"/>
+  </g>
+  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Simulation · sim-to-real</div>
+### Bestiary
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a sim-to-real project on NVIDIA Cosmos.
+</div>
+:::
+
+::: {.proj data-layers="perceive act"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="One mixed waveform splitting into four coloured stem lanes">
+  <g class="ink3">
+    <rect x="30" y="120" width="5" height="60" rx="2"/><rect x="40" y="100" width="5" height="100" rx="2"/><rect x="50" y="112" width="5" height="76" rx="2"/><rect x="60" y="90" width="5" height="120" rx="2"/><rect x="70" y="108" width="5" height="84" rx="2"/><rect x="80" y="96" width="5" height="108" rx="2"/><rect x="90" y="118" width="5" height="64" rx="2"/><rect x="100" y="104" width="5" height="92" rx="2"/>
+  </g>
+  <g class="ink3" fill="none" stroke-width="1.5">
+    <path d="M115 150 C 150 150, 150 60, 185 60"/><path d="M115 150 C 150 150, 150 120, 185 120"/><path d="M115 150 C 150 150, 150 180, 185 180"/><path d="M115 150 C 150 150, 150 240, 185 240"/>
+  </g>
+  <rect class="fill-panel ink" x="190" y="44" width="180" height="32" rx="4" stroke-width="1.5"/><path class="as" d="M198 60 C 220 48, 240 72, 262 60 S 306 48, 328 60 S 350 72, 362 60" stroke-width="3" fill="none"/>
+  <rect class="fill-panel ink" x="190" y="104" width="180" height="32" rx="4" stroke-width="1.5"/><g class="ps" stroke-width="3" stroke-linecap="round"><path d="M204 112 V128 M232 112 V128 M260 112 V128 M288 112 V128 M316 112 V128 M344 112 V128"/></g>
+  <rect class="fill-panel ink" x="190" y="164" width="180" height="32" rx="4" stroke-width="1.5"/><path class="rs" d="M198 180 H230 M240 172 H280 M290 186 H330 M338 176 H362" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect class="fill-panel ink" x="190" y="224" width="180" height="32" rx="4" stroke-width="1.5"/><path class="ink" d="M200 240 C 215 232, 225 248, 240 240 M280 240 C 295 230, 310 250, 330 240" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text class="cap" x="30" y="290">one set · four stems · into Live</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Stem separation · Ableton Live</div>
+### yt2live
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A recorded DJ set in, a Live session out: bass, drums, synths and vocals separated, drums split six ways, and the stems loaded into a running Set ordered by frequency, colour-coded and tempo-matched, with a locator at each detected section. Every default measured on real material.
+</div>
+:::
+
+::: {.proj data-layers="perceive"}
+<div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: a grid of event cards with filters and a map toggle"></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Live</span> · 2025–2026 · Events aggregator</div>
+### Westside LA Events
+<div class="chips"><span class="chip perceive">perceive</span></div>
+Sixty scrapers over venues, museums and community calendars on LA's Westside, unified into one search with maps and analytics, deployed on Cloud Run. A city as an archive: the perceive layer, at civic scale.
+<a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive reason"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Public</span> · 2023– · Speech and audio toolkit</div>
+### Nimrod
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+A personal open-source toolkit for speech, audio and language modelling: modules, models and training recipes for getting deep-learning experiments running quickly.
+<a class="card-link" href="https://slegroux.github.io/nimrod">Nimrod docs →</a>
+</div>
+:::
+
+:::
+
+## Client work
+
+::: {.projgrid .compact}
+::: {.proj data-layers="perceive reason"}
+<div class="body">
+<div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Fractional CTO</div>
+### Tamada
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+AI-augmented art curation: visual search over a collection on CLIP embeddings and a vector index, taken from prototype to product with a team.
+</div>
+:::
+
+::: {.proj data-layers="perceive reason"}
+<div class="body">
+<div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · ML engineer, embedded</div>
+### Persona
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+Real-time conversational voice pipelines, built inside the product team.
+</div>
+:::
+
+::: {.proj data-layers="perceive"}
+<div class="body">
+<div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Scientific advisor</div>
+### Parts Order
+<div class="chips"><span class="chip perceive">perceive</span></div>
+Scientific advice on music source separation.
+</div>
+:::
+
+:::
+
+<script>
+document.querySelectorAll('.layerfilter button').forEach(function (b) {
+  b.addEventListener('click', function () {
+    var f = b.dataset.f;
+    document.querySelectorAll('.layerfilter button').forEach(function (x) { x.classList.toggle('on', x === b); });
+    document.querySelectorAll('.proj').forEach(function (c) {
+      c.hidden = f !== 'all' && c.dataset.layers.split(' ').indexOf(f) < 0;
+    });
+    var grid = document.querySelector('.projgrid.compact'), h = document.getElementById('client-work');
+    if (grid && h) h.hidden = !grid.querySelector('.proj:not([hidden])');
+  });
+});
+</script>

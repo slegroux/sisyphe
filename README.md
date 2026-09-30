@@ -9,9 +9,9 @@ Company site for Sisyphe LLC ("AI that acts in the world"). Quarto, static, no e
 | `index.qmd` | Thesis, the perceive–reason–act loop, proof strip, products, founder teaser |
 | `sideman.qmd` | Sideman product summary; the full landing page stays with the code |
 | `course.qmd` | The ten-lesson course |
-| `work.qmd` | Services and proof |
-| `lineage.qmd` | Lineage: a timeline of situated systems from 2007 to now |
-| `about.qmd` | Founder and company |
+| `projects.qmd` | What Sisyphe has built since 2023, as cards with a layer filter (old `lineage.html`, `instruments.html` redirect here) |
+| `services.qmd` | Services and proof (old `work.html` redirects here) |
+| `about.qmd` | Founder, company, and the pre-Sisyphe background timeline and recognition |
 
 ## Render
 

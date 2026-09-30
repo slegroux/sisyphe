@@ -24,12 +24,12 @@ website:
     left:
       - href: sideman.qmd
         text: Sideman
+      - href: projects.qmd
+        text: Projects
+      - href: services.qmd
+        text: Services
       - href: course.qmd
         text: Course
-      - href: work.qmd
-        text: Work with us
-      - href: lineage.qmd
-        text: Lineage
       - href: about.qmd
         text: About
     right:

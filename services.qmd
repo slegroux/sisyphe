@@ -1,5 +1,6 @@
 ---
-pagetitle: "Work with us"
+pagetitle: "Services"
+aliases: [work.html]
 description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, research-to-product work, and teaching."
 image: assets/brand/og.png
 format:
@@ -93,7 +94,7 @@ Speech recognition, synthesis, speaker recognition, audio classification and the
 ### Interactive systems for art and performance
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
-<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="lineage.html">the lineage</a>.</div>
+<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="about.html#background">the background</a>.</div>
 </div>
 :::
 

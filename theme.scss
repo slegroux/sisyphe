@@ -180,3 +180,18 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .worked.before .lockup { display: inline-flex; align-items: center; gap: 0.4rem;
   img.logo.sym { height: 22px; } }
 .quarto-dark .worked.before img.logo { filter: brightness(0) invert(1) opacity(0.6); }
+// Projects page: cards with a figure on top, and a layer filter.
+.layerfilter { display: flex; gap: 0.5rem; flex-wrap: wrap; margin: 1.2rem 0 0.4rem;
+  button { font-family: $font-family-monospace; font-size: 0.78rem; letter-spacing: 0.06em; text-transform: uppercase; background: transparent; color: var(--ink-2); border: 1px solid var(--rule); border-radius: 999px; padding: 0.3rem 0.8rem; cursor: pointer; }
+  button.on { background: var(--ink); color: var(--ground); border-color: var(--ink); } }
+.projgrid { display: grid; gap: 1.2rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 1.2rem 0 2rem;
+  @media (max-width: 720px) { grid-template-columns: 1fr; } }
+.proj { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; display: flex; flex-direction: column;
+  &[hidden] { display: none; }
+  .fig { aspect-ratio: 4 / 3; border-bottom: 1px solid var(--rule); display: flex; align-items: center; justify-content: center; overflow: hidden;
+    img { width: 100%; height: 100%; object-fit: cover; } svg { width: 100%; height: 100%; } }
+  .body { padding: 1.1rem 1.3rem 1.2rem; display: flex; flex-direction: column; gap: 0.45rem; flex: 1;
+    h3 { margin: 0; } p { margin: 0; color: var(--ink-2); }
+    .card-link { margin-top: auto; padding-top: 0.6rem; font-weight: 600; } }
+  .status { color: var(--ink); } }
+.projgrid.compact { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }

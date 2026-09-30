@@ -31,6 +31,103 @@ Sisyphe exists to build AI that acts in the world: agents that perceive a live e
 
 Sisyphe is independent of any employer. Client work never touches what the founder does at a day job, and the day job is not for hire here.
 
+## Two decades, one idea {#background}
+
+::: {.lede .muted}
+Before Sisyphe there were twenty years of systems that perceive what is happening and answer with an action: a room that composed from how people moved through it, a string quartet played by brain signals, an arena where robots drove the score, and speech models heard by millions. This is the founder's background, not the company's portfolio; what Sisyphe itself has built is on [Projects](projects.html).
+:::
+
+::: {.timeline}
+
+::: {.tl}
+<div class="year">2016–2023</div>
+<div>
+### Speech at scale
+<div class="eyebrow meta">Ava · Voicea · Cisco</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
+</div>
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
+:::
+
+::: {.tl}
+<div class="year">2010</div>
+<div>
+### The Robot Arena
+<div class="eyebrow meta">Sónar, Barcelona · SPECS</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+The behaviour of robots in an arena modulates a musical composition generated live by SiMS, the Situated Interactive Music Server. Its biomimetic architecture uses algorithmic composition, sound synthesis and expression rules validated in psychoacoustics and emotion experiments.
+</div>
+{{< video https://www.youtube.com/embed/HDmjGJ9sqeI title="The Robot Arena" >}}
+:::
+
+::: {.tl}
+<div class="year">2009</div>
+<div>
+### The Brain Orchestra
+<div class="eyebrow meta">Brain-computer interface · with SPECS, Jonatas Manzolli and g.tec</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+Four performers control the expressivity of a virtual string quartet with their brain signals alone. Sylvain designed and built the interactive music system on top of the BCI, produced the music with Decco, and played live guitar and electronics.
+</div>
+{{< video https://vimeo.com/35514990 title="The Brain Orchestra" >}}
+:::
+
+::: {.tl}
+<div class="year">2007–2009</div>
+<div>
+### The eXperience Induction Machine
+<div class="eyebrow meta">Mixed reality space · SPECS, Barcelona</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
+A real-world composition and performance system inside a large intelligent multimodal space. The music is produced in real time by the interaction between the system and its human and non-human environment. The music system inside XIM became the subject of the Ph.D.: a room as an instrument.
+</div>
+{{< video https://www.youtube.com/embed/XAlptm4aHNA title="XIM" >}}
+:::
+
+::: {.tl}
+<div class="year">2007</div>
+<div>
+### Re(per)curso
+<div class="eyebrow meta">Multimedia performance · SPECS and Jonatas Manzolli</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+Narrative, music and dance fused with real-time synthetic composition, video art and 3D graphics. Sylvain designed the interactive music system, integrated it with the lab's neural network simulator, built the software for an interactive percussion carpet, produced the music and played live electronics.
+</div>
+{{< video https://www.youtube.com/embed/qln4f1kUpZU title="Re(per)curso" >}}
+:::
+
+:::
+
+## Recognition
+
+::: {.recog}
+<div><span class="y">2021</span><span class="a">Second place, Sónar+D Innovation Challenge</span><span class="w">Barcelona</span></div>
+<div><span class="y">2021</span><span class="a">Teaching assistant, Ryan Tedder's songwriting studio, one of 15 chosen from 2,800 applicants</span><span class="w">Remote</span></div>
+<div><span class="y">2020</span><span class="a">Finalist, Cisco Data Science Awards</span><span class="w">Milpitas</span></div>
+<div><span class="y">2012</span><span class="a">Best Performance, Sónar Music Hack Day</span><span class="w">Barcelona</span></div>
+<div><span class="y">2012</span><span class="a">Ph.D. Award, Consortium for Advanced Studies in Barcelona</span><span class="w">Stanford</span></div>
+<div><span class="y">2011</span><span class="a">Best Hack, Sónar Music Hack Day</span><span class="w">Barcelona</span></div>
+<div><span class="y">2011</span><span class="a">Doctor summa cum laude, Universitat Pompeu Fabra</span><span class="w">Barcelona</span></div>
+<div><span class="y">2008</span><span class="a">Research award, Generalitat de Catalunya</span><span class="w">Stanford</span></div>
+<div><span class="y">2004</span><span class="a">Fulbright and Georges Lurcy Fellow</span><span class="w">UC Berkeley</span></div>
+:::
+
+The full portfolio, including the bands, the free-improvisation ensembles and the research behind each system, is on [Sylvain's personal site](https://ccrma.stanford.edu/~slegroux/portfolio/).
+
+
 ## Elsewhere
 
 - Resume, research and the full portfolio: [ccrma.stanford.edu/~slegroux](https://ccrma.stanford.edu/~slegroux)
