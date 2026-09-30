@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built since 2023: Sideman, Pappus, Bestiary, yt2live, Westside LA Events, Nimrod, and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built since 2023: Sideman, Dream Fauna, Pappus, Bestiary, yt2live, Westside LA Events, Nimrod, and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -26,6 +26,17 @@ Products, public tools, personal projects and client work since Sisyphe began in
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 Gives Claude the whole of Ableton Live through Live's own object model. Observers report what you do by hand, a skill teaches the model how Live's paths are shaped, and thirty tools write into the Set with real undo.
 <a class="card-link" href="sideman.html">About Sideman →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive act"}
+<div class="fig"><img src="assets/work/dreamfauna.png" alt="dreamfauna: watercolour creatures swarming in a generative ecosystem"></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Generative-art instrument</div>
+### Dream Fauna
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A real-time generative-art instrument. Watercolour creatures, lifted into 3D by an AI pipeline, live in an artificial ecosystem whose swarm composes the music. Food webs and boom-and-bust cycles emerge from who can perceive what, and in the live set the music drives the swarm back.
+<a class="card-link" href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/dreamfauna.html">About Dream Fauna →</a>
 </div>
 :::
 

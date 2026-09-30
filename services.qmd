@@ -70,7 +70,7 @@ Working software in your repo, measured against the real environment it has to r
 :::
 
 ::: {.svc}
-<div class="fig"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"></div>
+<div class="fig"><img src="assets/work/dreamfauna.png" alt="dreamfauna: watercolour creatures swarming in a generative ecosystem"></div>
 <div class="body">
 <div class="eyebrow field">Interactive art</div>
 ### Interactive art and installations
@@ -78,6 +78,7 @@ Working software in your repo, measured against the real environment it has to r
 <p class="outcome">You get a real-time system that answers people, sensors or signals, with a mapping you can defend.</p>
 <p>Real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state: installations, performances, robots on stage, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
 
+<ul class="proof"><li><a href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/dreamfauna.html">Dream Fauna</a> (personal, 2026): an artificial ecosystem of watercolour creatures whose swarm composes a live melodic-techno set, and the music drives the swarm back.</li></ul>
 <p class="before"><span>Before Sisyphe</span> The Brain Orchestra, XIM and the Sónar Robot Arena, built in research labs in Barcelona. See <a href="about.html#background">the background</a>.</p>
 </div>
 :::
