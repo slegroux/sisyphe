@@ -21,8 +21,6 @@ format:
 <a class="btn-accent" href="sideman.html">See Sideman</a>
 <a class="btn-quiet" href="services.html">Work with us</a>
 </div>
-
-<p class="founderline">Founded by Sylvain Le Groux, Principal AI Engineer. <a href="https://ccrma.stanford.edu/~slegroux">Background →</a></p>
 </div>
 
 <svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around a studio, a stage or a gallery">
