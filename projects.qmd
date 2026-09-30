@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built since 2023: Sideman, Dream Fauna, Pappus, Bestiary, yt2live, Westside LA Events, Nimrod, and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built since 2023: Sideman, Dream Fauna, Pappus, Roadie, Bestiary, Westside LA Events, Nimrod, and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -83,13 +83,14 @@ A local-first notebook that teaches. The AI sees every cell above your question 
   <rect class="fill-panel ink" x="190" y="104" width="180" height="32" rx="4" stroke-width="1.5"/><g class="ps" stroke-width="3" stroke-linecap="round"><path d="M204 112 V128 M232 112 V128 M260 112 V128 M288 112 V128 M316 112 V128 M344 112 V128"/></g>
   <rect class="fill-panel ink" x="190" y="164" width="180" height="32" rx="4" stroke-width="1.5"/><path class="rs" d="M198 180 H230 M240 172 H280 M290 186 H330 M338 176 H362" stroke-width="3" fill="none" stroke-linecap="round"/>
   <rect class="fill-panel ink" x="190" y="224" width="180" height="32" rx="4" stroke-width="1.5"/><path class="ink" d="M200 240 C 215 232, 225 248, 240 240 M280 240 C 295 230, 310 250, 330 240" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-  <text class="cap" x="30" y="290">one set · four stems · into Live</text>
+  <text class="cap" x="30" y="290">one track · four stems · into Live</text>
 </svg></div>
 <div class="body">
-<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Stem separation · Ableton Live</div>
-### yt2live
+<div class="eyebrow meta"><span class="status">Open source</span> · 2026 · Stem separation for Ableton Live 12</div>
+### Roadie
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-A recorded DJ set in, a Live session out: bass, drums, synths and vocals separated, drums split six ways, and the stems loaded into a running Set ordered by frequency, colour-coded and tempo-matched, with a locator at each detected section. Every default measured on real material.
+From finished track to Live set. A recording of your own track or set in, a Live session out: bass, drums, synths and vocals separated, drums split six ways, and the stems loaded into your running Set through Sideman, on the bar line, ordered by frequency, colour-coded and levelled, with a locator per section. Every default measured on real material.
+<a class="card-link" href="https://slegroux.github.io/roadie/">Roadie site →</a>
 </div>
 :::
 

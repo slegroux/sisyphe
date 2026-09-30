@@ -64,7 +64,7 @@ Working software in your repo, measured against the real environment it has to r
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 <p class="outcome">You get music and audio models that hold up in a product, not only on a benchmark.</p>
 <p>Music source separation, audio classification and recommendation, speech recognition and synthesis, and the language models around them. Data pipelines, training, evaluation, and getting a model into a product people use without noticing it.</p>
-<ul class="proof"><li>Persona: real-time conversational voice pipelines.</li><li>Parts Order: scientific advice on music source separation.</li><li><a href="https://slegroux.github.io/nimrod">Nimrod</a> (personal, open source): a toolkit for speech, audio and language modelling.</li></ul>
+<ul class="proof"><li>Persona: real-time conversational voice pipelines.</li><li>Parts Order: scientific advice on music source separation.</li><li><a href="https://slegroux.github.io/roadie/">Roadie</a> (open source): stem separation for Ableton Live 12, with the stems loaded into your Set through Sideman.</li><li><a href="https://slegroux.github.io/nimrod">Nimrod</a> (personal, open source): a toolkit for speech, audio and language modelling.</li></ul>
 <p class="before"><span>Before Sisyphe</span> Speech recognition and speaker diarization shipped to millions of Webex users at Cisco; speech and speaker recognition at Ava and Voicea.</p>
 </div>
 :::
