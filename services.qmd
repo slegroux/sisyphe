@@ -1,7 +1,7 @@
 ---
 pagetitle: "Services"
 aliases: [work.html]
-description: "Sisyphe takes on agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, research-to-product work, and teaching."
+description: "Sisyphe builds, advises and teaches: agents inside music and creative tools, interactive art, robotics and simulation, speech and audio ML, research to product, and workshops."
 image: assets/brand/og.png
 format:
   html:
@@ -10,7 +10,7 @@ format:
 
 <div class="eyebrow">Services</div>
 
-# Six things we take on.
+# Build, advise, teach.
 
 ::: {.lede .muted}
 Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
@@ -27,13 +27,57 @@ Sisyphe is small on purpose. One senior engineer, with trusted collaborators whe
 <span>Stanford</span><span>Museaic Labs</span>
 :::
 
+## Build
+
+::: {.group-lede .muted}
+We make the thing: working software in your repo, measured against the real environment it has to run in.
+:::
+
 ::: {.offer2}
 <div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with three tracks Claude created and a filter automation curve it wrote"></div>
 <div>
+<div class="eyebrow field">Music technology · creative tools</div>
 ### Agents inside real tools
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see, build the bridge into your object model or your archive, and write the evaluation harness that tells you when coverage slips. We have done this against Ableton Live and inside a real-time voice product.
 <div class="evidence">Sideman: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has. Persona: real-time conversational voice pipelines built as an embedded ML engineer.</div>
+</div>
+:::
+
+::: {.offer2 .flip}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
+<div>
+<div class="eyebrow field">Audio and speech</div>
+### Speech, audio and music ML
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+Speech recognition, synthesis, speaker recognition, music source separation, audio classification and the language models around them. Data pipelines, training, evaluation, and the unglamorous work of getting a model into a product that millions of people use without noticing it.
+<div class="evidence">Principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling.</div>
+</div>
+:::
+
+::: {.offer2}
+<div class="fig"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"></div>
+<div>
+<div class="eyebrow field">Interactive art</div>
+### Interactive systems for art and performance
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
+<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="about.html#background">the background</a>.</div>
 </div>
 :::
 
@@ -56,6 +100,7 @@ MCP servers and tool design for DAWs, plug-ins, creative apps and collections. W
   <text class="cap" x="40" y="280">sim · 30–60× real time</text>
 </svg></div>
 <div>
+<div class="eyebrow field">Robotics</div>
 ### Robotics, simulation and learned policies
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 Simulators that are fast, inspectable and scriptable. Reinforcement learning and vision-language-action policies, and the sim-to-real gap between them and a machine that moves. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.
@@ -63,39 +108,10 @@ Simulators that are fast, inspectable and scriptable. Reinforcement learning and
 </div>
 :::
 
-::: {.offer2}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
-  <g class="p">
-    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
-  </g>
-  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <g>
-    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
-    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
-    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
-    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
-    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
-    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
-    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
-  </g>
-  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
-</svg></div>
-<div>
-### Speech, language and audio
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Speech recognition, synthesis, speaker recognition, audio classification and the language models around them. Data pipelines, training, evaluation, and the unglamorous work of getting a model into a product that millions of people use without noticing it.
-<div class="evidence">Principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling.</div>
-</div>
-:::
+## Advise
 
-::: {.offer2 .flip}
-<div class="fig"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"></div>
-<div>
-### Interactive systems for art and performance
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
-<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="about.html#background">the background</a>.</div>
-</div>
+::: {.group-lede .muted}
+We de-risk the thing: read the paper, run the experiment, and tell you plainly what will work before you build it.
 :::
 
 ::: {.offer2}
@@ -116,11 +132,18 @@ Real-time composition, sound and visual systems that respond to sensors, biosign
   </g>
 </svg></div>
 <div>
-### Research to product
+<div class="eyebrow field">Any field</div>
+### Research to product, fractional CTO, scientific advice
 <div class="chips"><span class="chip reason">reason</span></div>
-You have a paper, a lab prototype or a data set and need it to become software. We have been on both sides: a decade in research labs, a decade in industry. We can read the paper, talk to the scientists, and ship the code.
+You have a paper, a lab prototype or a data set and need it to become software. We have been on both sides: a decade in research labs, a decade in industry. We can read the paper, talk to the scientists, and ship the code, or sit beside your team as a fractional CTO or scientific advisor.
 <div class="evidence">Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Westside LA Events, an aggregator over sixty scraped sources with search, maps and analytics, running on Cloud Run. Museaic Labs, an emotion-driven music recommendation system. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
 </div>
+:::
+
+## Teach
+
+::: {.group-lede .muted}
+We make your team able to do it themselves.
 :::
 
 ::: {.offer2 .flip}
@@ -144,6 +167,7 @@ You have a paper, a lab prototype or a data set and need it to become software. 
   <text class="cap" x="60" y="290">workshops · courses · studios</text>
 </svg></div>
 <div>
+<div class="eyebrow field">Education</div>
 ### Teaching and workshops
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 Sideman workshops for studios, schools and labs: a day, a weekend, or a term, from "what's in my Set?" to a finished track. Custom courses on agents for creative tools, audio machine learning, and sensor-to-actuator systems, taught by someone who has done it at graduate level and in industry.

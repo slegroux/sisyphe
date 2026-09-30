@@ -195,3 +195,6 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
     .card-link { margin-top: auto; padding-top: 0.6rem; font-weight: 600; } }
   .status { color: var(--ink); } }
 .projgrid.compact { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
+// Services: Build / Research and advise / Teach groups, with a field label on each offering.
+.group-lede { margin: -0.4rem 0 0.6rem; max-width: 40rem; }
+.offer2 .eyebrow.field { margin-bottom: -0.2rem; color: var(--ink-3); }

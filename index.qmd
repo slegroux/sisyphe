@@ -91,7 +91,7 @@ Ten lessons that build one melodic house track from an empty Set, with Claude do
 ::: {.card-s}
 <div class="eyebrow">Services</div>
 ### Work with us
-Agents inside real tools, robotics with simulation and learned policies, speech and language, interactive systems for art, research to product, and teaching.
+Build, advise or teach: agents inside music and creative tools, speech and audio ML, interactive art, robotics and simulation, research to product, and workshops.
 <a class="card-link" href="services.html">What we take on →</a>
 :::
 :::
