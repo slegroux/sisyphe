@@ -22,8 +22,8 @@ Sisyphe is small on purpose. One senior engineer, with trusted collaborators whe
 
 ::: {.worked .before}
 <span class="faint">Before Sisyphe</span>
-<img class="logo cisco" src="assets/logos/cisco.svg" alt="Cisco"><img class="logo gt" src="assets/logos/georgia-tech.svg" alt="Georgia Tech"><img class="logo upf" src="assets/logos/upf.png" alt="Pompeu Fabra University">
-<span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Stanford</span><span>Museaic Labs</span><span>Fundación Orange</span><span>Sónar+D</span>
+<img class="logo cisco" src="assets/logos/cisco.svg" alt="Cisco"><img class="logo webex" src="assets/logos/webex.svg" alt="Webex"><span class="lockup"><img class="logo sym" src="assets/logos/voicea.svg" alt="">Voicea</span><span class="lockup"><img class="logo sym" src="assets/logos/ava.png" alt="">Ava</span><img class="logo ginger" src="assets/logos/ginger.png" alt="Ginger.io"><img class="logo gt" src="assets/logos/georgia-tech.svg" alt="Georgia Tech"><img class="logo upf" src="assets/logos/upf.png" alt="Pompeu Fabra University"><img class="logo orange" src="assets/logos/fundacion-orange.png" alt="Fundación Orange"><img class="logo sonar" src="assets/logos/sonar.png" alt="Sónar+D">
+<span>Stanford</span><span>Museaic Labs</span>
 :::
 
 ::: {.offer2}
