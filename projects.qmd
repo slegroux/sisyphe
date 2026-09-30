@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built since 2023: Sideman, Pappus, Bestiary, yt2live, Westside LA Events, Nimrod, and client work for Tamada, Persona and Parts Order."
+description: "What Sisyphe has built since 2023: Sideman, Pappus, Bestiary, yt2live, Westside LA Events, Nimrod, and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -153,9 +153,9 @@ A MuJoCo simulator for things that move. Its first creature is a quadrotor that 
 ::: {.proj data-layers="perceive reason"}
 <div class="body">
 <div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Fractional CTO</div>
-### Tamada
+### Tamada × Visto
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-AI-augmented art curation: visual search over a collection on CLIP embeddings and a vector index, taken from prototype to product with a team.
+An AI curation engine for <a href="https://www.visto.art/">Visto</a>, the art consultancy that builds collections for luxury hotels, residences and landmark destinations: search a collection by text or by image, on CLIP embeddings and a vector index, taken from prototype to product with a team.
 </div>
 :::
 

@@ -13,7 +13,7 @@ format:
 
 ## What Sisyphe does
 
-Sisyphe builds AI for art, music and creative tools: agents that perceive a live environment and work inside it, whether that is a DAW, a stage, a gallery or an archive. The bet is simple: a model that can see the whole environment and notice what changed is more useful than a chatbot beside it with a list of commands. Sisyphe began in 2023 as a consulting practice: real-time conversational voice for Persona, music source separation advisory for Parts Order, fractional CTO for Tamada's AI-augmented art curation. Sideman, in 2026, is its first product. The course teaches it. Consulting pays for it and keeps us honest about what works outside our own studio.
+Sisyphe builds AI for art, music and creative tools: agents that perceive a live environment and work inside it, whether that is a DAW, a stage, a gallery or an archive. The bet is simple: a model that can see the whole environment and notice what changed is more useful than a chatbot beside it with a list of commands. Sisyphe began in 2023 as a consulting practice: real-time conversational voice for Persona, music source separation advisory for Parts Order, fractional CTO for Tamada on an AI art curation engine for Visto. Sideman, in 2026, is its first product. The course teaches it. Consulting pays for it and keeps us honest about what works outside our own studio.
 
 Sisyphe is independent of any employer. Client work never touches what the founder does at a day job, and the day job is not for hire here.
 

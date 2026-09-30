@@ -134,7 +134,7 @@ Ten lessons that build one melodic house track from an empty Set, with Claude do
 
 ::: {.offerline}
 <div><span class="eyebrow">Services</span> Build, advise or teach: agents inside creative tools, music and audio ML, interactive art and installations, research to product, workshops. <a href="services.html">What we take on →</a></div>
-<div><span class="eyebrow">Clients</span> Tamada (AI-augmented art curation) · Parts Order (music source separation) · Persona (real-time voice). <a href="projects.html">All projects →</a></div>
+<div><span class="eyebrow">Clients</span> Tamada and Visto (AI art curation engine) · Parts Order (music source separation) · Persona (real-time voice). <a href="projects.html">All projects →</a></div>
 :::
 
 ## Why Sisyphe

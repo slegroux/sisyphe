@@ -115,7 +115,7 @@ Read the paper, run the experiment, and say plainly what will work before you bu
 <div class="chips"><span class="chip reason">reason</span></div>
 <p class="outcome">You get a senior second opinion, or your prototype turned into software, before you commit a team to it.</p>
 <p>For creative-tech teams and cultural institutions: you have a paper, a lab prototype or a collection that needs to become software, or a team that needs a senior second opinion. We read the paper, talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor. A decade in research labs, a decade in industry.</p>
-<ul class="proof"><li>Tamada: fractional CTO for AI-augmented art curation, visual search over a collection from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li></ul>
+<ul class="proof"><li>Tamada × <a href="https://www.visto.art/">Visto</a>: fractional CTO on an AI curation engine for an art consultancy that builds collections for luxury hotels and landmark destinations, from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li></ul>
 <p class="before"><span>Before Sisyphe</span> Museaic Labs, an emotion-driven music recommendation system; technology transfer on interactive systems for autism with Fundación Orange and Universitat de València.</p>
 </div>
 :::
@@ -167,7 +167,7 @@ So your team can do it without us.
 
 ::: {.worked .clients}
 <span class="faint">Clients</span>
-<span class="client">Persona</span><span class="client">Parts Order</span><span class="client">Tamada</span>
+<span class="client">Persona</span><span class="client">Parts Order</span><span class="client">Tamada</span><span class="client">Visto</span>
 :::
 
 ::: {.worked .before}
