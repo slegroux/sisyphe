@@ -60,19 +60,25 @@ Real writes with real undo, control loops that move a machine in simulation or i
 
 ::: {.proofstrip}
 <div><span class="n">Sideman</span><span class="l">An MCP server that gives Claude the 922 measured members of Ableton Live, and sees what you do by hand.</span></div>
-<div><span class="n">mjdrone</span><span class="l">A MuJoCo quadrotor simulator that speaks MAVLink, so Udacity course flight scripts connect unchanged.</span></div>
+<div><span class="n">Bestiary</span><span class="l">A MuJoCo simulator for things that move. Its first creature, a quadrotor, speaks MAVLink, so Udacity course flight scripts connect unchanged.</span></div>
 <div><span class="n">Tamada</span><span class="l">Fractional CTO for AI-augmented art curation: visual search over a collection on CLIP embeddings and a vector index.</span></div>
 <div><span class="n">The Brain Orchestra</span><span class="l">A string quartet played by four people's brain signals, 2009.</span></div>
 :::
 
 ## Products
 
-::: {.cards}
+::: {.cards .grid-2}
 ::: {.card-s}
 <div class="eyebrow">Open source</div>
 ### Sideman
 An MCP server for Ableton Live 12 built on Live's own object model rather than a hand-written list of commands. Everything Live can do is in reach, and it notices what you do by hand.
 <a class="card-link" href="sideman.html">About Sideman →</a>
+:::
+::: {.card-s}
+<div class="eyebrow">Public</div>
+### Pappus
+A local-first notebook that teaches. The AI sees every cell above your question and answers with a hint or a small step. It never runs a cell, and by default it can't write files: running the code is your job. Built on Answer.AI's SolveIt method.
+<a class="card-link" href="https://slegroux.github.io/pappus/">About Pappus →</a>
 :::
 ::: {.card-s}
 <div class="eyebrow">Course</div>

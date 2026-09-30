@@ -52,7 +52,7 @@ MCP servers and tool design for DAWs, plug-ins, creative apps and collections. W
 ### Robotics, simulation and learned policies
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 Simulators that are fast, inspectable and scriptable. Reinforcement learning and vision-language-action policies, and the sim-to-real gap between them and a machine that moves. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.
-<div class="evidence">Since 2025 the day job is vision-language-action training pipelines spanning physics simulation, synthetic data, sim-to-real transfer, reinforcement learning and edge deployment. That work is not for hire. Public evidence: mjdrone, a MuJoCo quadrotor simulator that speaks MAVLink so Udacity course flight scripts connect unchanged, headless at 30 to 60 times real time, and a personal sim-to-real project on NVIDIA Cosmos.</div>
+<div class="evidence">Since 2025 the day job is vision-language-action training pipelines spanning physics simulation, synthetic data, sim-to-real transfer, reinforcement learning and edge deployment. That work is not for hire. Outside it, personal projects: Bestiary, a MuJoCo simulator for things that move, whose first creature is a quadrotor that speaks MAVLink so Udacity course flight scripts connect unchanged, headless at 30 to 60 times real time; and a sim-to-real project on NVIDIA Cosmos.</div>
 </div>
 :::
 
@@ -77,7 +77,7 @@ Simulators that are fast, inspectable and scriptable. Reinforcement learning and
 ### Speech, language and audio
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 Speech recognition, synthesis, speaker recognition, audio classification and the language models around them. Data pipelines, training, evaluation, and the unglamorous work of getting a model into a product that millions of people use without noticing it.
-<div class="evidence">Principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. Nimrod, a personal open-source toolkit for speech, audio and language modelling.</div>
+<div class="evidence">Principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling.</div>
 </div>
 :::
 
@@ -140,7 +140,7 @@ You have a paper, a lab prototype or a data set and need it to become software. 
 ### Teaching and workshops
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 Sideman workshops for studios, schools and labs: a day, a weekend, or a term, from "what's in my Set?" to a finished track. Custom courses on agents for creative tools, audio machine learning, and sensor-to-actuator systems, taught by someone who has done it at graduate level and in industry.
-<div class="evidence">Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, including one built around the sensor-to-actuator loop. The <a href="course.html">Sideman course</a> is the current syllabus, and <a href="lineage.html#sidekick">Sidekick</a>, our learning notebook, keeps the AI explaining while the learner runs the code.</div>
+<div class="evidence">Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, including one built around the sensor-to-actuator loop. The <a href="course.html">Sideman course</a> is the current syllabus, and <a href="https://slegroux.github.io/pappus/">Pappus</a>, our learning notebook, keeps the AI hinting while the learner runs the code.</div>
 </div>
 :::
 

@@ -1,7 +1,7 @@
 ---
 pagetitle: "Lineage: two decades of situated systems"
 aliases: [instruments.html]
-description: "The situated systems behind Sisyphe, from Re(per)curso in 2007 to Sideman and mjdrone in 2026."
+description: "The situated systems behind Sisyphe, from Re(per)curso in 2007 to Sideman, Pappus and Bestiary in 2026."
 format:
   html:
     page-layout: article
@@ -20,10 +20,10 @@ Sideman is not the first system we have built that perceives what is happening a
 ::: {.tl}
 <div class="year">2026</div>
 <div>
-### mjdrone and sim-to-real
+### Bestiary and sim-to-real
 <div class="eyebrow meta">Simulation · sim-to-real · personal projects</div>
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-A MuJoCo quadrotor simulator that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a personal sim-to-real project on NVIDIA Cosmos. The actuator is a machine this time, simulated for now.
+Bestiary, a MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a personal sim-to-real project on NVIDIA Cosmos. The actuator is a machine this time, simulated for now.
 </div>
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
   <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
@@ -58,12 +58,12 @@ All three layers in one box. Observers report what you do by hand, a skill teach
 ::: {.tl}
 <div class="year">2026</div>
 <div>
-### Sidekick
-<div class="eyebrow meta">Learning notebook · personal project · after Answer.AI's SolveIt</div>
+### Pappus
+<div class="eyebrow meta">Learning notebook · public · <a href="https://slegroux.github.io/pappus/">site</a></div>
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-A notebook for learning with an AI beside you, not in your place. Every cell is live, and the AI reads the cells above the one you ask from. It can search the web and read papers and pages converted to text, but by default it cannot write files or run code: running the code stays the learner's job. The same notebook runs on a laptop or on a remote GPU. The step-by-step method is Answer.AI's SolveIt; the notebook is ours.
+A local-first notebook that teaches, with the AI as a thinking partner rather than a ghostwriter. It sees every cell above your question and answers in small steps, a hint or a guiding question at a time. It can edit a cell you can see when you ask, but it never runs one, and by default it cannot write files: running the code stays the learner's job. The same notebook runs on a laptop or on a remote H100. The method is Answer.AI's SolveIt; the notebook is ours.
 </div>
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and search but locked out of running code">
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
   <rect class="fill-panel ink" x="40" y="24" width="250" height="236" rx="8" stroke-width="2"/>
   <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M60 50 H170 M60 64 H230 M60 78 H200"/></g>
   <rect class="fill-panel ink" x="56" y="96" width="218" height="58" rx="5" stroke-width="1.5"/>
@@ -75,7 +75,7 @@ A notebook for learning with an AI beside you, not in your place. Every cell is 
   <path class="rs" d="M290 206 C 325 206, 344 170, 344 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
   <g transform="translate(344 96)">
     <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
-    <text class="cap" x="0" y="42" text-anchor="middle">reads · searches</text>
+    <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
   </g>
   <g transform="translate(344 214)">
     <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
@@ -83,6 +83,29 @@ A notebook for learning with an AI beside you, not in your place. Every cell is 
     <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
   </g>
   <text class="cap" x="40" y="290">note · code · ask · you run it</text>
+</svg></div>
+:::
+
+::: {.tl}
+<div class="year">2026</div>
+<div>
+### yt2live
+<div class="eyebrow meta">Stem separation · Ableton Live · personal project</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A recorded DJ set in, a Live session out. The mix is separated into bass, drums, synths and vocals, the drums split six ways, and the stems land in a running Live set ordered by frequency, colour-coded and tempo-matched, with a locator at each detected section. Tuned for deep and melodic house; every default was measured on real material rather than taken from a benchmark leaderboard.
+</div>
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="One mixed waveform splitting into four coloured stem lanes">
+  <g class="ink3">
+    <rect x="30" y="120" width="5" height="60" rx="2"/><rect x="40" y="100" width="5" height="100" rx="2"/><rect x="50" y="112" width="5" height="76" rx="2"/><rect x="60" y="90" width="5" height="120" rx="2"/><rect x="70" y="108" width="5" height="84" rx="2"/><rect x="80" y="96" width="5" height="108" rx="2"/><rect x="90" y="118" width="5" height="64" rx="2"/><rect x="100" y="104" width="5" height="92" rx="2"/>
+  </g>
+  <g class="ink3" fill="none" stroke-width="1.5">
+    <path d="M115 150 C 150 150, 150 60, 185 60"/><path d="M115 150 C 150 150, 150 120, 185 120"/><path d="M115 150 C 150 150, 150 180, 185 180"/><path d="M115 150 C 150 150, 150 240, 185 240"/>
+  </g>
+  <rect class="fill-panel ink" x="190" y="44" width="180" height="32" rx="4" stroke-width="1.5"/><path class="as" d="M198 60 C 220 48, 240 72, 262 60 S 306 48, 328 60 S 350 72, 362 60" stroke-width="3" fill="none"/>
+  <rect class="fill-panel ink" x="190" y="104" width="180" height="32" rx="4" stroke-width="1.5"/><g class="ps" stroke-width="3" stroke-linecap="round"><path d="M204 112 V128 M232 112 V128 M260 112 V128 M288 112 V128 M316 112 V128 M344 112 V128"/></g>
+  <rect class="fill-panel ink" x="190" y="164" width="180" height="32" rx="4" stroke-width="1.5"/><path class="rs" d="M198 180 H230 M240 172 H280 M290 186 H330 M338 176 H362" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <rect class="fill-panel ink" x="190" y="224" width="180" height="32" rx="4" stroke-width="1.5"/><path class="ink" d="M200 240 C 215 232, 225 248, 240 240 M280 240 C 295 230, 310 250, 330 240" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <text class="cap" x="30" y="290">one set · four stems · into Live</text>
 </svg></div>
 :::
 
@@ -128,7 +151,7 @@ Sisyphe started as a consulting practice. Real-time conversational voice pipelin
 ### Speech at scale
 <div class="eyebrow meta">Ava · Voicea · Cisco</div>
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. Nimrod, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
+Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
 </div>
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
   <g class="p">

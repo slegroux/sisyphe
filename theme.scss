@@ -165,3 +165,5 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .step { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 1.2rem 1.3rem;
   .n { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -0.03em; color: var(--act); line-height: 1; margin-bottom: 0.5rem; }
   h3 { margin: 0 0 0.4rem; font-size: 1.15rem; } p { margin: 0; color: var(--ink-2); } }
+.cards.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (max-width: 700px) { .cards.grid-2 { grid-template-columns: 1fr; } }
