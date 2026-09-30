@@ -138,12 +138,10 @@ Ten lessons that build one melodic house track from an empty Set, with Claude do
 ## Why Sisyphe
 
 ::: {.measure}
-Sisyphus pushed the same rock up the same hill, forever. Skilled work has more of that than anyone admits: the fortieth track rename, the thousandth labelled frame, the sim run you relaunch because one parameter was wrong. It all has to be done, and none of it needs you.
+Sisyphus pushed the same rock up the same hill, forever. Creative work has more of that than anyone admits: the fortieth track rename, the stems you export one more time, the catalogue you re-tag by hand, the cue you rebuild because one setting was wrong. It all has to be done, and none of it needs you.
 
 We build the thing that pushes the rock. You keep the part that needs you: the taste, the judgment, the call.
 :::
-
-<p class="more left"><a href="about.html#background">The idea is older than the company: see where it comes from →</a></p>
 
 ::: {.cta}
 ## Start a conversation
