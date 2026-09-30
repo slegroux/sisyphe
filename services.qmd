@@ -16,35 +16,31 @@ format:
 Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
 :::
 
-::: {.worked .clients}
-<span class="faint">Clients</span>
-<span class="client">Persona</span><span class="client">Parts Order</span><span class="client">Tamada</span>
+::: {.modes .column-body-outset}
+<a class="mode" href="#build"><span class="eyebrow">01 · Build</span><strong>We make the thing.</strong><span>Agents inside music and creative tools, speech and audio ML, interactive art, robotics and simulation.</span></a>
+<a class="mode" href="#advise"><span class="eyebrow">02 · Advise</span><strong>We de-risk the thing.</strong><span>Research to product, fractional CTO, scientific advice.</span></a>
+<a class="mode" href="#teach"><span class="eyebrow">03 · Teach</span><strong>We make your team able to do it.</strong><span>Workshops, courses and graduate modules.</span></a>
 :::
 
-::: {.worked .before}
-<span class="faint">Before Sisyphe</span>
-<img class="logo cisco" src="assets/logos/cisco.svg" alt="Cisco"><img class="logo webex" src="assets/logos/webex.svg" alt="Webex"><span class="lockup"><img class="logo sym" src="assets/logos/voicea.svg" alt="">Voicea</span><span class="lockup"><img class="logo sym" src="assets/logos/ava.png" alt="">Ava</span><img class="logo ginger" src="assets/logos/ginger.png" alt="Ginger.io"><img class="logo gt" src="assets/logos/georgia-tech.svg" alt="Georgia Tech"><img class="logo upf" src="assets/logos/upf.png" alt="Pompeu Fabra University"><img class="logo orange" src="assets/logos/fundacion-orange.png" alt="Fundación Orange"><img class="logo sonar" src="assets/logos/sonar.png" alt="Sónar+D">
-<span>Stanford</span><span>Museaic Labs</span>
-:::
-
-## Build
+## Build {#build}
 
 ::: {.group-lede .muted}
-We make the thing: working software in your repo, measured against the real environment it has to run in.
+Working software in your repo, measured against the real environment it has to run in.
 :::
 
-::: {.offer2}
+::: {.svcgrid .column-body-outset}
+::: {.svc}
 <div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with three tracks Claude created and a filter automation curve it wrote"></div>
-<div>
+<div class="body">
 <div class="eyebrow field">Music technology · creative tools</div>
 ### Agents inside real tools
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see, build the bridge into your object model or your archive, and write the evaluation harness that tells you when coverage slips. We have done this against Ableton Live and inside a real-time voice product.
-<div class="evidence">Sideman: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has. Persona: real-time conversational voice pipelines built as an embedded ML engineer.</div>
+<p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see, build the bridge into your object model or archive, and write the evaluation that tells you when coverage slips.</p>
+<ul class="proof"><li><a href="sideman.html">Sideman</a>: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has.</li><li>Persona: real-time conversational voice pipelines, as an embedded ML engineer.</li></ul>
 </div>
 :::
 
-::: {.offer2 .flip}
+::: {.svc}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
   <g class="p">
     <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
@@ -61,27 +57,27 @@ MCP servers and tool design for DAWs, plug-ins, creative apps and collections. W
   </g>
   <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
 </svg></div>
-<div>
+<div class="body">
 <div class="eyebrow field">Audio and speech</div>
 ### Speech, audio and music ML
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Speech recognition, synthesis, speaker recognition, music source separation, audio classification and the language models around them. Data pipelines, training, evaluation, and the unglamorous work of getting a model into a product that millions of people use without noticing it.
-<div class="evidence">Principal AI engineer on speech synthesis, recognition and language modelling at Cisco after the Voicea acquisition. Multilingual ASR and Cisco's first speaker-diarization system shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. Earlier, speech and speaker recognition at Ava and Voicea. Parts Order, scientific advisor on music source separation. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling.</div>
+<p>Speech recognition and synthesis, speaker recognition, music source separation, audio classification and the language models around them. Data pipelines, training, evaluation, and getting a model into a product people use without noticing it.</p>
+<ul class="proof"><li>Cisco, after acquiring Voicea: multilingual ASR and Cisco's first speaker-diarization system, shipped to millions of Webex users.</li><li>US patent on privacy-preserving speech recognition with federated learning.</li><li>Earlier, speech and speaker recognition at Ava and Voicea.</li><li><a href="https://slegroux.github.io/nimrod">Nimrod</a>: an open-source toolkit for speech, audio and language modelling.</li></ul>
 </div>
 :::
 
-::: {.offer2}
+::: {.svc}
 <div class="fig"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"></div>
-<div>
+<div class="body">
 <div class="eyebrow field">Interactive art</div>
 ### Interactive systems for art and performance
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.
-<div class="evidence">The Brain Orchestra, XIM, and the Sónar Robot Arena. See <a href="about.html#background">the background</a>.</div>
+<p>Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state: installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
+<ul class="proof"><li>The Brain Orchestra, XIM and the Sónar Robot Arena: see <a href="about.html#background">the background</a>.</li></ul>
 </div>
 :::
 
-::: {.offer2 .flip}
+::: {.svc}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
   <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
     <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
@@ -99,22 +95,26 @@ Real-time composition, sound and visual systems that respond to sensors, biosign
   </g>
   <text class="cap" x="40" y="280">sim · 30–60× real time</text>
 </svg></div>
-<div>
+<div class="body">
 <div class="eyebrow field">Robotics</div>
 ### Robotics, simulation and learned policies
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Simulators that are fast, inspectable and scriptable. Reinforcement learning and vision-language-action policies, and the sim-to-real gap between them and a machine that moves. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.
-<div class="evidence">Since 2025 the day job is vision-language-action training pipelines spanning physics simulation, synthetic data, sim-to-real transfer, reinforcement learning and edge deployment. That work is not for hire. Outside it, personal projects: Bestiary, a MuJoCo simulator for things that move, whose first creature is a quadrotor that speaks MAVLink so Udacity course flight scripts connect unchanged, headless at 30 to 60 times real time; and a sim-to-real project on NVIDIA Cosmos.</div>
+<p>Simulators that are fast, inspectable and scriptable; reinforcement learning and vision-language-action policies; and the sim-to-real gap between them. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.</p>
+<ul class="proof"><li><a href="projects.html">Bestiary</a>: a MuJoCo quadrotor that speaks MAVLink, so Udacity course flight scripts connect unchanged, at 30 to 60 times real time.</li><li>A personal sim-to-real project on NVIDIA Cosmos.</li><li>Since 2025 the day job is vision-language-action training pipelines. That work is not for hire.</li></ul>
 </div>
 :::
 
-## Advise
-
-::: {.group-lede .muted}
-We de-risk the thing: read the paper, run the experiment, and tell you plainly what will work before you build it.
 :::
 
-::: {.offer2}
+::: {.svcgrid .column-body-outset}
+::: {.grp}
+## Advise {#advise}
+
+::: {.group-lede .muted}
+Read the paper, run the experiment, and say plainly what will work before you build it.
+:::
+
+::: {.svc}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A paper turning into a shipped product">
   <g transform="translate(50 70)">
     <rect class="fill-panel ink" x="0" y="0" width="110" height="140" rx="6" stroke-width="2"/>
@@ -131,22 +131,25 @@ We de-risk the thing: read the paper, run the experiment, and tell you plainly w
     <text class="cap" x="0" y="165">shipped</text>
   </g>
 </svg></div>
-<div>
+<div class="body">
 <div class="eyebrow field">Any field</div>
 ### Research to product, fractional CTO, scientific advice
 <div class="chips"><span class="chip reason">reason</span></div>
-You have a paper, a lab prototype or a data set and need it to become software. We have been on both sides: a decade in research labs, a decade in industry. We can read the paper, talk to the scientists, and ship the code, or sit beside your team as a fractional CTO or scientific advisor.
-<div class="evidence">Tamada, fractional CTO for AI-augmented art curation, taking visual search over a collection from prototype to product with a team. Westside LA Events, an aggregator over sixty scraped sources with search, maps and analytics, running on Cloud Run. Museaic Labs, an emotion-driven music recommendation system. Emotion and mobile-phone data science at Ginger.io, technology transfer on interactive systems for autism with Fundación Orange and Universitat de València, a Ph.D. at Pompeu Fabra and a postdoc at Stanford's psychophysiology lab.</div>
+<p>You have a paper, a lab prototype or a data set that needs to become software, or a team that needs a senior second opinion. We read the paper, talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor. A decade in research labs, a decade in industry.</p>
+<ul class="proof"><li>Tamada: fractional CTO for AI-augmented art curation, visual search over a collection from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li><li>Museaic Labs: an emotion-driven music recommendation system.</li><li>Technology transfer on interactive systems for autism with Fundación Orange and Universitat de València.</li></ul>
 </div>
 :::
 
-## Teach
-
-::: {.group-lede .muted}
-We make your team able to do it themselves.
 :::
 
-::: {.offer2 .flip}
+::: {.grp}
+## Teach {#teach}
+
+::: {.group-lede .muted}
+So your team can do it without us.
+:::
+
+::: {.svc}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A whiteboard with the perceive, reason, act loop sketched on it, and a room of people">
   <rect class="fill-panel ink" x="60" y="34" width="280" height="150" rx="6" stroke-width="2"/>
   <g transform="translate(200 109) scale(0.42)">
@@ -166,13 +169,29 @@ We make your team able to do it themselves.
   </g>
   <text class="cap" x="60" y="290">workshops · courses · studios</text>
 </svg></div>
-<div>
+<div class="body">
 <div class="eyebrow field">Education</div>
 ### Teaching and workshops
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-Sideman workshops for studios, schools and labs: a day, a weekend, or a term, from "what's in my Set?" to a finished track. Custom courses on agents for creative tools, audio machine learning, and sensor-to-actuator systems, taught by someone who has done it at graduate level and in industry.
-<div class="evidence">Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, including one built around the sensor-to-actuator loop. The <a href="course.html">Sideman course</a> is the current syllabus, and <a href="https://slegroux.github.io/pappus/">Pappus</a>, our learning notebook, keeps the AI hinting while the learner runs the code.</div>
+<p>Sideman workshops for studios, schools and labs, from a day to a term, from “what’s in my Set?” to a finished track. Custom courses on agents for creative tools, audio machine learning and sensor-to-actuator systems.</p>
+<ul class="proof"><li>Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, one built around the sensor-to-actuator loop.</li><li>The <a href="course.html">Sideman course</a> is the current syllabus.</li><li><a href="https://slegroux.github.io/pappus/">Pappus</a>, our learning notebook: the AI hints, the learner runs the code.</li></ul>
 </div>
+:::
+
+:::
+:::
+
+## Worked with
+
+::: {.worked .clients}
+<span class="faint">Clients</span>
+<span class="client">Persona</span><span class="client">Parts Order</span><span class="client">Tamada</span>
+:::
+
+::: {.worked .before}
+<span class="faint">Before Sisyphe</span>
+<img class="logo cisco" src="assets/logos/cisco.svg" alt="Cisco"><img class="logo webex" src="assets/logos/webex.svg" alt="Webex"><span class="lockup"><img class="logo sym" src="assets/logos/voicea.svg" alt="">Voicea</span><span class="lockup"><img class="logo sym" src="assets/logos/ava.png" alt="">Ava</span><img class="logo ginger" src="assets/logos/ginger.png" alt="Ginger.io"><img class="logo gt" src="assets/logos/georgia-tech.svg" alt="Georgia Tech"><img class="logo upf" src="assets/logos/upf.png" alt="Pompeu Fabra University"><img class="logo orange" src="assets/logos/fundacion-orange.png" alt="Fundación Orange"><img class="logo sonar" src="assets/logos/sonar.png" alt="Sónar+D">
+<span>Stanford</span><span>Museaic Labs</span>
 :::
 
 ## How it works
@@ -195,8 +214,14 @@ It ends with the thing running in front of you and a written account of what wor
 :::
 :::
 
+::: {.note}
 **Advisory** is the other shape: a few hours a month to review architecture, models or an agent design before you commit a team to it. **Open source first:** if the work belongs in Sideman or a public library, we will say so and price it accordingly.
+:::
 
+::: {.cta}
 ## Start a conversation
 
-Write to [sylvain.legroux@gmail.com](mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe) with what you are building and where it is stuck. You will get a reply from the person who would do the work.
+Write with what you are building and where it is stuck. You will get a reply from the person who would do the work.
+
+<a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Email sylvain.legroux@gmail.com</a>
+:::

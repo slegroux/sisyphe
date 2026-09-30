@@ -198,3 +198,26 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 // Services: Build / Research and advise / Teach groups, with a field label on each offering.
 .group-lede { margin: -0.4rem 0 0.6rem; max-width: 40rem; }
 .offer2 .eyebrow.field { margin-bottom: -0.2rem; color: var(--ink-3); }
+// Services redesign: mode overview, card grids, trust band, note and call to action.
+.modes { display: grid; gap: 1rem; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 2rem 0 1rem;
+  @media (max-width: 820px) { grid-template-columns: 1fr; } }
+.mode { display: flex; flex-direction: column; gap: 0.35rem; padding: 1.2rem 1.3rem; border: 1px solid var(--rule); border-radius: 8px; background: var(--panel); text-decoration: none !important; color: var(--ink) !important; transition: border-color 0.15s;
+  strong { font-family: "Bricolage Grotesque", sans-serif; font-size: 1.2rem; }
+  span:last-child { color: var(--ink-2); font-size: 0.95rem; }
+  &:hover { border-color: var(--ink-3); } }
+.svcgrid { display: grid; gap: 1.4rem; grid-template-columns: repeat(2, minmax(0, 1fr)); margin: 1rem 0 2.5rem; align-items: start;
+  @media (max-width: 820px) { grid-template-columns: 1fr; } }
+.svcgrid > .grp { > h2 { margin-top: 0.5rem; } }
+.svc { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; overflow: hidden;
+  .fig { aspect-ratio: 16 / 9; border-bottom: 1px solid var(--rule); display: flex; align-items: center; justify-content: center; overflow: hidden;
+    img { width: 100%; height: 100%; object-fit: cover; } svg { width: 100%; height: 100%; } }
+  .body { padding: 1.2rem 1.4rem 1.3rem; display: flex; flex-direction: column; gap: 0.5rem;
+    h3 { margin: 0; font-size: 1.3rem; } p { margin: 0.2rem 0 0; color: var(--ink-2); } }
+  .eyebrow.field { margin: 0; }
+  ul.proof { list-style: none; margin: 0.6rem 0 0; padding: 0.8rem 0 0; border-top: 1px dashed var(--rule); display: flex; flex-direction: column; gap: 0.45rem;
+    li { position: relative; padding-left: 1.1rem; font-size: 0.9rem; color: var(--ink-2); line-height: 1.45; }
+    li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 6px; height: 6px; border-radius: 50%; background: var(--act); } } }
+.note { border-left: 3px solid var(--reason); padding: 0.4rem 0 0.4rem 1rem; color: var(--ink-2); margin: 1.2rem 0 2rem; }
+.cta { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 1.6rem 1.8rem; margin: 2.5rem 0 3rem;
+  h2 { margin-top: 0; } p { color: var(--ink-2); } .btn-accent { margin-top: 0.4rem; } }
+.modes > p { display: contents; }
