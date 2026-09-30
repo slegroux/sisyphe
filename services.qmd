@@ -1,7 +1,7 @@
 ---
 pagetitle: "Services"
 aliases: [work.html]
-description: "Sisyphe builds, advises and teaches AI for art, music and creative tools: agents inside creative software, music and audio ML, interactive art and installations, research to product, and workshops."
+description: "Sisyphe builds, advises and teaches AI for art, music and creative tools: agents inside creative software, music and audio ML, interactive art and installations with embodied AI, research to product, and workshops."
 image: assets/brand/og.png
 format:
   html:
@@ -76,7 +76,7 @@ Working software in your repo, measured against the real environment it has to r
 ### Interactive art and installations
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 <p class="outcome">You get a real-time system that answers people, sensors or signals, with a mapping you can defend.</p>
-<p>Real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state: installations, performances, robots on stage, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
+<p>Embodied AI for the stage and the gallery: real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state. Installations, performances, robots on stage, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
 
 <ul class="proof"><li><a href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/dreamfauna.html">Dream Fauna</a> (personal, 2026): an artificial ecosystem of watercolour creatures whose swarm composes a live melodic-techno set, and the music drives the swarm back.</li></ul>
 <p class="before"><span>Before Sisyphe</span> The Brain Orchestra, XIM and the Sónar Robot Arena, built in research labs in Barcelona. See <a href="about.html#background">the background</a>.</p>

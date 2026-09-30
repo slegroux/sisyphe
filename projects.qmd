@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built: Sideman and Roadie for music production, Dream Fauna and Bestiary (agents in simulated worlds), Moving Paintings and Nimrod (creative ML), Pappus, Westside LA Events, and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built: Sideman and Roadie for music production, Dream Fauna and Bestiary (embodied agents in simulated worlds), Moving Paintings and Nimrod (creative ML), Pappus, Westside LA Events, and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -62,7 +62,7 @@ From finished track to Live set. A recording of your own track or set in, a Live
 ## Agents & simulated worlds {#agents}
 
 ::: {.group-lede .muted}
-Worlds full of agents that perceive what is around them and act on it: an ecosystem that composes, a simulator that flies.
+Embodied agents in simulated worlds, perceiving what is around them and acting on it: an ecosystem that composes, a simulator that flies.
 :::
 
 ::: {.projgrid}
