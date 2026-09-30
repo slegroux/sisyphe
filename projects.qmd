@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built since 2023: Sideman, Dream Fauna, Pappus, Roadie, Bestiary, Westside LA Events, Nimrod, and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built: Sideman and Roadie for music production, Dream Fauna and Bestiary (agents in simulated worlds), Moving Paintings and Nimrod (creative ML), Pappus, Westside LA Events, and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -12,10 +12,10 @@ format:
 # What we have built.
 
 ::: {.lede .muted}
-Products, public tools, personal projects and client work since Sisyphe began in 2023. Filter by field; each card is also tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
+Products, public tools, personal projects and client work, almost all of it since Sisyphe began in 2023. Filter by field; each card is also tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
 :::
 
-<div class="layerfilter" role="group" aria-label="Filter by category"><button class="on" data-f="all">All</button><button data-f="music">Music production</button><button data-f="art">Art & ecosystems</button><button data-f="learning">Learning</button><button data-f="culture">Culture & events</button><button data-f="audio">Audio ML</button><button data-f="sim">Simulation & RL</button><button data-f="clients">Clients</button></div>
+<div class="layerfilter" role="group" aria-label="Filter by field"><button class="on" data-f="all">All</button><button data-f="music">Music production</button><button data-f="agents">Agents & simulated worlds</button><button data-f="creativeml">Creative ML</button><button data-f="learning">Learning</button><button data-f="culture">Culture & events</button><button data-f="clients">Clients</button></div>
 
 ::: {.projgrid}
 ::: {.proj data-layers="perceive reason act" data-cat="music"}
@@ -54,15 +54,81 @@ From finished track to Live set. A recording of your own track or set in, a Live
 </div>
 :::
 
-::: {.proj data-layers="perceive act" data-cat="art"}
+::: {.proj data-layers="perceive act" data-cat="agents"}
 <div class="fig"><img src="assets/work/dreamfauna.png" alt="dreamfauna: watercolour creatures swarming in a generative ecosystem"></div>
 <div class="body">
-<div class="cat">Art & ecosystems</div>
+<div class="cat">Agents & simulated worlds</div>
 <div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Generative-art instrument</div>
 ### Dream Fauna
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 A real-time generative-art instrument. Watercolour creatures, lifted into 3D by an AI pipeline, live in an artificial ecosystem whose swarm composes the music. Food webs and boom-and-bust cycles emerge from who can perceive what, and in the live set the music drives the swarm back.
 <a class="card-link" href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/dreamfauna.html">About Dream Fauna →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive act" data-cat="agents"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
+  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
+    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
+  </g>
+  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
+  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
+  <circle class="a" cx="300" cy="70" r="6"/>
+  <g transform="translate(200 96)">
+    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
+    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
+    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
+    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
+    <circle class="r" cx="0" cy="0" r="4"/>
+  </g>
+  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
+</svg></div>
+<div class="body">
+<div class="cat">Agents & simulated worlds</div>
+<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Simulation · sim-to-real</div>
+### Bestiary
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a sim-to-real project on NVIDIA Cosmos.
+</div>
+:::
+
+::: {.proj data-layers="act" data-cat="creativeml"}
+<div class="fig"><video src="assets/work/bosch.mp4" poster="assets/work/bosch.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Diffusing Bosch: a Bosch painting dreamed into motion"></video></div>
+<div class="body">
+<div class="cat">Creative ML</div>
+<div class="eyebrow meta"><span class="status">Personal</span> · 2022 · Diffusion-animated paintings</div>
+### Moving Paintings
+<div class="chips"><span class="chip act">act</span></div>
+Still paintings dreamed into motion with diffusion models. Each piece takes one artwork as a seed and lets its brushwork, palette and forms flow, morph and recompose: seven pieces, from Bosch to Basquiat.
+<a class="card-link" href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/moving_paintings.html">Watch the series →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive reason" data-cat="creativeml"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
+<div class="body">
+<div class="cat">Creative ML</div>
+<div class="eyebrow meta"><span class="status">Public</span> · 2023– · Speech and audio toolkit</div>
+### Nimrod
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+A personal open-source toolkit for speech, audio and language modelling: modules, models and training recipes for getting deep-learning experiments running quickly.
+<a class="card-link" href="https://slegroux.github.io/nimrod">Nimrod docs →</a>
 </div>
 :::
 
@@ -107,60 +173,6 @@ A local-first notebook that teaches. The AI sees every cell above your question 
 <div class="chips"><span class="chip perceive">perceive</span></div>
 Sixty scrapers over venues, museums and community calendars on LA's Westside, unified into one search with maps and analytics, deployed on Cloud Run. A city as an archive: the perceive layer, at civic scale.
 <a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app →</a> <span class="wake">It may take a few seconds to wake.</span>
-</div>
-:::
-
-::: {.proj data-layers="perceive reason" data-cat="audio"}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
-  <g class="p">
-    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
-  </g>
-  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <g>
-    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
-    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
-    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
-    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
-    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
-    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
-    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
-  </g>
-  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
-</svg></div>
-<div class="body">
-<div class="cat">Audio ML</div>
-<div class="eyebrow meta"><span class="status">Public</span> · 2023– · Speech and audio toolkit</div>
-### Nimrod
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-A personal open-source toolkit for speech, audio and language modelling: modules, models and training recipes for getting deep-learning experiments running quickly.
-<a class="card-link" href="https://slegroux.github.io/nimrod">Nimrod docs →</a>
-</div>
-:::
-
-::: {.proj data-layers="perceive act" data-cat="sim"}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
-  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
-    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
-    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
-  </g>
-  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
-  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
-  <circle class="a" cx="300" cy="70" r="6"/>
-  <g transform="translate(200 96)">
-    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
-    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
-    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
-    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
-    <circle class="r" cx="0" cy="0" r="4"/>
-  </g>
-  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
-</svg></div>
-<div class="body">
-<div class="cat">Simulation & RL</div>
-<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Simulation · sim-to-real</div>
-### Bestiary
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-A MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a sim-to-real project on NVIDIA Cosmos.
 </div>
 :::
 
