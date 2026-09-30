@@ -55,6 +55,37 @@ All three layers in one box. Observers report what you do by hand, a skill teach
 <div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
 :::
 
+::: {.tl}
+<div class="year">2026</div>
+<div>
+### Sidekick
+<div class="eyebrow meta">Learning notebook · personal project · after Answer.AI's SolveIt</div>
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+A notebook for learning with an AI beside you, not in your place. Every cell is live, and the AI reads the cells above the one you ask from. It can search the web and read papers and pages converted to text, but by default it cannot write files or run code: running the code stays the learner's job. The same notebook runs on a laptop or on a remote GPU. The step-by-step method is Answer.AI's SolveIt; the notebook is ours.
+</div>
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and search but locked out of running code">
+  <rect class="fill-panel ink" x="40" y="24" width="250" height="236" rx="8" stroke-width="2"/>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M60 50 H170 M60 64 H230 M60 78 H200"/></g>
+  <rect class="fill-panel ink" x="56" y="96" width="218" height="58" rx="5" stroke-width="1.5"/>
+  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M70 114 H120 M128 114 H170 M70 128 H100 M108 128 H190 M70 142 H140"/></g>
+  <text class="cap" x="240" y="148">run</text>
+  <rect class="fill-panel ink" x="56" y="170" width="218" height="72" rx="5" stroke-width="1.5"/>
+  <circle class="r" cx="74" cy="188" r="7"/>
+  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M90 188 H200 M74 210 H250 M74 224 H220"/></g>
+  <path class="rs" d="M290 206 C 325 206, 344 170, 344 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
+  <g transform="translate(344 96)">
+    <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
+    <text class="cap" x="0" y="42" text-anchor="middle">reads · searches</text>
+  </g>
+  <g transform="translate(344 214)">
+    <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
+    <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
+    <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
+  </g>
+  <text class="cap" x="40" y="290">note · code · ask · you run it</text>
+</svg></div>
+:::
+
 
 ::: {.tl}
 <div class="year">2025–2026</div>

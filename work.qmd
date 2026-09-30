@@ -140,7 +140,7 @@ You have a paper, a lab prototype or a data set and need it to become software. 
 ### Teaching and workshops
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 Sideman workshops for studios, schools and labs: a day, a weekend, or a term, from "what's in my Set?" to a finished track. Custom courses on agents for creative tools, audio machine learning, and sensor-to-actuator systems, taught by someone who has done it at graduate level and in industry.
-<div class="evidence">Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, including one built around the sensor-to-actuator loop. The <a href="course.html">Sideman course</a> is the current syllabus.</div>
+<div class="evidence">Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, including one built around the sensor-to-actuator loop. The <a href="course.html">Sideman course</a> is the current syllabus, and <a href="lineage.html#sidekick">Sidekick</a>, our learning notebook, keeps the AI explaining while the learner runs the code.</div>
 </div>
 :::
 
