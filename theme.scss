@@ -264,3 +264,15 @@ div.sourceCode, pre.sourceCode { background: var(--panel) !important; }
 .more.left a { white-space: normal; }
 .layers { margin-bottom: 3rem; }
 @media (max-width: 991.98px) { .mobile-cta { opacity: 0; pointer-events: none; transition: opacity 0.2s; } .mobile-cta.show { opacity: 1; pointer-events: auto; } }
+// About: compact "Before Sisyphe" strip of earlier art work.
+.tiles { display: grid; gap: 1rem; grid-template-columns: repeat(4, minmax(0, 1fr)); margin: 1.2rem 0 1rem;
+  @media (max-width: 900px) { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.tile { display: flex; flex-direction: column; gap: 0.25rem; text-decoration: none !important; color: var(--ink) !important; background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; overflow: hidden; padding-bottom: 0.8rem; transition: border-color 0.15s;
+  img { width: 100%; aspect-ratio: 16 / 9; object-fit: cover; margin-bottom: 0.4rem; }
+  .yr, strong, .ln, .go { padding: 0 0.8rem; }
+  .yr { font-family: $font-family-monospace; font-size: 0.72rem; color: var(--ink-3); letter-spacing: 0.06em; }
+  strong { font-family: "Bricolage Grotesque", sans-serif; font-size: 1.02rem; }
+  .ln { font-size: 0.86rem; color: var(--ink-2); line-height: 1.4; flex: 1; }
+  .go { font-size: 0.85rem; font-weight: 600; margin-top: 0.3rem; }
+  &:hover { border-color: var(--ink-3); } }
+.tiles > p { display: contents; }

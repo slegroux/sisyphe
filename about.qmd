@@ -29,85 +29,18 @@ Sisyphe is independent of any employer. Client work never touches what the found
 
 
 
-## Two decades, one idea {#background}
+## Before Sisyphe: twenty years of art and technology {#background}
 
 ::: {.lede .muted}
-Before Sisyphe there were twenty years of systems that perceive what is happening and answer with an action: a room that composed from how people moved through it, a string quartet played by brain signals, an arena where robots drove the score, and speech models heard by millions. This is the founder's background, not the company's portfolio; what Sisyphe itself has built is on [Projects](projects.html).
+Interactive music systems, performances and installations built in research labs in Barcelona, long before the company. They are why art and music are not new territory for Sisyphe. What the company itself has built is on [Projects](projects.html).
 :::
 
-::: {.timeline}
-
-::: {.tl}
-<div class="year">2016–2023</div>
-<div>
-### Speech at scale
-<div class="eyebrow meta">Ava · Voicea · Cisco</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Multilingual speech recognition, speaker diarization, synthesis and language modelling shipped to millions of Webex users, and a US patent on privacy-preserving speech recognition with federated learning. The perception layer at scale. <a href="https://slegroux.github.io/nimrod">Nimrod</a>, a personal open-source toolkit for speech, audio and language modelling, came out of this period.
+<div class="tiles">
+<a class="tile" href="https://www.youtube.com/watch?v=HDmjGJ9sqeI"><img src="assets/work/robot-arena.jpg" alt="Two small robots on a lit arena table"><span class="yr">2010 · Sónar</span><strong>The Robot Arena</strong><span class="ln">Robots in an arena drive a score generated live.</span><span class="go">Watch →</span></a>
+<a class="tile" href="https://vimeo.com/35514990"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"><span class="yr">2009</span><strong>The Brain Orchestra</strong><span class="ln">A string quartet played by four people's brain signals.</span><span class="go">Watch →</span></a>
+<a class="tile" href="https://www.youtube.com/watch?v=XAlptm4aHNA"><img src="assets/work/xim.jpg" alt="A visitor inside the XIM mixed-reality room, surrounded by projections"><span class="yr">2007–2009</span><strong>XIM</strong><span class="ln">A mixed-reality room that composes music from how people move through it.</span><span class="go">Watch →</span></a>
+<a class="tile" href="https://www.youtube.com/watch?v=qln4f1kUpZU"><img src="assets/work/reper-curso.jpg" alt="A dancer on a dark stage with projected video"><span class="yr">2007</span><strong>Re(per)curso</strong><span class="ln">Dance, narrative, live synthetic composition and video on one stage.</span><span class="go">Watch →</span></a>
 </div>
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
-  <g class="p">
-    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
-  </g>
-  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <g>
-    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
-    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
-    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
-    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
-    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
-    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
-    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
-  </g>
-  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
-</svg></div>
-:::
-
-::: {.tl}
-<div class="year">2010</div>
-<div>
-### The Robot Arena
-<div class="eyebrow meta">Sónar, Barcelona · SPECS</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-The behaviour of robots in an arena modulates a musical composition generated live by SiMS, the Situated Interactive Music Server. Its biomimetic architecture uses algorithmic composition, sound synthesis and expression rules validated in psychoacoustics and emotion experiments.
-</div>
-{{< video https://www.youtube.com/embed/HDmjGJ9sqeI title="The Robot Arena" >}}
-:::
-
-::: {.tl}
-<div class="year">2009</div>
-<div>
-### The Brain Orchestra
-<div class="eyebrow meta">Brain-computer interface · with SPECS, Jonatas Manzolli and g.tec</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Four performers control the expressivity of a virtual string quartet with their brain signals alone. Sylvain designed and built the interactive music system on top of the BCI, produced the music with Decco, and played live guitar and electronics.
-</div>
-<a class="vidlink" href="https://vimeo.com/35514990"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"><span>▶ Watch on Vimeo</span></a>
-:::
-
-::: {.tl}
-<div class="year">2007–2009</div>
-<div>
-### The eXperience Induction Machine
-<div class="eyebrow meta">Mixed reality space · SPECS, Barcelona</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-A real-world composition and performance system inside a large intelligent multimodal space. The music is produced in real time by the interaction between the system and its human and non-human environment. The music system inside XIM became the subject of the Ph.D.: a room as an instrument.
-</div>
-{{< video https://www.youtube.com/embed/XAlptm4aHNA title="XIM" >}}
-:::
-
-::: {.tl}
-<div class="year">2007</div>
-<div>
-### Re(per)curso
-<div class="eyebrow meta">Multimedia performance · SPECS and Jonatas Manzolli</div>
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-Narrative, music and dance fused with real-time synthetic composition, video art and 3D graphics. Sylvain designed the interactive music system, integrated it with the lab's neural network simulator, built the software for an interactive percussion carpet, produced the music and played live electronics.
-</div>
-{{< video https://www.youtube.com/embed/qln4f1kUpZU title="Re(per)curso" >}}
-:::
-
-:::
 
 Awards, papers and the full portfolio, including the bands, the free-improvisation ensembles and the research behind each system, are on [Sylvain's personal site](https://ccrma.stanford.edu/~slegroux/portfolio/).
 
