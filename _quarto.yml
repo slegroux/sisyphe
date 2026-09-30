@@ -33,6 +33,8 @@ website:
       - href: about.qmd
         text: About
     right:
+      - href: services.qmd#contact
+        text: Work with us
       - icon: github
         href: https://github.com/slegroux/sideman
         aria-label: GitHub

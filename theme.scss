@@ -12,11 +12,11 @@ $panel:   #F4F3EF !default;
 $panel-2: #DFDED8 !default;
 $ink:     #1B1C1F !default;
 $ink-2:   #55565B !default;
-$ink-3:   #85868B !default;
+$ink-3:   #66676B !default;
 $rule:    #C4C3BD !default;
-$perceive: #2F7FC1 !default;
+$perceive: #2A71AD !default;
 $reason:   #6F5FD6 !default;
-$act:      #D9432B !default;
+$act:      #C53A23 !default;
 $on-layer: #FFFFFF !default;
 
 $body-bg: $ground; $body-color: $ink;
@@ -157,7 +157,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   .p { fill: var(--perceive); } .r { fill: var(--reason); } .a { fill: var(--act); }
   .ps { stroke: var(--perceive); } .rs { stroke: var(--reason); } .as { stroke: var(--act); }
   .mono { font-family: "IBM Plex Mono", monospace; font-size: 11px; fill: var(--on-layer); text-anchor: middle; dominant-baseline: central; }
-  .cap { font-family: "IBM Plex Mono", monospace; font-size: 10px; letter-spacing: 0.08em; fill: var(--ink-3); text-transform: uppercase; } }
+  .cap { font-family: "IBM Plex Mono", monospace; font-size: 13px; letter-spacing: 0.06em; fill: var(--ink-2); text-transform: uppercase; } }
 .worked { p { display: contents; } margin: 1rem 0 0; padding: 1.2rem 0; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); display: flex; flex-wrap: wrap; gap: 0.6rem 2rem; align-items: center;
   span { font-family: "Bricolage Grotesque", sans-serif; font-weight: 700; font-size: 1.05rem; letter-spacing: -0.01em; color: var(--ink-2); }
   span.faint { color: var(--ink-3); font-weight: 500; font-size: 0.8rem; font-family: "IBM Plex Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; } }
@@ -175,7 +175,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .worked.before img.logo { height: 26px; width: auto; filter: brightness(0) opacity(0.55); }
 .worked.before img.logo.cisco, .worked.before img.logo.upf { height: 30px; }
 .worked.before img.logo.webex { height: 34px; }
-.worked.before img.logo.orange { height: 24px; }
+.worked.before img.logo.orange { height: 32px; }
 .worked.before img.logo.sonar { height: 20px; }
 .worked.before .lockup { display: inline-flex; align-items: center; gap: 0.4rem;
   img.logo.sym { height: 22px; } }
@@ -221,3 +221,10 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .cta { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 1.6rem 1.8rem; margin: 2.5rem 0 3rem;
   h2 { margin-top: 0; } p { color: var(--ink-2); } .btn-accent { margin-top: 0.4rem; } }
 .modes > p { display: contents; }
+
+// Review fixes: arrows never orphaned, founder line, outcome lines, right-aligned more-link, nav button.
+.card-link, .more a { white-space: nowrap; }
+.founderline { margin-top: 1.4rem; font-size: 0.92rem; color: var(--ink-2); a { white-space: nowrap; } }
+.svc p.outcome { color: var(--ink); font-weight: 600; margin-top: 0.3rem; }
+.more { text-align: right; margin: -0.6rem 0 1.5rem; font-weight: 600; }
+.navbar a.nav-link[href$="services.html#contact"] { background: var(--act); color: var(--on-layer) !important; border-radius: 6px; padding: 0.3rem 0.8rem !important; margin-right: 0.6rem; font-weight: 600; }

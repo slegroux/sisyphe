@@ -13,12 +13,14 @@ format:
 
 # AI that acts in the world.
 
-<p class="lede">We build situated agents: systems that perceive a live environment, reason about it, and act inside it, then notice what changed. A studio, a simulator, a robot, an archive. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
+<p class="lede">We build AI agents that work inside real software and real machines, not chatbots beside them: music tools, simulators, robots, archives. They see the whole environment, act in it safely, and notice what changed. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
 
 <div class="btn-row">
 <a class="btn-accent" href="sideman.html">See Sideman</a>
 <a class="btn-quiet" href="services.html">Work with us</a>
 </div>
+
+<p class="founderline">Founded by Sylvain Le Groux, former Principal AI Engineer at Cisco. Ph.D., two US patents. <a href="https://ccrma.stanford.edu/~slegroux">Background →</a></p>
 </div>
 
 <svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around the world">
@@ -35,8 +37,8 @@ format:
   <text class="label" x="283.9" y="240">reason</text>
   <circle class="node act" cx="76.1" cy="240" r="38"/>
   <text class="label" x="76.1" y="240">act</text>
-  <text class="world" x="180" y="176">the world</text>
-  <text class="sub" x="180" y="202">DAW · SIM · ROBOT · ARCHIVE</text>
+  <text class="world" x="180" y="170">the world</text>
+  <text class="sub" x="180" y="192">DAW · SIM · ROBOT · ARCHIVE</text>
 </svg>
 :::
 
@@ -62,12 +64,12 @@ Real writes with real undo, control loops that move a machine in simulation or i
 <div><span class="n">Sideman</span><span class="l">An MCP server that gives Claude the 922 measured members of Ableton Live, and sees what you do by hand.</span></div>
 <div><span class="n">Bestiary</span><span class="l">A MuJoCo simulator for things that move. Its first creature, a quadrotor, speaks MAVLink, so Udacity course flight scripts connect unchanged.</span></div>
 <div><span class="n">Tamada</span><span class="l">Fractional CTO for AI-augmented art curation: visual search over a collection on CLIP embeddings and a vector index.</span></div>
-<div><span class="n">The Brain Orchestra</span><span class="l">A string quartet played by four people's brain signals, 2009.</span></div>
+<div><span class="n">Pappus</span><span class="l">A notebook that teaches: the AI sees every cell and hints, and the learner runs the code.</span></div>
 :::
 
-[All projects →](projects.html)
+<p class="more"><a href="projects.html">All projects →</a></p>
 
-## Products
+## What we offer
 
 ::: {.cards .grid-2}
 ::: {.card-s}
@@ -112,14 +114,10 @@ Before Sideman there was a string quartet played by four people's brain signals,
 
 [See the background →](about.html#background)
 
-## Who
+::: {.cta}
+## Start a conversation
 
-::: {.founder}
-<img src="assets/sylvain.jpg" alt="Sylvain Le Groux">
+Tell us what you are building and where it is stuck. You will get a reply from the person who would do the work.
 
-<div>
-**Sylvain Le Groux** founded Sisyphe after a decade in industry shipping speech and language models to millions of users, and a decade before that in research labs, building interactive music systems and studying how sound moves people. These days the day job is autonomy and robotics, and the side projects are simulators and a DAW. Ph.D. in computer and cognitive science, M.A. in music composition, a long-time musician who now mostly makes electronic music.
-
-[About Sisyphe →](about.html)
-</div>
+<a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a> <a class="btn-quiet" href="services.html">See services</a>
 :::

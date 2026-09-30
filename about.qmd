@@ -118,10 +118,10 @@ Narrative, music and dance fused with real-time synthetic composition, video art
 <div><span class="y">2021</span><span class="a">Teaching assistant, Ryan Tedder's songwriting studio, one of 15 chosen from 2,800 applicants</span><span class="w">Remote</span></div>
 <div><span class="y">2020</span><span class="a">Finalist, Cisco Data Science Awards</span><span class="w">Milpitas</span></div>
 <div><span class="y">2012</span><span class="a">Best Performance, Sónar Music Hack Day</span><span class="w">Barcelona</span></div>
-<div><span class="y">2012</span><span class="a">Ph.D. Award, Consortium for Advanced Studies in Barcelona</span><span class="w">Stanford</span></div>
+<div><span class="y">2012</span><span class="a">Ph.D. Award, Consortium for Advanced Studies in Barcelona</span><span class="w">Barcelona</span></div>
 <div><span class="y">2011</span><span class="a">Best Hack, Sónar Music Hack Day</span><span class="w">Barcelona</span></div>
 <div><span class="y">2011</span><span class="a">Doctor summa cum laude, Universitat Pompeu Fabra</span><span class="w">Barcelona</span></div>
-<div><span class="y">2008</span><span class="a">Research award, Generalitat de Catalunya</span><span class="w">Stanford</span></div>
+<div><span class="y">2008</span><span class="a">Research award, Generalitat de Catalunya</span><span class="w">Barcelona</span></div>
 <div><span class="y">2004</span><span class="a">Fulbright and Georges Lurcy Fellow</span><span class="w">UC Berkeley</span></div>
 :::
 

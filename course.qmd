@@ -18,12 +18,12 @@ The course is one track told twice. Pick the telling that fits you.
 
 ::: {.cards}
 ::: {.card-s}
-<div class="eyebrow">Track 1</div>
+<div class="eyebrow">Path 1</div>
 ### Make a track with Claude
 For musicians. You type what you want. The page tells you what Claude does, what you will see in Live, and how to check it. No code, nothing to install beyond Sideman and Claude Code. One lesson uses a third-party plug-in and one a vocal sample. Both have a stock-Live alternative.
 :::
 ::: {.card-s}
-<div class="eyebrow">Track 2</div>
+<div class="eyebrow">Path 2</div>
 ### Under the hood
 For programmers and the curious. The same ten lessons as executed notebooks driving Sideman's Python client, every cell's output frozen from a real Set. Read them, or run them against your own Live.
 :::
