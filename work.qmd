@@ -15,9 +15,14 @@ format:
 Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
 :::
 
-::: {.worked}
-<span class="faint">Worked with</span>
-<span>Cisco</span><span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Persona</span><span>Parts Order</span><span>Tamada</span><span>Stanford</span><span>Pompeu Fabra</span><span>Georgia Tech</span><span>Museaic Labs</span><span>Fundación Orange</span><span>Sónar+D</span>
+::: {.worked .clients}
+<span class="faint">Clients</span>
+<span class="client">Persona</span><span class="client">Parts Order</span><span class="client">Tamada</span>
+:::
+
+::: {.worked .before}
+<span class="faint">Before Sisyphe</span>
+<span>Cisco</span><span>Webex</span><span>Voicea</span><span>Ava</span><span>Ginger.io</span><span>Stanford</span><span>Pompeu Fabra</span><span>Georgia Tech</span><span>Museaic Labs</span><span>Fundación Orange</span><span>Sónar+D</span>
 :::
 
 ::: {.offer2}

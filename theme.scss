@@ -167,3 +167,11 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   h3 { margin: 0 0 0.4rem; font-size: 1.15rem; } p { margin: 0; color: var(--ink-2); } }
 .cards.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 700px) { .cards.grid-2 { grid-template-columns: 1fr; } }
+// Clients get logos once each has agreed: <img class="logo" src="assets/clients/x.svg" alt="X">.
+// Logos are shown in one ink colour so fourteen brands read as one strip.
+.worked.clients { border-bottom: 0; gap: 0.8rem 2.6rem;
+  span.client { font-size: 1.3rem; color: var(--ink); }
+  img.logo { height: 28px; width: auto; filter: grayscale(1) brightness(0) opacity(0.75); } }
+.quarto-dark .worked.clients img.logo { filter: grayscale(1) brightness(0) invert(1) opacity(0.8); }
+.worked.before { margin-top: 0; padding-top: 0.9rem; gap: 0.4rem 1.4rem;
+  span:not(.faint) { font-size: 0.92rem; font-weight: 600; color: var(--ink-3); } }
