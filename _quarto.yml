@@ -57,10 +57,14 @@ format:
       light: [theme.scss]
     css: styles.css
     toc: false
+    highlight-style:
+      light: github
+      dark: dracula
     smooth-scroll: true
     link-external-newwindow: true
     include-after-body:
       - file: _copy-email.html
+      - file: _mobile-cta.html
     include-in-header:
       - file: _analytics.html
       - file: _seo.html

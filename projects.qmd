@@ -31,25 +31,25 @@ Gives Claude the whole of Ableton Live through Live's own object model. Observer
 
 ::: {.proj data-layers="perceive reason"}
 <div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
-  <rect class="fill-panel ink" x="40" y="24" width="250" height="236" rx="8" stroke-width="2"/>
-  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M60 50 H170 M60 64 H230 M60 78 H200"/></g>
-  <rect class="fill-panel ink" x="56" y="96" width="218" height="58" rx="5" stroke-width="1.5"/>
-  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M70 114 H120 M128 114 H170 M70 128 H100 M108 128 H190 M70 142 H140"/></g>
-  <text class="cap" x="240" y="148">run</text>
-  <rect class="fill-panel ink" x="56" y="170" width="218" height="72" rx="5" stroke-width="1.5"/>
-  <circle class="r" cx="74" cy="188" r="7"/>
-  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M90 188 H200 M74 210 H250 M74 224 H220"/></g>
-  <path class="rs" d="M290 206 C 325 206, 344 170, 344 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
-  <g transform="translate(344 96)">
+  <rect class="fill-panel ink" x="30" y="24" width="236" height="236" rx="8" stroke-width="2"/>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M48 50 H158 M48 64 H214 M48 78 H188"/></g>
+  <rect class="fill-panel ink" x="44" y="96" width="206" height="58" rx="5" stroke-width="1.5"/>
+  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M58 114 H108 M116 114 H158 M58 128 H88 M96 128 H178 M58 142 H128"/></g>
+  <text class="cap" x="214" y="148">run</text>
+  <rect class="fill-panel ink" x="44" y="170" width="206" height="72" rx="5" stroke-width="1.5"/>
+  <circle class="r" cx="62" cy="188" r="7"/>
+  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M78 188 H188 M62 210 H236 M62 224 H208"/></g>
+  <path class="rs" d="M266 206 C 310 206, 330 170, 330 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
+  <g transform="translate(330 96)">
     <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
     <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
   </g>
-  <g transform="translate(344 214)">
+  <g transform="translate(330 214)">
     <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
     <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
     <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
   </g>
-  <text class="cap" x="40" y="290">note · code · ask · you run it</text>
+  <text class="cap" x="30" y="290">note · code · ask · you run it</text>
 </svg></div>
 <div class="body">
 <div class="eyebrow meta"><span class="status">Public</span> · 2026 · Learning notebook</div>
@@ -57,32 +57,6 @@ Gives Claude the whole of Ableton Live through Live's own object model. Observer
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 A local-first notebook that teaches. The AI sees every cell above your question and answers a hint or a guiding question at a time. It never runs a cell, and by default it cannot write files: running the code stays the learner's job. Built on Answer.AI's SolveIt method.
 <a class="card-link" href="https://slegroux.github.io/pappus/">Pappus site →</a>
-</div>
-:::
-
-::: {.proj data-layers="perceive act"}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
-  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
-    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
-    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
-  </g>
-  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
-  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
-  <circle class="a" cx="300" cy="70" r="6"/>
-  <g transform="translate(200 96)">
-    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
-    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
-    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
-    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
-    <circle class="r" cx="0" cy="0" r="4"/>
-  </g>
-  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Simulation · sim-to-real</div>
-### Bestiary
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-A MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a sim-to-real project on NVIDIA Cosmos.
 </div>
 :::
 
@@ -115,7 +89,7 @@ A recorded DJ set in, a Live session out: bass, drums, synths and vocals separat
 ### Westside LA Events
 <div class="chips"><span class="chip perceive">perceive</span></div>
 Sixty scrapers over venues, museums and community calendars on LA's Westside, unified into one search with maps and analytics, deployed on Cloud Run. A city as an archive: the perceive layer, at civic scale.
-<a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app →</a>
+<a class="card-link" href="https://westside-events-406046958598.us-west1.run.app">Open the app (takes a few seconds to wake) →</a>
 </div>
 :::
 
@@ -142,6 +116,32 @@ Sixty scrapers over venues, museums and community calendars on LA's Westside, un
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 A personal open-source toolkit for speech, audio and language modelling: modules, models and training recipes for getting deep-learning experiments running quickly.
 <a class="card-link" href="https://slegroux.github.io/nimrod">Nimrod docs →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive act"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
+  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
+    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
+    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
+  </g>
+  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
+  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
+  <circle class="a" cx="300" cy="70" r="6"/>
+  <g transform="translate(200 96)">
+    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
+    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
+    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
+    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
+    <circle class="r" cx="0" cy="0" r="4"/>
+  </g>
+  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Personal</span> · 2026 · Simulation · sim-to-real</div>
+### Bestiary
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
+A MuJoCo simulator for things that move. Its first creature is a quadrotor that speaks MAVLink, so flight scripts written for the Udacity course simulator connect unchanged, headless at 30 to 60 times real time. Alongside it, a sim-to-real project on NVIDIA Cosmos.
 </div>
 :::
 
@@ -192,3 +192,5 @@ document.querySelectorAll('.layerfilter button').forEach(function (b) {
   });
 });
 </script>
+
+{{< include _cta.qmd >}}

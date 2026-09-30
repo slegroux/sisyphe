@@ -1,6 +1,6 @@
 ---
 pagetitle: "AI that acts in the world"
-description: "Sisyphe builds situated agents: systems that perceive a live environment, reason about it, and act inside it. Maker of Sideman, the Ableton Live MCP server."
+description: "Sisyphe builds AI for art, music and creative tools: agents that work inside DAWs, plug-ins, collections and installations. Maker of Sideman, the Ableton Live MCP server."
 image: assets/brand/og.png
 format:
   html:
@@ -9,11 +9,13 @@ format:
 
 ::: {.hero}
 <div>
-<div class="eyebrow">Sisyphe · situated AI</div>
+<div class="eyebrow">Sisyphe · creative AI</div>
 
 # AI that acts in the world.
 
-<p class="lede">We build AI agents that work inside real software and real machines, not chatbots beside them: music tools, simulators, robots, archives. They see the whole environment, act in it safely, and notice what changed. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
+<p class="lede">We build AI that works inside the instruments, tools and spaces artists already use: DAWs and plug-ins, collections and archives, installations and stages. Not a chatbot beside them, but agents that see the whole environment, act in it safely, and notice what changed. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
+
+<p class="audience">For music-tech companies, labels and studios, museums and galleries, festivals and artists.</p>
 
 <div class="btn-row">
 <a class="btn-accent" href="sideman.html">See Sideman</a>
@@ -23,7 +25,7 @@ format:
 <p class="founderline">Founded by Sylvain Le Groux, former Principal AI Engineer at Cisco. Ph.D., two US patents. <a href="https://ccrma.stanford.edu/~slegroux">Background →</a></p>
 </div>
 
-<svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around the world">
+<svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around a DAW, a stage, a gallery or an archive">
   <circle class="ring" cx="180" cy="180" r="120"/>
   <path class="arc perceive" d="M180,60 A120,120 0 0 1 283.9,240"/>
   <path class="arc reason"   d="M283.9,240 A120,120 0 0 1 76.1,240"/>
@@ -38,7 +40,7 @@ format:
   <circle class="node act" cx="76.1" cy="240" r="38"/>
   <text class="label" x="76.1" y="240">act</text>
   <text class="world" x="180" y="170">the world</text>
-  <text class="sub" x="180" y="192">DAW · SIM · ROBOT · ARCHIVE</text>
+  <text class="sub" x="180" y="192">DAW · STAGE · GALLERY · ARCHIVE</text>
 </svg>
 :::
 
@@ -46,7 +48,7 @@ format:
 ::: {.layer .perceive}
 <div class="eyebrow c-perceive">Layer one</div>
 ### Perceive
-What the model can see decides what it can do. We build the senses: bridges into an application's object model, observers that report what a human did by hand, embeddings over an archive, simulators that expose true state.
+What the model can see decides what it can do. We build the senses: bridges into an application's object model, observers that report what a human did by hand, embeddings over a collection, sensors on a stage.
 :::
 ::: {.layer .reason}
 <div class="eyebrow c-reason">Layer two</div>
@@ -56,46 +58,83 @@ Grammars, skills and evaluation. We teach the model how a domain is shaped so it
 ::: {.layer .act}
 <div class="eyebrow c-act">Layer three</div>
 ### Act
-Real writes with real undo, control loops that move a machine in simulation or in the world, and a guard before anything destructive. An agent that acts has to be safe to be wrong.
+Real writes with real undo, sound, light and machines that answer in real time, and a guard before anything destructive. An agent that acts has to be safe to be wrong.
 :::
 :::
-
-::: {.proofstrip}
-<div><span class="n">Sideman</span><span class="l">An MCP server that gives Claude the 922 measured members of Ableton Live, and sees what you do by hand.</span></div>
-<div><span class="n">Bestiary</span><span class="l">A MuJoCo simulator for things that move. Its first creature, a quadrotor, speaks MAVLink, so Udacity course flight scripts connect unchanged.</span></div>
-<div><span class="n">Tamada</span><span class="l">Fractional CTO for AI-augmented art curation: visual search over a collection on CLIP embeddings and a vector index.</span></div>
-<div><span class="n">Pappus</span><span class="l">A notebook that teaches: the AI sees every cell and hints, and the learner runs the code.</span></div>
-:::
-
-<p class="more"><a href="projects.html">All projects →</a></p>
 
 ## What we offer
 
-::: {.cards .grid-2}
-::: {.card-s}
-<div class="eyebrow">Open source</div>
+::: {.offers}
+::: {.offer}
+<div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
+<div class="body">
+<div class="eyebrow">Open source · product</div>
 ### Sideman
-An MCP server for Ableton Live 12 built on Live's own object model rather than a hand-written list of commands. Everything Live can do is in reach, and it notices what you do by hand.
+Gives Claude the whole of Ableton Live through Live's own object model, and notices what you do by hand.
 <a class="card-link" href="sideman.html">About Sideman →</a>
+</div>
 :::
-::: {.card-s}
-<div class="eyebrow">Public</div>
+::: {.offer}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
+  <rect class="fill-panel ink" x="30" y="24" width="236" height="236" rx="8" stroke-width="2"/>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M48 50 H158 M48 64 H214 M48 78 H188"/></g>
+  <rect class="fill-panel ink" x="44" y="96" width="206" height="58" rx="5" stroke-width="1.5"/>
+  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M58 114 H108 M116 114 H158 M58 128 H88 M96 128 H178 M58 142 H128"/></g>
+  <text class="cap" x="214" y="148">run</text>
+  <rect class="fill-panel ink" x="44" y="170" width="206" height="72" rx="5" stroke-width="1.5"/>
+  <circle class="r" cx="62" cy="188" r="7"/>
+  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M78 188 H188 M62 210 H236 M62 224 H208"/></g>
+  <path class="rs" d="M266 206 C 310 206, 330 170, 330 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
+  <g transform="translate(330 96)">
+    <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
+    <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
+  </g>
+  <g transform="translate(330 214)">
+    <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
+    <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
+    <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
+  </g>
+  <text class="cap" x="30" y="290">note · code · ask · you run it</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow">Public · learning</div>
 ### Pappus
-A local-first notebook that teaches. The AI sees every cell above your question and answers with a hint or a small step. It never runs a cell, and by default it can't write files: running the code is your job. Built on Answer.AI's SolveIt method.
+A notebook that teaches: the AI sees every cell and hints, and the learner runs the code.
 <a class="card-link" href="https://slegroux.github.io/pappus/">About Pappus →</a>
+</div>
 :::
-::: {.card-s}
-<div class="eyebrow">Course</div>
+::: {.offer}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A whiteboard with the perceive, reason, act loop sketched on it, and a room of people">
+  <rect class="fill-panel ink" x="60" y="34" width="280" height="150" rx="6" stroke-width="2"/>
+  <g transform="translate(200 109) scale(0.42)">
+    <circle cx="0" cy="0" r="120" fill="none" class="ink3" stroke-width="3"/>
+    <path class="ps" d="M0,-120 A120,120 0 0 1 103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path class="rs" d="M103.9,60 A120,120 0 0 1 -103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path class="as" d="M-103.9,60 A120,120 0 0 1 0,-120" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <circle class="p" cx="0" cy="-120" r="26"/><circle class="r" cx="103.9" cy="60" r="26"/><circle class="a" cx="-103.9" cy="60" r="26"/>
+  </g>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M80 60 H120 M80 74 H110 M292 150 H320 M292 164 H312"/></g>
+  <g class="ink" fill="none" stroke-width="2">
+    <g transform="translate(90 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(145 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(200 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(255 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+    <g transform="translate(310 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
+  </g>
+  <text class="cap" x="60" y="290">workshops · courses · studios</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow">Course · workshops</div>
 ### A track, start to finish
-Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live. Told twice: once for musicians, once for programmers.
+Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live.
 <a class="card-link" href="course.html">About the course →</a>
+</div>
 :::
-::: {.card-s}
-<div class="eyebrow">Services</div>
-### Work with us
-Build, advise or teach: agents inside music and creative tools, speech and audio ML, interactive art, robotics and simulation, research to product, and workshops.
-<a class="card-link" href="services.html">What we take on →</a>
 :::
+
+::: {.offerline}
+<div><span class="eyebrow">Services</span> Build, advise or teach: agents inside creative tools, music and audio ML, interactive art and installations, research to product, workshops. <a href="services.html">What we take on →</a></div>
+<div><span class="eyebrow">Clients</span> Tamada (AI-augmented art curation) · Parts Order (music source separation) · Persona (real-time voice). <a href="projects.html">All projects →</a></div>
 :::
 
 ## Why Sisyphe
@@ -106,13 +145,7 @@ Sisyphus pushed the same rock up the same hill, forever. Skilled work has more o
 We build the thing that pushes the rock. You keep the part that needs you: the taste, the judgment, the call.
 :::
 
-## Two decades of situated systems, one idea
-
-::: {.measure}
-Before Sideman there was a string quartet played by four people's brain signals, a room that composed music from how you moved through it, and an arena where robots drove the score. A policy driving a robot from what its camera sees is the same idea with a different actuator: a system that perceives what is happening and answers with an action.
-:::
-
-[See the background →](about.html#background)
+<p class="more left"><a href="about.html#background">The idea is older than the company: see where it comes from →</a></p>
 
 ::: {.cta}
 ## Start a conversation

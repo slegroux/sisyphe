@@ -55,3 +55,5 @@ The same material runs as a live workshop: a day for a studio or a label, a week
 ## Get notified
 
 The course is being finished now. Write to [sylvain.legroux@gmail.com](mailto:sylvain.legroux@gmail.com?subject=Sideman%20course) with "course" in the subject and you will hear when it ships.
+
+{{< include _cta.qmd >}}

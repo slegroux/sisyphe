@@ -108,3 +108,11 @@ The [full install guide](https://slegroux.github.io/sideman/#install), the [tuto
 | Assistant | Claude Code, Codex, or any MCP client. |
 | Plugins | Every parameter of every native device and rack. VST/AU parameters you have exposed with Live's Configure button. |
 | Network | None. Talks to Live on localhost, on its own port, so it coexists with other Ableton servers. |
+
+::: {.cta}
+## Want this for your own tool?
+
+We build agents like Sideman for other applications: DAWs, plug-ins, creative apps and collections.
+
+<a class="btn-accent" href="services.html#contact">Work with us</a> <a class="btn-quiet" href="services.html">See services</a>
+:::

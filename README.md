@@ -11,7 +11,7 @@ Company site for Sisyphe LLC ("AI that acts in the world"). Quarto, static, no e
 | `course.qmd` | The ten-lesson course |
 | `projects.qmd` | What Sisyphe has built since 2023, as cards with a layer filter (old `lineage.html`, `instruments.html` redirect here) |
 | `services.qmd` | Services and proof (old `work.html` redirects here) |
-| `about.qmd` | Founder, company, and the pre-Sisyphe background timeline and recognition |
+| `about.qmd` | What Sisyphe does, a short founder bio, and the pre-Sisyphe background timeline |
 
 ## Render
 

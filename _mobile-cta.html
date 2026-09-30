@@ -1,0 +1,10 @@
+<!-- On phones the navbar "Work with us" collapses into the menu; show a floating one once the visitor scrolls past the first screen. -->
+<a class="mobile-cta" href="services.html#contact">Work with us</a>
+<script>
+(function () {
+  var b = document.querySelector('.mobile-cta');
+  if (!b) return;
+  var f = function () { b.classList.toggle('show', window.scrollY > window.innerHeight * 0.8); };
+  window.addEventListener('scroll', f, { passive: true }); f();
+})();
+</script>

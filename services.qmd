@@ -1,7 +1,7 @@
 ---
 pagetitle: "Services"
 aliases: [work.html]
-description: "Sisyphe builds, advises and teaches: agents inside music and creative tools, interactive art, robotics and simulation, speech and audio ML, research to product, and workshops."
+description: "Sisyphe builds, advises and teaches AI for art, music and creative tools: agents inside creative software, music and audio ML, interactive art and installations, research to product, and workshops."
 image: assets/brand/og.png
 format:
   html:
@@ -13,13 +13,13 @@ format:
 # Build, advise, teach.
 
 ::: {.lede .muted}
-Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real robot, a real signal or a real collection. If you are not sure your problem fits, write anyway.
+Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real stage, a real signal or a real collection: music technology, creative tools, art and culture. If you are not sure your problem fits, write anyway.
 :::
 
 ::: {.modes}
-<a class="mode" href="#build"><span class="eyebrow">01 · Build</span><strong>We make the thing.</strong><span>Agents inside music and creative tools, speech and audio ML, interactive art, robotics and simulation.</span></a>
-<a class="mode" href="#advise"><span class="eyebrow">02 · Advise</span><strong>We de-risk the thing.</strong><span>Research to product, fractional CTO, scientific advice.</span></a>
-<a class="mode" href="#teach"><span class="eyebrow">03 · Teach</span><strong>We make your team able to do it.</strong><span>Workshops, courses and graduate modules.</span></a>
+<a class="mode" href="#build"><span class="eyebrow">01 · Build</span><strong>We make the thing.</strong><span>Agents inside creative tools, music and audio ML, interactive art and installations.</span></a>
+<a class="mode" href="#advise"><span class="eyebrow">02 · Advise</span><strong>We de-risk the thing.</strong><span>Research to product, fractional CTO and scientific advice for creative-tech teams and cultural institutions.</span></a>
+<a class="mode" href="#teach"><span class="eyebrow">03 · Teach</span><strong>We make your team able to do it.</strong><span>Workshops and courses for studios, schools and art programs.</span></a>
 :::
 
 ## Build {#build}
@@ -29,14 +29,14 @@ Working software in your repo, measured against the real environment it has to r
 :::
 
 ::: {.svcgrid}
-::: {.svc}
+::: {.svc .wide}
 <div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with three tracks Claude created and a filter automation curve it wrote"></div>
 <div class="body">
 <div class="eyebrow field">Music technology · creative tools</div>
-### Agents inside real tools
+### Agents inside creative tools
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 <p class="outcome">You get an agent that can operate your whole application, and an evaluation that tells you when its coverage slips.</p>
-<p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see, build the bridge into your object model or archive, and write the evaluation that tells you when coverage slips.</p>
+<p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see and build the bridge into your object model or archive.</p>
 <ul class="proof"><li><a href="sideman.html">Sideman</a>: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has.</li><li>Persona: real-time conversational voice pipelines, as an embedded ML engineer.</li></ul>
 </div>
 :::
@@ -59,11 +59,11 @@ Working software in your repo, measured against the real environment it has to r
   <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
 </svg></div>
 <div class="body">
-<div class="eyebrow field">Audio and speech</div>
-### Speech, audio and music ML
+<div class="eyebrow field">Music and audio</div>
+### Music, audio and voice ML
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-<p class="outcome">You get speech and audio models that hold up in production, not only on a benchmark.</p>
-<p>Speech recognition and synthesis, speaker recognition, music source separation, audio classification and the language models around them. Data pipelines, training, evaluation, and getting a model into a product people use without noticing it.</p>
+<p class="outcome">You get music and audio models that hold up in a product, not only on a benchmark.</p>
+<p>Music source separation, audio classification and recommendation, speech recognition and synthesis, and the language models around them. Data pipelines, training, evaluation, and getting a model into a product people use without noticing it.</p>
 <ul class="proof"><li>Persona: real-time conversational voice pipelines.</li><li>Parts Order: scientific advice on music source separation.</li><li><a href="https://slegroux.github.io/nimrod">Nimrod</a> (personal, open source): a toolkit for speech, audio and language modelling.</li></ul>
 <p class="before"><span>Before Sisyphe</span> Speech recognition and speaker diarization shipped to millions of Webex users at Cisco; speech and speaker recognition at Ava and Voicea.</p>
 </div>
@@ -73,40 +73,12 @@ Working software in your repo, measured against the real environment it has to r
 <div class="fig"><img src="assets/work/brain-orchestra.jpg" alt="The Brain Orchestra on stage: performers wearing EEG caps in front of a screen"></div>
 <div class="body">
 <div class="eyebrow field">Interactive art</div>
-### Interactive systems for art and performance
+### Interactive art and installations
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 <p class="outcome">You get a real-time system that answers people, sensors or signals, with a mapping you can defend.</p>
-<p>Real-time composition, sound and visual systems that respond to sensors, biosignals, movement or game state: installations, performances, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
+<p>Real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state: installations, performances, robots on stage, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
 
 <p class="before"><span>Before Sisyphe</span> The Brain Orchestra, XIM and the Sónar Robot Arena, built in research labs in Barcelona. See <a href="about.html#background">the background</a>.</p>
-</div>
-:::
-
-::: {.svc}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A quadrotor above a grid floor, with its camera view and a planned path">
-  <g class="ink3" stroke-width="1" fill="none" opacity="0.6">
-    <path d="M40 250 L360 250 M60 225 L340 225 M80 202 L320 202 M100 181 L300 181 M120 162 L280 162"/>
-    <path d="M60 145 L40 250 M105 145 L120 250 M150 145 L200 250 M195 145 L280 250 M240 145 L360 250"/>
-  </g>
-  <path class="ps" d="M200 96 L120 250 M200 96 L280 250" stroke-width="1.5" stroke-dasharray="4 4" fill="none" opacity="0.8"/>
-  <path class="as" d="M70 200 C 130 120, 220 130, 300 70" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="1 9"/>
-  <circle class="a" cx="300" cy="70" r="6"/>
-  <g transform="translate(200 96)">
-    <path class="ink" d="M-40 -14 L40 14 M40 -14 L-40 14" stroke-width="4" stroke-linecap="round"/>
-    <rect class="fill-panel ink" x="-14" y="-9" width="28" height="18" rx="4" stroke-width="2"/>
-    <circle class="p" cx="-40" cy="-14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="-14" r="11" opacity="0.9"/>
-    <circle class="p" cx="-40" cy="14" r="11" opacity="0.9"/><circle class="p" cx="40" cy="14" r="11" opacity="0.9"/>
-    <circle class="r" cx="0" cy="0" r="4"/>
-  </g>
-  <text class="cap" x="40" y="280">sim · 30–60× real time</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow field">Robotics</div>
-### Robotics, simulation and learned policies
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-<p class="outcome">You get a simulator and training loop you can trust, and an honest answer on whether the policy learned the task or the simulator.</p>
-<p>Simulators that are fast, inspectable and scriptable; reinforcement learning and vision-language-action policies; and the sim-to-real gap between them. We build the environment, the training loop and the evaluation that tells you whether the policy learned the task or the simulator.</p>
-<ul class="proof"><li><a href="projects.html">Bestiary</a> (personal): a MuJoCo quadrotor that speaks MAVLink, so Udacity course flight scripts connect unchanged, at 30 to 60 times real time.</li><li>A personal sim-to-real project on NVIDIA Cosmos.</li><li>Since 2025 the day job is vision-language-action training pipelines. That work is not for hire.</li></ul>
 </div>
 :::
 
@@ -142,7 +114,7 @@ Read the paper, run the experiment, and say plainly what will work before you bu
 ### Research to product, fractional CTO, scientific advice
 <div class="chips"><span class="chip reason">reason</span></div>
 <p class="outcome">You get a senior second opinion, or your prototype turned into software, before you commit a team to it.</p>
-<p>You have a paper, a lab prototype or a data set that needs to become software, or a team that needs a senior second opinion. We read the paper, talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor. A decade in research labs, a decade in industry.</p>
+<p>For creative-tech teams and cultural institutions: you have a paper, a lab prototype or a collection that needs to become software, or a team that needs a senior second opinion. We read the paper, talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor. A decade in research labs, a decade in industry.</p>
 <ul class="proof"><li>Tamada: fractional CTO for AI-augmented art curation, visual search over a collection from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li></ul>
 <p class="before"><span>Before Sisyphe</span> Museaic Labs, an emotion-driven music recommendation system; technology transfer on interactive systems for autism with Fundación Orange and Universitat de València.</p>
 </div>
