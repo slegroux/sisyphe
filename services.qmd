@@ -145,8 +145,8 @@ format:
   <h2 id="contact-h">Start a conversation.</h2>
   <div class="sv-cta">
     <p>Write with what you are building and where it is stuck. You will get a reply from the person who would do the work.</p>
-    <p class="btn-row"><a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a></p>
-    <p class="addr">Or copy the address: <code>sylvain.legroux@gmail.com</code> <button type="button" class="copy-email" data-email="sylvain.legroux@gmail.com">Copy</button></p>
+    <p class="btn-row"><a class="btn-accent" href="mailto:sisyphe.lab@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a></p>
+    <p class="addr">Or copy the address: <code>sisyphe.lab@gmail.com</code> <button type="button" class="copy-email" data-email="sisyphe.lab@gmail.com">Copy</button></p>
   </div>
 </section>
 ```

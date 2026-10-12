@@ -79,8 +79,8 @@ format:
   </div>
   <div class="closer-cta" id="contact">
     <p>Tell us what you are building and where it is stuck.</p>
-    <p class="btn-row"><a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a> <a class="btn-quiet" href="services.html">See services</a></p>
-    <p class="addr">Or copy the address: <code>sylvain.legroux@gmail.com</code> <button type="button" class="copy-email" data-email="sylvain.legroux@gmail.com">Copy</button></p>
+    <p class="btn-row"><a class="btn-accent" href="mailto:sisyphe.lab@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a> <a class="btn-quiet" href="services.html">See services</a></p>
+    <p class="addr">Or copy the address: <code>sisyphe.lab@gmail.com</code> <button type="button" class="copy-email" data-email="sisyphe.lab@gmail.com">Copy</button></p>
   </div>
   <p class="course"><span class="lbl">Course</span> Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live. <a href="course.html">About the course →</a></p>
 </section>
