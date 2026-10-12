@@ -15,10 +15,8 @@ website:
   favicon: assets/brand/favicon.svg
   image: assets/brand/og.png
   open-graph: true
-  # Same GA4 property as the personal site (ccrma.stanford.edu/~slegroux); split reports by hostname.
-  google-analytics:
-    tracking-id: "G-5085ZZWCCV"
-    anonymize-ip: true
+  # Google Analytics: G-5085ZZWCCV (shared with the personal site), loaded from _ga.html so
+  # page views carry content_group "Sisyphe". Cookie consent below still gates it.
   # 'implied' = notice with opt-out: GA runs unless the visitor turns it off in Cookie preferences.
   cookie-consent:
     type: implied
@@ -72,6 +70,7 @@ format:
       - file: _copy-email.html
       - file: _mobile-cta.html
     include-in-header:
+      - file: _ga.html
       - file: _seo.html
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">
