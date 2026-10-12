@@ -37,7 +37,7 @@ Working software in your repo, measured against the real environment it has to r
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 <p class="outcome">You get an agent that can operate your whole application, and an evaluation that tells you when its coverage slips.</p>
 <p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see and build the bridge into your object model or archive.</p>
-<ul class="proof"><li><a href="sideman.html">Sideman</a>: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has.</li><li>Persona: real-time conversational voice pipelines, as an embedded ML engineer.</li></ul>
+<ul class="proof"><li><a href="https://slegroux.github.io/sideman/">Sideman</a>: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has.</li><li>Persona: real-time conversational voice pipelines, as an embedded ML engineer.</li></ul>
 </div>
 :::
 

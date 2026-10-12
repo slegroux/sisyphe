@@ -6,8 +6,8 @@ Company site for Sisyphe LLC ("AI that acts in the world"). Quarto, static, no e
 
 | File | Page |
 |---|---|
-| `index.qmd` | Thesis, the perceive–reason–act loop, proof strip, products, founder teaser |
-| `sideman.qmd` | Sideman product summary; the full landing page stays with the code |
+| `index.qmd` | Work-first home: headline, a wall of work (Kiln loop, Sideman, Dandelion), the perceive–reason–act loop, closer |
+| `sideman.qmd` | Redirect to Sideman's own site (slegroux.github.io/sideman/), kept so old links work |
 | `course.qmd` | The ten-lesson course |
 | `projects.qmd` | What Sisyphe has built since 2023, as cards with a layer filter (old `lineage.html`, `instruments.html` redirect here) |
 | `services.qmd` | Services and proof (old `work.html` redirects here) |

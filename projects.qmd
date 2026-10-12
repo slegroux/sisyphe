@@ -31,7 +31,7 @@ Tools that work inside your DAW, on your session, with real undo.
 ### Sideman
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 Gives Claude the whole of Ableton Live through Live's own object model. Observers report what you do by hand, a skill teaches the model how Live's paths are shaped, and thirty tools write into the Set with real undo.
-<a class="card-link" href="sideman.html">About Sideman →</a>
+<a class="card-link" href="https://slegroux.github.io/sideman/">Sideman site →</a>
 </div>
 :::
 

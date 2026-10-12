@@ -12,7 +12,7 @@ format:
 <header class="mast">
   <div class="mast-index">
     <span>Sisyphe · creative AI</span>
-    <span class="mast-idx">Index <a href="sideman.html">Sideman</a> <a href="projects.html#kiln">Kiln</a> <a href="https://slegroux.github.io/dandelion/">Dandelion</a></span>
+    <span class="mast-idx">Index <a href="https://slegroux.github.io/sideman/">Sideman</a> <a href="projects.html#kiln">Kiln</a> <a href="https://slegroux.github.io/dandelion/">Dandelion</a></span>
   </div>
   <h1 class="mast-h1">
     <span class="ln">AI that acts</span>
@@ -36,7 +36,7 @@ format:
     <button class="vid-toggle" type="button" aria-pressed="false">Pause<span class="visually-hidden"> the animation</span></button>
   </div>
 
-  <a class="work w-sideman framed" href="sideman.html">
+  <a class="work w-sideman framed" href="https://slegroux.github.io/sideman/">
     <div class="media"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman" loading="lazy"></div>
     <div class="cap"><span class="n">02</span><span class="t"><b>Sideman</b> · Claude inside Ableton Live</span><span class="s">Open source</span></div>
   </a>
