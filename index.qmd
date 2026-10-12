@@ -12,7 +12,7 @@ format:
 <header class="mast">
   <div class="mast-index">
     <span>Sisyphe · creative AI</span>
-    <span class="mast-idx">Index <a href="https://slegroux.github.io/sideman/">Sideman</a> <a href="projects.html#kiln">Kiln</a> <a href="https://slegroux.github.io/dandelion/">Dandelion</a></span>
+    <span class="mast-idx">Products <a href="https://slegroux.github.io/sideman/">Sideman</a> <a href="projects.html#kiln">Kiln</a> <a href="https://slegroux.github.io/dandelion/">Dandelion</a> <span aria-hidden="true">&nbsp;·</span> <a href="projects.html">All projects →</a></span>
   </div>
   <h1 class="mast-h1">
     <span class="ln">AI that acts</span>
