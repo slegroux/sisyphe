@@ -15,6 +15,16 @@ website:
   favicon: assets/brand/favicon.svg
   image: assets/brand/og.png
   open-graph: true
+  # Same GA4 property as the personal site (ccrma.stanford.edu/~slegroux); split reports by hostname.
+  google-analytics:
+    tracking-id: "G-5085ZZWCCV"
+    anonymize-ip: true
+  # 'implied' = notice with opt-out: GA runs unless the visitor turns it off in Cookie preferences.
+  cookie-consent:
+    type: implied
+    style: simple
+    palette: light
+    prefs-text: "Cookie preferences"
   twitter-card:
     creator: "@slegroux"
   navbar:
@@ -62,7 +72,6 @@ format:
       - file: _copy-email.html
       - file: _mobile-cta.html
     include-in-header:
-      - file: _analytics.html
       - file: _seo.html
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">

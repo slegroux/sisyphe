@@ -42,7 +42,7 @@ Quarto emits title/description, Open Graph and Twitter cards, `sitemap.xml` and 
 
 ## Analytics
 
-Cloudflare Web Analytics, via `_analytics.html`, included in every page's `<head>`. It sets no cookies, so no consent banner. Create the site under Analytics & Logs → Web Analytics in the Cloudflare dashboard (any hosting, not only Cloudflare Pages), copy the token from the snippet it shows, and replace `REPLACE_WITH_CLOUDFLARE_TOKEN` in `_analytics.html`. Until then the beacon loads with a bogus token and records nothing.
+Google Analytics 4 (`G-5085ZZWCCV`, the same property as the personal site; reports split by hostname), set in `_quarto.yml` under `website.google-analytics`. Quarto's cookie consent runs with `type: implied`: a notice, GA on unless the visitor opts out under "Cookie preferences" in the footer. For an opt-in banner (GA off until the visitor accepts), switch to `type: express`.
 
 ## Theme
 
