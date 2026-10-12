@@ -194,6 +194,9 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
     h3 { margin: 0; } p { margin: 0; color: var(--ink-2); }
     .card-link { margin-top: auto; padding-top: 0.6rem; font-weight: 600; } }
   .status { color: var(--ink); } }
+.proj.wide { grid-column: 1 / -1; display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  .fig { aspect-ratio: 4 / 3; border-bottom: 0; border-right: 1px solid var(--rule); }
+  @media (max-width: 720px) { grid-template-columns: 1fr; .fig { border-right: 0; border-bottom: 1px solid var(--rule); } } }
 .projgrid.compact { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 // Services: Build / Research and advise / Teach groups, with a field label on each offering.
 .group-lede { margin: -0.4rem 0 0.6rem; max-width: 40rem; }

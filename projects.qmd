@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built: Sideman and Roadie for music production, Kiln, Pappus and Nimrod (tools and frameworks), Dream Fauna and Bestiary (embodied agents in simulated worlds), Moving Paintings (creative ML), Westside LA Events, and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built: Sideman and Roadie for music production, Kiln, Pappus and Nimrod (tools and frameworks), Dream Fauna and Bestiary (embodied agents in simulated worlds), Moving Paintings and Westside LA Events (creative ML and culture), and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -15,7 +15,7 @@ format:
 Products, public tools, personal projects and client work, almost all of it since Sisyphe began in 2023. Each card is tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
 :::
 
-<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#tools">Tools & frameworks</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML</a> · <a href="#learning-culture">Culture</a> · <a href="#clients">Client work</a></nav>
+<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#tools">Tools & frameworks</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML & culture</a> · <a href="#clients">Client work</a></nav>
 
 ## Music production {#music}
 
@@ -62,17 +62,17 @@ From finished track to Live set. A recording of your own track or set in, a Live
 ## Tools & frameworks {#tools}
 
 ::: {.group-lede .muted}
-The frameworks underneath the work: for sketching, for learning, and for training models.
+Tools and frameworks we build on: for sketching, for learning, and for training models.
 :::
 
 ::: {.projgrid}
-::: {.proj data-layers="perceive reason act"}
+::: {.proj .wide data-layers="perceive reason act"}
 <div class="fig"><img src="assets/work/kiln.jpg" alt="Kiln's showcase window: nineteen panels of shapes, colour, blend modes, curves, shaders, text, a GUI panel and a sound spectrum, all drawn live by one Python sketch"></div>
 <div class="body">
 <div class="eyebrow meta"><span class="status">In development</span> · 2026 · Creative-coding framework</div>
-### Kiln
+### Kiln {#kiln}
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-Sketch with agents. Sketch agents. A fast creative-coding framework for Python on the GPU. A coding agent can write a Kiln sketch, render it to pixels, look at what it drew and fix it. Inside the sketch, `kiln.agents` runs thousands of agents at once, each steered by a behaviour tree. Not public yet.
+Sketch with agents. Sketch agents. A fast creative-coding framework for Python on the GPU. A coding agent can write a Kiln sketch, render it to pixels, look at what it drew and fix it. Inside the sketch, `kiln.agents` runs thousands of agents at once, with one behaviour tree deciding for all of them. Not public yet.
 </div>
 :::
 
@@ -102,13 +102,13 @@ Sketch with agents. Sketch agents. A fast creative-coding framework for Python o
 <div class="eyebrow meta"><span class="status">Public</span> · 2026 · Learning notebook</div>
 ### Pappus
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-A local-first notebook that teaches. The AI sees every cell above your question and answers a hint or a guiding question at a time. It never runs a cell, and by default it cannot write files: running the code stays the learner's job. Built on Answer.AI's SolveIt method.
+A local-first notebook that teaches. The AI sees the cells above your question and answers a hint or a guiding question at a time. It never runs a cell, and by default it cannot write files: running the code stays the learner's job. Built on Answer.AI's SolveIt method.
 <a class="card-link" href="https://slegroux.github.io/pappus/">Pappus site →</a>
 </div>
 :::
 
 ::: {.proj data-layers="perceive reason"}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens: the speech and language models Nimrod trains">
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
   <g class="p">
     <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
   </g>
@@ -122,10 +122,10 @@ A local-first notebook that teaches. The AI sees every cell above your question 
     <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
     <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
   </g>
-  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+  <text class="cap" x="40" y="280">audio · tts · lm</text>
 </svg></div>
 <div class="body">
-<div class="eyebrow meta"><span class="status">Public</span> · 2023– · Deep-learning framework</div>
+<div class="eyebrow meta"><span class="status">Open source</span> · 2023– · Deep-learning framework</div>
 ### Nimrod
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
 A minimal deep-learning framework on PyTorch: modules, models and training recipes, each experiment one Hydra config, for getting from idea to training run quickly. Built for speech, audio and language modelling; on PyPI as `slg-nimrod`.
@@ -179,10 +179,12 @@ A MuJoCo simulator for things that move. Its first creature is a quadrotor that 
 :::
 :::
 
-## Creative ML {#creative-ml}
+## Creative ML & culture {#creative-ml}
+
+[]{#learning-culture}
 
 ::: {.group-lede .muted}
-Generative models that set paintings in motion.
+Paintings set in motion by diffusion models, and a city's cultural life gathered in one place.
 :::
 
 ::: {.projgrid}
@@ -197,15 +199,6 @@ Still paintings dreamed into motion with diffusion models. Each piece takes one 
 </div>
 :::
 
-:::
-
-## Culture {#learning-culture}
-
-::: {.group-lede .muted}
-A city's cultural life, gathered in one place.
-:::
-
-::: {.projgrid}
 ::: {.proj data-layers="perceive"}
 <div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: category filters and a map of event clusters across LA's Westside"></div>
 <div class="body">
