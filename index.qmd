@@ -2,116 +2,114 @@
 pagetitle: "AI that acts in the studio, on stage, in the world"
 description: "Sisyphe builds AI for art, music and creative tools: agents that work inside DAWs, plug-ins, collections and installations. Maker of Sideman for Ableton Live, Kiln for creative coding and Dandelion for learning to code."
 image: assets/brand/og.png
+body-classes: gallery-home
 format:
   html:
     page-layout: full
 ---
 
-::: {.hero}
-<div>
-<div class="eyebrow">Sisyphe · creative AI</div>
+```{=html}
+<header class="mast">
+  <div class="mast-index">
+    <span>Sisyphe · creative AI</span>
+    <span class="mast-idx">Index <a href="sideman.html">Sideman</a> <a href="projects.html#kiln">Kiln</a> <a href="https://slegroux.github.io/dandelion/">Dandelion</a></span>
+  </div>
+  <h1 class="mast-h1">
+    <span class="ln">AI that acts</span>
+    <span class="ln">in the studio, on stage,</span>
+    <span class="ln">in the world<span class="sr-only">.</span><span class="rock" aria-hidden="true"></span></span>
+  </h1>
+  <div class="mast-lede">
+    <p>We build AI that works inside the instruments, tools and spaces artists already use: DAWs and plug-ins, collections and archives, installations and stages.</p>
+  </div>
+  <p class="mast-links"><a href="services.html">Work with us →</a> <a href="projects.html">All projects →</a></p>
+</header>
 
-# AI that acts<br> in the studio,<br> on stage,<br> in the world.
+<section class="wall" aria-label="Selected work">
+  <a class="work w-flock" href="projects.html#kiln">
+    <div class="media">
+      <video poster="assets/hero/flocking.jpg" muted autoplay loop playsinline preload="metadata" aria-hidden="true"><source src="assets/hero/flocking-960.mp4" type="video/mp4" media="(max-width: 960px)"><source src="assets/hero/flocking.mp4" type="video/mp4"></video>
+    </div>
+    <div class="cap"><span class="n">01</span><span class="t"><b>Kiln</b> · ember sparks, flocking</span><span class="s">In development</span></div>
+  </a>
 
-<p class="lede">We build AI that works inside the instruments, tools and spaces artists already use: DAWs and plug-ins, collections and archives, installations and stages. Not a chatbot beside them, but agents that see the whole environment, act in it safely, and notice what changed. So far: Sideman for Ableton Live, Kiln for creative coding, Dandelion for learning to code.</p>
+  <div class="work w-clients">
+    <div class="cap top"><span class="n">02</span><span class="t"><b>Client work</b></span></div>
+    <ul>
+      <li><b>Tamada × Visto</b><span>AI art curation engine</span></li>
+      <li><b>Parts Order</b><span>Music source separation</span></li>
+      <li><b>Persona</b><span>Real-time voice</span></li>
+    </ul>
+    <a class="more-lnk" href="projects.html#clients">All projects →</a>
+  </div>
 
-<p class="audience">For music-tech companies, labels and studios, museums and galleries, festivals and artists.</p>
+  <a class="work w-sideman framed" href="sideman.html">
+    <div class="media"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman" loading="lazy"></div>
+    <div class="cap"><span class="n">03</span><span class="t"><b>Sideman</b> · Claude inside Ableton Live</span><span class="s">Open source</span></div>
+  </a>
 
-<div class="btn-row">
-<a class="btn-accent" href="#products">See what we build</a>
-<a class="btn-quiet" href="services.html">Work with us</a>
-</div>
-</div>
+  <a class="work w-dandelion framed" href="https://slegroux.github.io/dandelion/">
+    <div class="media"><img src="assets/work/dandelion.jpg" alt="Dandelion: a dialog on why a square wave has only odd harmonics, with a learner's code cell and plot, and the AI's hint underneath" loading="lazy"></div>
+    <div class="cap"><span class="n">04</span><span class="t"><b>Dandelion</b> · a notebook that teaches</span><span class="s">Public</span></div>
+  </a>
 
-<svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around a studio, a stage or a gallery">
-  <circle class="ring" cx="180" cy="180" r="120"/>
-  <path class="arc perceive" d="M180,60 A120,120 0 0 1 283.9,240"/>
-  <path class="arc reason"   d="M283.9,240 A120,120 0 0 1 76.1,240"/>
-  <path class="arc act"      d="M76.1,240 A120,120 0 0 1 180,60"/>
-  <circle class="dot" r="6">
-    <animateMotion dur="7s" repeatCount="indefinite" path="M180,60 A120,120 0 1 1 179.9,60"/>
-  </circle>
-  <circle class="node perceive" cx="180" cy="60" r="38"/>
-  <text class="label" x="180" y="60">perceive</text>
-  <circle class="node reason" cx="283.9" cy="240" r="38"/>
-  <text class="label" x="283.9" y="240">reason</text>
-  <circle class="node act" cx="76.1" cy="240" r="38"/>
-  <text class="label" x="76.1" y="240">act</text>
-  <text class="world" x="180" y="170">the world</text>
-  <text class="sub" x="180" y="192">STUDIO · STAGE · GALLERY</text>
-</svg>
-:::
+</section>
 
-::: {.layers}
-::: {.layer .perceive}
-<div class="eyebrow c-perceive">Layer one</div>
-### Perceive
-What the model can see decides what it can do. We build the senses: bridges into an application's object model, observers that report what a human did by hand, embeddings over a collection, sensors on a stage.
-:::
-::: {.layer .reason}
-<div class="eyebrow c-reason">Layer two</div>
-### Reason
-Grammars, skills and evaluation. We teach the model how a domain is shaped so it looks instead of guessing, and we measure coverage against the real system rather than claiming it.
-:::
-::: {.layer .act}
-<div class="eyebrow c-act">Layer three</div>
-### Act
-Real writes with real undo, sound, light and machines that answer in real time, and a guard before anything destructive. An agent that acts has to be safe to be wrong.
-:::
-:::
+<section class="loopline" aria-label="How our agents work">
+  <figure class="loopfig">
+    <figcaption class="lbl">The loop</figcaption>
+    <svg class="loop" viewBox="0 0 360 360" role="img" aria-label="A loop: perceive, reason, act, around a studio, a stage or a gallery">
+      <circle class="ring" cx="180" cy="180" r="120"/>
+      <path class="arc perceive" d="M180,60 A120,120 0 0 1 283.9,240"/>
+      <path class="arc reason"   d="M283.9,240 A120,120 0 0 1 76.1,240"/>
+      <path class="arc act"      d="M76.1,240 A120,120 0 0 1 180,60"/>
+      <circle class="dot" r="6">
+        <animateMotion dur="7s" repeatCount="indefinite" path="M180,60 A120,120 0 1 1 179.9,60"/>
+      </circle>
+      <circle class="node perceive" cx="180" cy="60" r="38"/>
+      <text class="label" x="180" y="60">perceive</text>
+      <circle class="node reason" cx="283.9" cy="240" r="38"/>
+      <text class="label" x="283.9" y="240">reason</text>
+      <circle class="node act" cx="76.1" cy="240" r="38"/>
+      <text class="label" x="76.1" y="240">act</text>
+      <text class="world" x="180" y="170">the world</text>
+      <text class="sub" x="180" y="192">STUDIO · STAGE · GALLERY</text>
+    </svg>
+  </figure>
+  <p class="stmt">Not a chatbot beside them, but agents that <span class="v perceive">perceive</span> the whole environment, <span class="v reason">reason</span> about how it is shaped, and <span class="v act">act</span> in it safely.</p>
+</section>
 
-## What we build {#products}
+<section class="closer">
+  <div class="closer-rock">
+    <p class="big">We build the thing that pushes the rock.</p>
+    <p class="small">You keep the part that needs you: the taste, the judgment, the call.</p>
+  </div>
+  <div class="closer-cta" id="contact">
+    <p>Tell us what you are building and where it is stuck.</p>
+    <p class="btn-row"><a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a> <a class="btn-quiet" href="services.html">See services</a></p>
+    <p class="addr">Or copy the address: <code>sylvain.legroux@gmail.com</code> <button type="button" class="copy-email" data-email="sylvain.legroux@gmail.com">Copy</button></p>
+  </div>
+  <p class="course"><span class="lbl">Course</span> Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live. <a href="course.html">About the course →</a></p>
+</section>
 
-::: {.offers}
-::: {.offer}
-<div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
-<div class="body">
-<div class="eyebrow">Open source · Ableton Live</div>
-### Sideman
-Gives Claude the whole of Ableton Live through Live's own object model, and notices what you do by hand.
-<a class="card-link" href="sideman.html">About Sideman →</a>
-</div>
-:::
-::: {.offer}
-<div class="fig"><img src="assets/work/kiln.jpg" alt="Kiln's showcase window: nineteen panels of shapes, colour, blend modes, curves, shaders, text, a GUI panel and a sound spectrum, all drawn live by one Python sketch"></div>
-<div class="body">
-<div class="eyebrow">In development · creative coding</div>
-### Kiln
-Sketch with agents. Sketch agents. A creative-coding framework for Python that an agent can write, run and look at, with agents living inside the sketch.
-<a class="card-link" href="projects.html#kiln">About Kiln →</a>
-</div>
-:::
-::: {.offer}
-<div class="fig"><img src="assets/work/dandelion.jpg" alt="Dandelion: a dialog on why a square wave has only odd harmonics, with a learner's code cell and plot, and the AI's hint underneath"></div>
-<div class="body">
-<div class="eyebrow">Public · learning</div>
-### Dandelion
-A notebook that teaches: the AI sees the cells above and hints, and the learner runs the code.
-<a class="card-link" href="https://slegroux.github.io/dandelion/">About Dandelion →</a>
-</div>
-:::
-:::
-
-::: {.offerline}
-<div><span class="eyebrow">Course</span> Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live. <a href="course.html">About the course →</a></div>
-<div><span class="eyebrow">Services</span> Build, advise or teach: agents inside creative tools, music and audio ML, interactive art and installations, research to product, workshops. <a href="services.html">What we take on →</a></div>
-<div><span class="eyebrow">Clients</span> Tamada and Visto (AI art curation engine) · Parts Order (music source separation) · Persona (real-time voice). <a href="projects.html">All projects →</a></div>
-:::
-
-## Why Sisyphe
-
-::: {.measure}
-Sisyphus pushed the same rock up the same hill, forever. Creative work has more of that than anyone admits: the fortieth track rename, the stems you export one more time, the catalogue you re-tag by hand, the cue you rebuild because one setting was wrong. It all has to be done, and none of it needs you.
-
-We build the thing that pushes the rock. You keep the part that needs you: the taste, the judgment, the call.
-:::
-
-::: {.cta}
-## Start a conversation
-
-Tell us what you are building and where it is stuck. You will get a reply from the person who would do the work.
-
-<a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a> <a class="btn-quiet" href="services.html">See services</a>
-
-<p class="addr">Or copy the address: <code>sylvain.legroux@gmail.com</code> <button type="button" class="copy-email" data-email="sylvain.legroux@gmail.com">Copy</button></p>
-:::
+<script>
+/* Wall videos: honour reduced motion (poster only) and pause loops that are off screen. */
+(function () {
+  var vids = Array.prototype.slice.call(document.querySelectorAll('.wall video'));
+  if (!vids.length) return;
+  var mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var still = function () { vids.forEach(function (v) { v.removeAttribute('autoplay'); v.pause(); v.load(); }); };
+  if (mq.matches) { still(); }
+  if (mq.addEventListener) mq.addEventListener('change', function (e) { if (e.matches) still(); });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) {
+        if (mq.matches) return;
+        if (e.isIntersecting) { var p = e.target.play(); if (p && p.catch) p.catch(function () {}); } else { e.target.pause(); }
+      });
+    }, { threshold: 0.15 });
+    vids.forEach(function (v) { io.observe(v); });
+  }
+})();
+</script>
+```
