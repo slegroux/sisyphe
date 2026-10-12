@@ -32,6 +32,14 @@ format:
     <p>Working software in your repo, measured against the real environment it has to run in.</p>
   </div>
 
+  <figure class="sv-fig sv-vid">
+    <div class="media">
+      <video poster="assets/hero/abyss.jpg" muted loop playsinline preload="metadata" aria-hidden="true"><source src="assets/hero/abyss-960.mp4" type="video/mp4" media="(max-width: 960px)"><source src="assets/hero/abyss.mp4" type="video/mp4"></video>
+      <button class="vid-toggle" type="button" hidden>Pause<span class="visually-hidden"> the medusae animation</span></button>
+    </div>
+    <figcaption class="cap"><span class="n">01a</span><span class="t">Medusae after Haeckel (1904), drawn live with <a href="projects.html#kiln">Kiln</a></span></figcaption>
+  </figure>
+
   <article class="sv-item">
     <div class="sv-say">
       <h3>Agents inside creative tools</h3>
@@ -101,6 +109,11 @@ format:
     <p>Workshops and courses for studios, schools and art programs.</p>
   </div>
 
+  <figure class="sv-fig framed">
+    <div class="media"><img src="assets/work/dandelion.jpg" alt="Dandelion: a dialog on why a square wave has only odd harmonics, with a learner's code cell and plot, and the AI's hint underneath" loading="lazy"></div>
+    <figcaption class="cap"><span class="n">03a</span><span class="t"><a href="https://slegroux.github.io/dandelion/">Dandelion</a> · a notebook that teaches: the AI hints, the learner runs the code</span></figcaption>
+  </figure>
+
   <article class="sv-item">
     <div class="sv-say">
       <h3>Teaching and workshops</h3>
@@ -149,4 +162,33 @@ format:
     <p class="addr">Or copy the address: <code>sisyphe.lab@gmail.com</code> <button type="button" class="copy-email" data-email="sisyphe.lab@gmail.com">Copy</button></p>
   </div>
 </section>
+<script>
+/* Services video: same rules as Home and Projects. Starts only on screen, never under reduced
+   motion or after Pause; without JS the poster shows and the button stays hidden. */
+(function () {
+  var items = Array.prototype.map.call(document.querySelectorAll('.sv-vid'), function (f) {
+    return { v: f.querySelector('video'), b: f.querySelector('.vid-toggle'), held: false, on: false };
+  }).filter(function (it) { return it.v && it.b; });
+  if (!items.length) return;
+  var mq = window.matchMedia('(prefers-reduced-motion: reduce)');
+  var apply = function () {
+    items.forEach(function (it) {
+      if (!mq.matches && !it.held && it.on) { var p = it.v.play(); if (p && p.catch) p.catch(function () {}); }
+      else { it.v.pause(); }
+      it.b.hidden = mq.matches;
+      it.b.firstChild.nodeValue = it.held ? 'Play' : 'Pause';
+    });
+  };
+  items.forEach(function (it) { it.b.addEventListener('click', function () { it.held = !it.held; apply(); }); });
+  if (mq.addEventListener) mq.addEventListener('change', apply); else if (mq.addListener) mq.addListener(apply);
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (es) {
+      es.forEach(function (e) { items.forEach(function (it) { if (it.v === e.target) it.on = e.isIntersecting; }); });
+      apply();
+    }, { threshold: 0.15 });
+    items.forEach(function (it) { io.observe(it.v); });
+  } else { items.forEach(function (it) { it.on = true; }); }
+  apply();
+})();
+</script>
 ```
