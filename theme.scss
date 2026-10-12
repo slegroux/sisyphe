@@ -1,5 +1,6 @@
 /*-- scss:defaults --*/
-// Sisyphe — light variant. Layer colours: perceive / reason / act.
+// Sisyphe — light (default) variant: gallery paper, black ink, Klein-blue brand accent.
+// Layer colours (perceive / reason / act) belong to the diagram and the layer cards; the brand accent is separate.
 $font-family-sans-serif: "IBM Plex Sans", "Helvetica Neue", Arial, sans-serif;
 $font-family-monospace: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
 $headings-font-family: "Bricolage Grotesque", "Helvetica Neue", Arial, sans-serif;
@@ -7,22 +8,25 @@ $headings-font-weight: 800;
 $font-size-base: 1.0625rem;
 $line-height-base: 1.55;
 
-$ground:  #E9E8E3 !default;
-$panel:   #F4F3EF !default;
-$panel-2: #DFDED8 !default;
-$ink:     #1B1C1F !default;
-$ink-2:   #55565B !default;
-$ink-3:   #66676B !default;
-$rule:    #C4C3BD !default;
+$ground:  #F6F4EF !default;
+$panel:   #FFFFFF !default;
+$panel-2: #ECEAE4 !default;
+$ink:     #111111 !default;
+$ink-2:   #4A4A4A !default;
+$ink-3:   #6B6B6B !default;
+$rule:    #D9D6CF !default;
 $perceive: #2A71AD !default;
 $reason:   #6F5FD6 !default;
 $act:      #C53A23 !default;
 $on-layer: #FFFFFF !default;
+$accent:   #1F3FD1 !default;  // International Klein Blue, the brand colour
+$accent-ink: #1F3FD1 !default; // accent as text (links, labels)
+$on-accent: #FFFFFF !default;
 
 $body-bg: $ground; $body-color: $ink;
-$link-color: $ink; $link-hover-color: $act; $primary: $act;
+$link-color: $ink; $link-hover-color: $accent-ink; $primary: $accent;
 $border-color: $rule; $border-radius: 6px;
-$navbar-bg: rgba($ground, 0.9); $navbar-fg: $ink; $navbar-hl: $act;
+$navbar-bg: rgba($ground, 0.9); $navbar-fg: $ink; $navbar-hl: $accent-ink;
 $footer-bg: $ground; $footer-fg: $ink-2;
 $code-bg: $panel-2; $code-color: $ink;
 
@@ -31,7 +35,7 @@ $code-bg: $panel-2; $code-color: $ink;
   --ground: #{$ground}; --panel: #{$panel}; --panel-2: #{$panel-2};
   --ink: #{$ink}; --ink-2: #{$ink-2}; --ink-3: #{$ink-3}; --rule: #{$rule};
   --perceive: #{$perceive}; --reason: #{$reason}; --act: #{$act}; --on-layer: #{$on-layer};
-  --accent: #{$act};
+  --accent: #{$accent}; --accent-ink: #{$accent-ink}; --on-accent: #{$on-accent};
 }
 body { -webkit-font-smoothing: antialiased; }
 h1, h2, h3 { letter-spacing: -0.02em; line-height: 1.05; text-wrap: balance; }
@@ -55,8 +59,9 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .c-perceive { color: var(--perceive); } .c-reason { color: var(--reason); } .c-act { color: var(--act); }
 .chips { display: flex; gap: 0.4rem; flex-wrap: wrap; margin: 0.4rem 0 0.6rem; }
 .chip { font-family: $font-family-monospace; font-size: 0.7rem; letter-spacing: 0.06em; text-transform: uppercase;
-  padding: 0.15em 0.55em; border-radius: 999px; color: var(--on-layer); }
-.chip.perceive { background: var(--perceive); } .chip.reason { background: var(--reason); } .chip.act { background: var(--act); }
+  padding: 0.15em 0.6em; border-radius: 999px; color: var(--ink-2); border: 1px solid var(--rule); display: inline-flex; align-items: center; gap: 0.4em;
+  &::before { content: ""; width: 0.5em; height: 0.5em; border-radius: 50%; background: currentColor; } }
+.chip.perceive::before { background: var(--perceive); } .chip.reason::before { background: var(--reason); } .chip.act::before { background: var(--act); }
 
 // Hero
 .hero { padding: 3rem 0 1.5rem; display: grid; grid-template-columns: minmax(0, 7fr) minmax(0, 5fr); gap: 2.5rem; align-items: center;
@@ -78,7 +83,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 // Buttons
 .btn-row { display: flex; gap: 0.8rem; flex-wrap: wrap; margin: 1.2rem 0; }
 .btn-accent, .btn-quiet { display: inline-block; padding: 0.7rem 1.2rem; border-radius: 6px; font-weight: 600; text-decoration: none; border: 1px solid transparent; }
-.btn-accent { background: var(--act); color: var(--on-layer) !important; } .btn-accent:hover { filter: brightness(0.95); }
+.btn-accent { background: var(--accent); color: var(--on-accent) !important; } .btn-accent:hover { filter: brightness(0.95); }
 .btn-quiet { background: transparent; color: var(--ink) !important; border-color: var(--rule); } .btn-quiet:hover { border-color: var(--ink); }
 
 // Layer columns
@@ -130,7 +135,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   > div { display: contents; }
   p { margin-bottom: 1rem; }
   @media (max-width: 600px) { img { width: 120px; height: 120px; margin-right: 1.2rem; } } }
-.quote-block { border-left: 3px solid var(--act); padding: 0.4rem 0 0.4rem 1.2rem; color: var(--ink-2); font-style: italic; margin: 2rem 0; }
+.quote-block { border-left: 3px solid var(--accent); padding: 0.4rem 0 0.4rem 1.2rem; color: var(--ink-2); font-style: italic; margin: 2rem 0; }
 .product-logo { display: block; margin: 0.5rem 0 1.5rem; img { max-width: 320px; height: auto; } }
 
 .logo-dark { display: none; } .quarto-dark .logo-dark { display: block; } .quarto-dark .logo-light { display: none; }
@@ -163,7 +168,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   span.faint { color: var(--ink-3); font-weight: 500; font-size: 0.8rem; font-family: "IBM Plex Mono", monospace; letter-spacing: 0.08em; text-transform: uppercase; } }
 .steps { display: grid; gap: 1.2rem; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); margin: 1.5rem 0; }
 .step { background: var(--panel); border: 1px solid var(--rule); border-radius: 8px; padding: 1.2rem 1.3rem;
-  .n { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -0.03em; color: var(--act); line-height: 1; margin-bottom: 0.5rem; }
+  .n { font-family: "Bricolage Grotesque", sans-serif; font-weight: 800; font-size: 2rem; letter-spacing: -0.03em; color: var(--accent-ink); line-height: 1; margin-bottom: 0.5rem; }
   h3 { margin: 0 0 0.4rem; font-size: 1.15rem; } p { margin: 0; color: var(--ink-2); } }
 .cards.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 @media (max-width: 700px) { .cards.grid-2 { grid-template-columns: 1fr; } }
@@ -219,7 +224,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   .eyebrow.field { margin: 0; }
   ul.proof { list-style: none; margin: 0.6rem 0 0; padding: 0.8rem 0 0; border-top: 1px dashed var(--rule); display: flex; flex-direction: column; gap: 0.45rem;
     li { position: relative; padding-left: 1.1rem; font-size: 0.9rem; color: var(--ink-2); line-height: 1.45; }
-    li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 6px; height: 6px; border-radius: 50%; background: var(--act); } } }
+    li::before { content: ""; position: absolute; left: 0; top: 0.55em; width: 6px; height: 6px; border-radius: 50%; background: var(--accent); } } }
 .note { border-left: 3px solid var(--reason); padding: 0.4rem 0 0.4rem 1rem; color: var(--ink-2); margin: 1.2rem 0 2rem; }
 .cta { background: var(--panel); border: 1px solid var(--rule); border-radius: 10px; padding: 1.6rem 1.8rem; margin: 2.5rem 0 3rem;
   h2 { margin-top: 0; } p { color: var(--ink-2); } .btn-accent { margin-top: 0.4rem; } }
@@ -230,7 +235,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
 .founderline { margin-top: 1.4rem; font-size: 0.92rem; color: var(--ink-2); a { white-space: nowrap; } }
 .svc p.outcome { color: var(--ink); font-weight: 600; margin-top: 0.3rem; }
 .more { text-align: right; margin: -0.6rem 0 1.5rem; font-weight: 600; }
-.navbar a.nav-link[href$="services.html#contact"] { background: var(--act); color: var(--on-layer) !important; border-radius: 6px; padding: 0.3rem 0.8rem !important; margin-right: 0.6rem; font-weight: 600; }
+.navbar a.nav-link[href$="services.html#contact"] { background: var(--accent); color: var(--on-accent) !important; border-radius: 6px; padding: 0.3rem 0.8rem !important; margin-right: 0.6rem; font-weight: 600; }
 .cta .addr { margin: 1rem 0 0; font-size: 0.92rem; color: var(--ink-2);
   code { background: transparent; color: var(--ink); padding: 0; font-size: 0.95em; user-select: all; }
   .copy-email { margin-left: 0.4rem; font: 600 0.8rem/1 $font-family-sans-serif; padding: 0.35rem 0.7rem; border-radius: 5px; border: 1px solid var(--rule); background: var(--ground); color: var(--ink); cursor: pointer; }
@@ -262,7 +267,7 @@ pre { background: var(--panel); border: 1px solid var(--rule); border-radius: 6p
   span { position: absolute; left: 0.8rem; bottom: 0.8rem; background: rgba(0, 0, 0, 0.7); color: #fff; padding: 0.35rem 0.7rem; border-radius: 5px; font-weight: 600; font-size: 0.9rem; } }
 .mobile-cta { display: none; }
 @media (max-width: 991.98px) {
-  .mobile-cta { display: inline-block; position: fixed; right: 16px; bottom: 16px; z-index: 1050; background: var(--act); color: var(--on-layer) !important; padding: 0.65rem 1rem; border-radius: 999px; font-weight: 700; text-decoration: none; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); } }
+  .mobile-cta { display: inline-block; position: fixed; right: 16px; bottom: 16px; z-index: 1050; background: var(--accent); color: var(--on-accent) !important; padding: 0.65rem 1rem; border-radius: 999px; font-weight: 700; text-decoration: none; box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3); } }
 div.sourceCode, pre.sourceCode { background: var(--panel) !important; }
 .more.left a { white-space: normal; }
 .layers { margin-bottom: 3rem; }
@@ -292,7 +297,7 @@ div.sourceCode, pre.sourceCode { background: var(--panel) !important; }
 .tile .tile-ill { width: 100%; aspect-ratio: 16 / 9; display: block; margin-bottom: 0.4rem; }
 .proj .fig img { object-position: top left; }
 .proj .body .wake { font-size: 0.8rem; color: var(--ink-3); }
-.proj .cat { font-family: $font-family-monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--act); }
+.proj .cat { font-family: $font-family-monospace; font-size: 0.72rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent-ink); }
 .proj .fig video { width: 100%; height: 100%; object-fit: cover; display: block; }
 .tiles { grid-template-columns: repeat(4, minmax(0, 1fr));
   @media (max-width: 900px) { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

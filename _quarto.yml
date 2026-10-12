@@ -49,8 +49,8 @@ website:
 format:
   html:
     theme:
-      dark: [theme.scss, theme-dark.scss]
       light: [theme.scss]
+      dark: [theme.scss, theme-dark.scss]
     css: styles.css
     toc: false
     highlight-style:
