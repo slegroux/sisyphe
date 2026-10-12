@@ -26,8 +26,6 @@ website:
         text: Projects
       - href: services.qmd
         text: Services
-      - href: course.qmd
-        text: Course
       - href: about.qmd
         text: About
     right:
