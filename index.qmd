@@ -76,7 +76,7 @@ format:
       <text class="sub" x="180" y="192">STUDIO · STAGE · GALLERY</text>
     </svg>
   </figure>
-  <p class="stmt">Not a chatbot beside them, but agents that <span class="v perceive">perceive</span> the whole environment, <span class="v reason">reason</span> about how it is shaped, and <span class="v act">act</span> in it safely.</p>
+  <p class="stmt">Not a chatbot beside your tools, but agents inside them that <span class="v perceive">perceive</span> the whole environment, <span class="v reason">reason</span> about how it is shaped, and <span class="v act">act</span> in it safely.</p>
 </section>
 
 <section class="closer">
