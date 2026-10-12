@@ -551,22 +551,15 @@ $gw-head: $headings-font-family;
     .sv-h1 .ln, .sv-lede { animation: none; }
     .sv-toc a, .sv-toc .l::after { transition: none; }
   }
-  // Two images, each tied to proof: Kiln's medusae under Build, Dandelion under Teach.
-  .sv-fig { margin: 0 0 clamp(2.4rem, 5vw, 4rem); min-width: 0;
-    .media { position: relative; overflow: hidden; background: #0b1024; } // the medusae video's own ground
-    img, video { display: block; width: 100%; height: auto; }
-    .cap { display: flex; align-items: baseline; gap: 0.9rem; padding-top: 0.6rem; border-top: 1px solid var(--rule); margin: 0.7rem 0 0;
+  // One plate per offering, drawn with Kiln, heading the right column. Each plate comes in
+  // a light and a dark rendering; the body class Quarto sets picks one (light without JS).
+  .sv-art { margin: 0 0 clamp(1.2rem, 2.2vw, 1.8rem); min-width: 0;
+    img { display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; }
+    .ill-d { display: none; }
+    .cap { display: flex; align-items: baseline; gap: 0.9rem; padding-top: 0.6rem; border-top: 1px solid var(--rule); margin: 0.5rem 0 0;
       font-family: $font-family-monospace; font-size: 0.76rem; letter-spacing: 0.02em; color: var(--ink-2); line-height: 1.4;
       .n { color: var(--ink-3); flex: none; } .t { min-width: 0; } a { color: var(--ink); } } }
-  .sv-fig.sv-vid video { aspect-ratio: 16 / 10; object-fit: cover; }
-  .sv-fig.framed { max-width: 66%; margin-left: auto;
-    .media { background: var(--panel-2); padding: clamp(14px, 2.2vw, 34px); }
-    img { box-shadow: 0 1px 0 rgba(0,0,0,0.06), 0 12px 28px -14px rgba(0,0,0,0.35); }
-    @media (max-width: 860px) { max-width: none; } }
-  .vid-toggle { position: absolute; top: 12px; right: 12px; z-index: 2; font: 600 0.72rem/1 $font-family-monospace; letter-spacing: 0.08em; text-transform: uppercase;
-    padding: 0.45rem 0.7rem; border-radius: 999px; border: 1px solid rgba(255,255,255,0.45); background: rgba(0,0,0,0.45); color: #fff; cursor: pointer;
-    &:hover { background: rgba(0,0,0,0.7); } &:focus-visible { outline: 2px solid #fff; outline-offset: 2px; } }
-  .vid-toggle[hidden] { display: none; }
+  &.quarto-dark .sv-art { .ill-l { display: none; } .ill-d { display: block; } }
 }
 
 // ---------------------------------------------------------------------------
