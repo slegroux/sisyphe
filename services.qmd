@@ -156,7 +156,7 @@ So your team can do it without us.
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
 <p class="outcome">You get a team that can build and run agents without us.</p>
 <p>Sideman workshops for studios, schools and labs, from a day to a term, from “what’s in my Set?” to a finished track. Custom courses on agents for creative tools, audio machine learning and sensor-to-actuator systems.</p>
-<ul class="proof"><li>The <a href="course.html">Sideman course</a> is the current syllabus.</li><li><a href="https://slegroux.github.io/pappus/">Pappus</a>, our learning notebook: the AI hints, the learner runs the code.</li></ul>
+<ul class="proof"><li>The <a href="course.html">Sideman course</a> is the current syllabus.</li><li><a href="https://slegroux.github.io/dandelion/">Dandelion</a>, our learning notebook: the AI hints, the learner runs the code.</li></ul>
 <p class="before"><span>Before Sisyphe</span> Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, one built around the sensor-to-actuator loop.</p>
 </div>
 :::

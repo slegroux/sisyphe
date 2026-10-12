@@ -73,32 +73,12 @@ Gives Claude the whole of Ableton Live through Live's own object model, and noti
 </div>
 :::
 ::: {.offer}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
-  <rect class="fill-panel ink" x="30" y="24" width="236" height="236" rx="8" stroke-width="2"/>
-  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M48 50 H158 M48 64 H214 M48 78 H188"/></g>
-  <rect class="fill-panel ink" x="44" y="96" width="206" height="58" rx="5" stroke-width="1.5"/>
-  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M58 114 H108 M116 114 H158 M58 128 H88 M96 128 H178 M58 142 H128"/></g>
-  <text class="cap" x="214" y="148">run</text>
-  <rect class="fill-panel ink" x="44" y="170" width="206" height="72" rx="5" stroke-width="1.5"/>
-  <circle class="r" cx="62" cy="188" r="7"/>
-  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M78 188 H188 M62 210 H236 M62 224 H208"/></g>
-  <path class="rs" d="M266 206 C 310 206, 330 170, 330 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
-  <g transform="translate(330 96)">
-    <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
-    <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
-  </g>
-  <g transform="translate(330 214)">
-    <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
-    <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
-    <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
-  </g>
-  <text class="cap" x="30" y="290">note · code · ask · you run it</text>
-</svg></div>
+<div class="fig"><img src="assets/work/dandelion.jpg" alt="Dandelion: a dialog on why a square wave has only odd harmonics, with a learner's code cell and plot, and the AI's hint underneath"></div>
 <div class="body">
 <div class="eyebrow">Public · learning</div>
-### Pappus
-A notebook that teaches: the AI sees every cell and hints, and the learner runs the code.
-<a class="card-link" href="https://slegroux.github.io/pappus/">About Pappus →</a>
+### Dandelion
+A notebook that teaches: the AI sees the cells above and hints, and the learner runs the code.
+<a class="card-link" href="https://slegroux.github.io/dandelion/">About Dandelion →</a>
 </div>
 :::
 ::: {.offer}
