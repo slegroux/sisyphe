@@ -326,7 +326,7 @@ $gw-head: $headings-font-family;
     padding-bottom: 0.7rem; border-bottom: 1px solid var(--ink); margin-bottom: clamp(1.2rem, 2.6vw, 2.2rem);
     .mast-idx { color: var(--ink-3); a { color: var(--ink); text-decoration: none; margin-left: 1.1em; &:hover { color: var(--accent-ink); } } } }
   .mast-h1 { grid-column: 1 / -1; grid-row: 2; margin: 0; font-weight: 800; letter-spacing: -0.05em; line-height: 0.86;
-    font-size: clamp(2.4rem, 7.6vw, 6.9rem); text-wrap: initial; max-width: none;
+    font-size: clamp(2.4rem, 5.9vw, 5.3rem); text-wrap: initial; max-width: none;
     .ln { display: block; animation: gw-rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
     .ln:nth-child(2) { animation-delay: 0.08s; } .ln:nth-child(3) { animation-delay: 0.16s; }
     .rock { display: inline-block; width: 0.56em; height: 0.56em; border-radius: 50%; background: var(--accent); margin-left: 0.07em; vertical-align: baseline;
@@ -376,14 +376,14 @@ $gw-head: $headings-font-family;
     .loopfig { grid-column: 1 / span 4; margin: 0; align-self: center;
       .lbl { padding-top: 0; margin-bottom: 0.4rem; }
       .loop { max-width: 320px; } }
-    p.stmt { grid-column: 6 / -1; align-self: center; margin: 0; font-family: $gw-head; font-weight: 700; font-size: clamp(1.4rem, 2.8vw, 2.6rem); line-height: 1.06; letter-spacing: -0.03em; max-width: 26ch; text-wrap: balance; }
+    p.stmt { grid-column: 6 / -1; align-self: center; margin: 0; font-family: $gw-head; font-weight: 700; font-size: clamp(1.35rem, 2.4vw, 2.2rem); line-height: 1.06; letter-spacing: -0.03em; max-width: 26ch; text-wrap: balance; }
     .v { font-weight: 800; text-decoration: underline; text-decoration-thickness: 0.12em; text-underline-offset: 0.12em; text-decoration-skip-ink: none; }
     .v.perceive { text-decoration-color: var(--perceive); } .v.reason { text-decoration-color: var(--reason); } .v.act { text-decoration-color: var(--act); } }
 
   // Closer: the rock line, the call to action, the course in one line.
   .closer { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: clamp(12px, 1.8vw, 24px); row-gap: 2rem; border-top: 1px solid var(--ink); padding-top: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: clamp(2.5rem, 5vw, 4rem);
     .closer-rock { grid-column: 1 / span 7;
-      .big { font-family: $gw-head; font-weight: 800; font-size: clamp(1.9rem, 3.6vw, 3.3rem); line-height: 0.95; letter-spacing: -0.045em; margin: 0 0 1rem; max-width: 14ch; }
+      .big { font-family: $gw-head; font-weight: 800; font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 0.95; letter-spacing: -0.045em; margin: 0 0 1rem; max-width: 14ch; }
       .small { color: var(--ink-2); font-size: 1.1rem; margin: 0; max-width: 40ch; } }
     .closer-cta { grid-column: 9 / -1; align-self: end;
       > p:first-child { margin: 0 0 1rem; font-size: 1.05rem; }
@@ -413,7 +413,7 @@ $gw-head: $headings-font-family;
   @media (max-width: 640px) {
     .mast-index .mast-idx { display: none; }
     .mast-lede, .mast-links { grid-column: 1 / -1; }
-    .mast-h1 { font-size: clamp(2.2rem, 11.5vw, 3.5rem); line-height: 0.92; }
+    .mast-h1 { font-size: clamp(2.2rem, 10.5vw, 3.1rem); line-height: 0.92; }
     .wall { row-gap: 2rem; }
     .w-flock, .w-sideman, .w-dandelion { grid-column: 1 / -1; margin-top: 0; }
     .cap .s { display: none; }
@@ -447,7 +447,7 @@ $gw-head: $headings-font-family;
     padding-bottom: 0.7rem; border-bottom: 1px solid var(--ink); margin-bottom: clamp(1.2rem, 2.6vw, 2.2rem);
     .sv-idx { color: var(--ink-3); a { color: var(--ink); text-decoration: none; margin-left: 1.1em; &:hover { color: var(--accent-ink); } } } }
   .sv-h1 { grid-column: 1 / span 8; margin: 0; font-weight: 800; letter-spacing: -0.05em; line-height: 0.86; text-wrap: initial; max-width: none;
-    font-size: clamp(2.6rem, 6vw, 5.4rem);
+    font-size: clamp(2.6rem, 5.6vw, 4.6rem);
     .ln { display: block; animation: gw-rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
     .ln:nth-child(2) { animation-delay: 0.08s; }
     .rock { display: inline-block; width: 0.2em; height: 0.2em; border-radius: 50%; background: var(--accent); margin-left: 0.04em; vertical-align: baseline; } }
@@ -469,9 +469,9 @@ $gw-head: $headings-font-family;
   .sv-sec { border-top: 1px solid var(--ink); padding-top: clamp(0.9rem, 1.6vw, 1.3rem); margin-bottom: clamp(2.6rem, 5.5vw, 4.6rem); }
   .sv-head { @include sv-grid; row-gap: 0.4rem; margin-bottom: clamp(1.6rem, 3.4vw, 3rem);
     .n { grid-column: 1 / -1; @include sv-mono; color: var(--ink-3); }
-    h2 { grid-column: 1 / span 6; margin: 0; font-weight: 800; font-size: clamp(2.1rem, 3.8vw, 3.5rem); line-height: 0.86; letter-spacing: -0.05em; }
+    h2 { grid-column: 1 / span 6; margin: 0; font-weight: 800; font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 0.86; letter-spacing: -0.05em; }
     p { grid-column: 7 / -1; align-self: end; margin: 0 0 0.35rem; color: var(--ink-2); font-size: clamp(1.05rem, 1.3vw, 1.2rem); line-height: 1.4; max-width: 44ch; } }
-  .sv-head-s h2 { font-size: clamp(2rem, 3.6vw, 3.3rem); line-height: 0.95; letter-spacing: -0.045em; }
+  .sv-head-s h2 { font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 0.95; letter-spacing: -0.045em; }
 
   // An offering: what you get on the left, how and the proof on the right.
   .sv-item { @include sv-grid; row-gap: 1.2rem; border-top: 1px solid var(--rule); padding: clamp(1.4rem, 2.6vw, 2.2rem) 0 clamp(1.4rem, 2.6vw, 2.2rem); }
@@ -502,7 +502,7 @@ $gw-head: $headings-font-family;
     > h2 { margin: 0 0 clamp(1.8rem, 3.6vw, 3rem); font-size: clamp(2.2rem, 4.6vw, 4.2rem); line-height: 0.95; letter-spacing: -0.045em; } }
   .sv-steps { @include sv-grid; row-gap: 2.4rem; list-style: none; margin: 0 0 clamp(2rem, 4vw, 3.4rem); padding: 0;
     li { grid-column: span 4; border-top: 1px solid var(--rule); padding-top: 1rem; }
-    .n { display: block; font-family: $gw-head; font-weight: 800; font-size: clamp(2.6rem, 3.6vw, 3.4rem); line-height: 0.8; letter-spacing: -0.06em; color: var(--accent-ink); margin-bottom: 1.2rem; }
+    .n { display: block; font-family: $gw-head; font-weight: 800; font-size: clamp(2.2rem, 3.2vw, 2.9rem); line-height: 0.8; letter-spacing: -0.06em; color: var(--accent-ink); margin-bottom: 1.2rem; }
     h3 { margin: 0 0 0.5rem; font-size: clamp(1.3rem, 1.8vw, 1.6rem); font-weight: 800; letter-spacing: -0.03em; }
     p { margin: 0; color: var(--ink-2); max-width: 40ch; } }
   .sv-terms { @include sv-grid; row-gap: 0; margin: 0;
@@ -512,7 +512,7 @@ $gw-head: $headings-font-family;
 
   // Contact: the home's closer, one big line and the way to reach us.
   .sv-closer { @include sv-grid; row-gap: 2rem; border-top: 1px solid var(--ink); padding-top: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: clamp(2.5rem, 5vw, 4rem);
-    h2 { grid-column: 1 / span 7; margin: 0; font-size: clamp(2rem, 3.6vw, 3.4rem); line-height: 0.95; letter-spacing: -0.05em; max-width: 12ch; }
+    h2 { grid-column: 1 / span 7; margin: 0; font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 0.95; letter-spacing: -0.05em; max-width: 12ch; }
     .sv-cta { grid-column: 9 / -1; align-self: end;
       > p:first-child { margin: 0 0 1rem; font-size: 1.05rem; color: var(--ink-2); }
       .btn-row { margin: 0 0 1rem; }
@@ -543,7 +543,7 @@ $gw-head: $headings-font-family;
   }
   @media (max-width: 640px) {
     .sv-index-line .sv-idx { display: none; }
-    .sv-h1 { font-size: clamp(2.2rem, 11vw, 3.4rem); line-height: 0.92; }
+    .sv-h1 { font-size: clamp(2.2rem, 10vw, 3rem); line-height: 0.92; }
     .sv-terms > div { grid-template-columns: 1fr; gap: 0.3rem; }
     .sv-refs dt { width: 5.2rem; }
   }
@@ -591,7 +591,7 @@ $gw-head: $headings-font-family;
     padding-bottom: 0.7rem; border-bottom: 1px solid var(--ink); margin-bottom: clamp(1.2rem, 2.6vw, 2.2rem);
     .pj-idx { color: var(--ink-3); a { color: var(--ink); text-decoration: none; margin-left: 1.1em; &:hover { color: var(--accent-ink); } } } }
   .pj-h1 { grid-column: 1 / span 8; margin: 0; font-weight: 800; letter-spacing: -0.05em; line-height: 0.86; text-wrap: initial; max-width: none;
-    font-size: clamp(2.6rem, 6vw, 5.4rem);
+    font-size: clamp(2.6rem, 5.6vw, 4.6rem);
     .ln { display: block; animation: gw-rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
     .ln:nth-child(2) { animation-delay: 0.08s; }
     .rock { display: inline-block; width: 0.2em; height: 0.2em; border-radius: 50%; background: var(--accent); margin-left: 0.04em; vertical-align: baseline; } }
@@ -632,7 +632,7 @@ $gw-head: $headings-font-family;
   .pj-sec { border-top: 1px solid var(--ink); padding-top: clamp(0.9rem, 1.6vw, 1.3rem); margin-bottom: clamp(3rem, 6vw, 5.4rem); }
   .pj-head { @include pj-grid; row-gap: 0.4rem; margin-bottom: clamp(1.8rem, 3.8vw, 3.4rem);
     .n { grid-column: 1 / -1; @include pj-mono; color: var(--ink-3); }
-    h2 { grid-column: 1 / span 8; margin: 0; font-weight: 800; font-size: clamp(2.1rem, 3.8vw, 3.5rem); line-height: 0.88; letter-spacing: -0.05em; }
+    h2 { grid-column: 1 / span 8; margin: 0; font-weight: 800; font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 0.88; letter-spacing: -0.05em; }
     p { grid-column: 9 / -1; align-self: end; margin: 0 0 0.35rem; color: var(--ink-2); font-size: clamp(1.02rem, 1.25vw, 1.15rem); line-height: 1.4; max-width: 40ch; } }
 
   // An entry: the work and its label. Variants hang it at different sizes.
@@ -657,7 +657,7 @@ $gw-head: $headings-font-family;
     > p:not([class]) { margin: 0 0 1.1rem; color: var(--ink-2); max-width: 46ch; } }
   .pj-meta { display: flex; gap: 0.9rem; align-items: baseline; margin: 0 0 1.1rem; padding-top: 0.75rem; border-top: 1px solid var(--ink); @include pj-mono; color: var(--ink-3);
     .s { color: var(--ink-2); } .y { margin-left: auto; } }
-  .pj-e h3 { margin: 0; font-weight: 800; font-size: clamp(1.8rem, 2.8vw, 2.7rem); line-height: 0.92; letter-spacing: -0.045em; }
+  .pj-e h3 { margin: 0; font-weight: 800; font-size: clamp(1.6rem, 2.4vw, 2.2rem); line-height: 0.92; letter-spacing: -0.045em; }
   .pj-what { margin: 0.55rem 0 0.9rem; font-family: $gw-head; font-weight: 500; font-size: clamp(1.05rem, 1.35vw, 1.28rem); line-height: 1.2; letter-spacing: -0.01em; color: var(--ink-2); }
   .pj-lyrs { display: flex; flex-wrap: wrap; gap: 0.2rem 1.1rem; margin: 0 0 1.1rem; @include pj-mono; font-size: 0.64rem; color: var(--ink-3); }
   .pj-go { margin: 0; font-weight: 600;
@@ -675,7 +675,7 @@ $gw-head: $headings-font-family;
   // Tools with no picture worth hanging: the name is the work.
   .pj-pair { @include pj-grid; row-gap: clamp(2.4rem, 5vw, 4rem); margin-bottom: clamp(3.2rem, 7vw, 6.4rem);
     > .pj-e { grid-column: span 6; display: block; margin: 0; } }
-  .e-type h3, .e-row h3 { font-size: clamp(2rem, 3.4vw, 3.2rem); line-height: 0.88; }
+  .e-type h3, .e-row h3 { font-size: clamp(1.8rem, 3vw, 2.6rem); line-height: 0.88; }
   .e-row { .pj-txt { grid-column: 1 / span 6; } .pj-body { grid-column: 8 / -1; padding-top: 0.75rem; border-top: 1px solid var(--ink);
     p { margin: 0; color: var(--ink-2); font-size: clamp(1.02rem, 1.25vw, 1.15rem); line-height: 1.45; max-width: 44ch; } } }
 
@@ -683,7 +683,7 @@ $gw-head: $headings-font-family;
   .pj-note { margin: 0 0 clamp(2.6rem, 5vw, 4rem); padding-top: 1rem; border-top: 1px solid var(--rule); font-size: 0.95rem; color: var(--ink-3);
     a { color: var(--ink); font-weight: 500; &:hover { color: var(--accent-ink); } } }
   .pj-closer { @include pj-grid; row-gap: 2rem; border-top: 1px solid var(--ink); padding-top: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: clamp(2.5rem, 5vw, 4rem);
-    h2 { grid-column: 1 / span 7; margin: 0; font-size: clamp(2rem, 3.6vw, 3.4rem); line-height: 0.95; letter-spacing: -0.05em; max-width: 12ch; }
+    h2 { grid-column: 1 / span 7; margin: 0; font-size: clamp(1.9rem, 3.4vw, 2.7rem); line-height: 0.95; letter-spacing: -0.05em; max-width: 12ch; }
     .pj-cta { grid-column: 9 / -1; align-self: end;
       > p:first-child { margin: 0 0 1rem; font-size: 1.05rem; color: var(--ink-2); }
       .btn-row { margin: 0 0 1rem; }
@@ -722,7 +722,7 @@ $gw-head: $headings-font-family;
   }
   @media (max-width: 640px) {
     .pj-index-line .pj-idx { display: none; }
-    .pj-h1 { font-size: clamp(2.2rem, 11vw, 3.4rem); line-height: 0.92; }
+    .pj-h1 { font-size: clamp(2.2rem, 10vw, 3rem); line-height: 0.92; }
     .pj-lede, .pj-head p { grid-column: 1 / -1; }
     .e-full .pj-still, .e-sq > .pj-fig { grid-column: 1 / -1 !important; }
     .e-small > .pj-fig { grid-column: 1 / span 10 !important; }
