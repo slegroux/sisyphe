@@ -1,6 +1,6 @@
 ---
 pagetitle: "AI that acts in the studio, on stage, in the world"
-description: "Sisyphe builds AI for art, music and creative tools: agents that work inside DAWs, plug-ins, collections and installations. Maker of Sideman, the Ableton Live MCP server."
+description: "Sisyphe builds AI for art, music and creative tools: agents that work inside DAWs, plug-ins, collections and installations. Maker of Sideman for Ableton Live, Kiln for creative coding and Dandelion for learning to code."
 image: assets/brand/og.png
 format:
   html:
@@ -13,12 +13,12 @@ format:
 
 # AI that acts<br> in the studio,<br> on stage,<br> in the world.
 
-<p class="lede">We build AI that works inside the instruments, tools and spaces artists already use: DAWs and plug-ins, collections and archives, installations and stages. Not a chatbot beside them, but agents that see the whole environment, act in it safely, and notice what changed. The first one we shipped, Sideman, gives Claude the whole of Ableton Live.</p>
+<p class="lede">We build AI that works inside the instruments, tools and spaces artists already use: DAWs and plug-ins, collections and archives, installations and stages. Not a chatbot beside them, but agents that see the whole environment, act in it safely, and notice what changed. So far: Sideman for Ableton Live, Kiln for creative coding, Dandelion for learning to code.</p>
 
 <p class="audience">For music-tech companies, labels and studios, museums and galleries, festivals and artists.</p>
 
 <div class="btn-row">
-<a class="btn-accent" href="sideman.html">See Sideman</a>
+<a class="btn-accent" href="#products">See what we build</a>
 <a class="btn-quiet" href="services.html">Work with us</a>
 </div>
 </div>
@@ -60,16 +60,25 @@ Real writes with real undo, sound, light and machines that answer in real time, 
 :::
 :::
 
-## What we offer
+## What we build {#products}
 
 ::: {.offers}
 ::: {.offer}
 <div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with tracks and automation written by Claude through Sideman"></div>
 <div class="body">
-<div class="eyebrow">Open source · product</div>
+<div class="eyebrow">Open source · Ableton Live</div>
 ### Sideman
 Gives Claude the whole of Ableton Live through Live's own object model, and notices what you do by hand.
 <a class="card-link" href="sideman.html">About Sideman →</a>
+</div>
+:::
+::: {.offer}
+<div class="fig"><img src="assets/work/kiln.jpg" alt="Kiln's showcase window: nineteen panels of shapes, colour, blend modes, curves, shaders, text, a GUI panel and a sound spectrum, all drawn live by one Python sketch"></div>
+<div class="body">
+<div class="eyebrow">In development · creative coding</div>
+### Kiln
+Sketch with agents. Sketch agents. A creative-coding framework for Python that an agent can write, run and look at, with agents living inside the sketch.
+<a class="card-link" href="projects.html#kiln">About Kiln →</a>
 </div>
 :::
 ::: {.offer}
@@ -81,36 +90,10 @@ A notebook that teaches: the AI sees the cells above and hints, and the learner 
 <a class="card-link" href="https://slegroux.github.io/dandelion/">About Dandelion →</a>
 </div>
 :::
-::: {.offer}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A whiteboard with the perceive, reason, act loop sketched on it, and a room of people">
-  <rect class="fill-panel ink" x="60" y="34" width="280" height="150" rx="6" stroke-width="2"/>
-  <g transform="translate(200 109) scale(0.42)">
-    <circle cx="0" cy="0" r="120" fill="none" class="ink3" stroke-width="3"/>
-    <path class="ps" d="M0,-120 A120,120 0 0 1 103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path class="rs" d="M103.9,60 A120,120 0 0 1 -103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path class="as" d="M-103.9,60 A120,120 0 0 1 0,-120" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <circle class="p" cx="0" cy="-120" r="26"/><circle class="r" cx="103.9" cy="60" r="26"/><circle class="a" cx="-103.9" cy="60" r="26"/>
-  </g>
-  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M80 60 H120 M80 74 H110 M292 150 H320 M292 164 H312"/></g>
-  <g class="ink" fill="none" stroke-width="2">
-    <g transform="translate(90 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(145 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(200 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(255 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(310 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-  </g>
-  <text class="cap" x="60" y="290">workshops · courses · studios</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow">Course · workshops</div>
-### A track, start to finish
-Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live.
-<a class="card-link" href="course.html">About the course →</a>
-</div>
-:::
 :::
 
 ::: {.offerline}
+<div><span class="eyebrow">Course</span> Ten lessons that build one melodic house track from an empty Set, with Claude doing the work in Live. <a href="course.html">About the course →</a></div>
 <div><span class="eyebrow">Services</span> Build, advise or teach: agents inside creative tools, music and audio ML, interactive art and installations, research to product, workshops. <a href="services.html">What we take on →</a></div>
 <div><span class="eyebrow">Clients</span> Tamada and Visto (AI art curation engine) · Parts Order (music source separation) · Persona (real-time voice). <a href="projects.html">All projects →</a></div>
 :::

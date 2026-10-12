@@ -22,8 +22,6 @@ website:
     logo-alt: "Sisyphe"
     title: "sisyphe"
     left:
-      - href: sideman.qmd
-        text: Sideman
       - href: projects.qmd
         text: Projects
       - href: services.qmd
@@ -36,7 +34,7 @@ website:
       - href: services.qmd#contact
         text: Work with us
       - icon: github
-        href: https://github.com/slegroux/sideman
+        href: https://github.com/slegroux
         aria-label: GitHub
     tools-collapse: true
   page-footer:
