@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built: Sideman and Roadie for music production, Dream Fauna and Bestiary (embodied agents in simulated worlds), Moving Paintings and Nimrod (creative ML), Pappus, Westside LA Events, and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built: Sideman and Roadie for music production, Kiln, Pappus and Nimrod (tools and frameworks), Dream Fauna and Bestiary (embodied agents in simulated worlds), Moving Paintings (creative ML), Westside LA Events, and client work for Tamada and Visto, Persona and Parts Order."
 format:
   html:
     page-layout: article
@@ -15,7 +15,7 @@ format:
 Products, public tools, personal projects and client work, almost all of it since Sisyphe began in 2023. Each card is tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
 :::
 
-<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML</a> · <a href="#learning-culture">Learning & culture</a> · <a href="#clients">Client work</a></nav>
+<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#tools">Tools & frameworks</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML</a> · <a href="#learning-culture">Culture</a> · <a href="#clients">Client work</a></nav>
 
 ## Music production {#music}
 
@@ -55,6 +55,81 @@ Gives Claude the whole of Ableton Live through Live's own object model. Observer
 <div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
 From finished track to Live set. A recording of your own track or set in, a Live session out: bass, drums, synths and vocals separated, drums split six ways, and the stems loaded into your running Set through Sideman, on the bar line, ordered by frequency, colour-coded and levelled, with a locator per section. Every default measured on real material.
 <a class="card-link" href="https://slegroux.github.io/roadie/">Roadie site →</a>
+</div>
+:::
+:::
+
+## Tools & frameworks {#tools}
+
+::: {.group-lede .muted}
+The frameworks underneath the work: for sketching, for learning, and for training models.
+:::
+
+::: {.projgrid}
+::: {.proj data-layers="perceive reason act"}
+<div class="fig"><img src="assets/work/kiln.jpg" alt="Kiln's showcase window: nineteen panels of shapes, colour, blend modes, curves, shaders, text, a GUI panel and a sound spectrum, all drawn live by one Python sketch"></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">In development</span> · 2026 · Creative-coding framework</div>
+### Kiln
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
+Sketch with agents. Sketch agents. A fast creative-coding framework for Python on the GPU. A coding agent can write a Kiln sketch, render it to pixels, look at what it drew and fix it. Inside the sketch, `kiln.agents` runs thousands of agents at once, each steered by a behaviour tree. Not public yet.
+</div>
+:::
+
+::: {.proj data-layers="perceive reason"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
+  <rect class="fill-panel ink" x="30" y="24" width="236" height="236" rx="8" stroke-width="2"/>
+  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M48 50 H158 M48 64 H214 M48 78 H188"/></g>
+  <rect class="fill-panel ink" x="44" y="96" width="206" height="58" rx="5" stroke-width="1.5"/>
+  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M58 114 H108 M116 114 H158 M58 128 H88 M96 128 H178 M58 142 H128"/></g>
+  <text class="cap" x="214" y="148">run</text>
+  <rect class="fill-panel ink" x="44" y="170" width="206" height="72" rx="5" stroke-width="1.5"/>
+  <circle class="r" cx="62" cy="188" r="7"/>
+  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M78 188 H188 M62 210 H236 M62 224 H208"/></g>
+  <path class="rs" d="M266 206 C 310 206, 330 170, 330 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
+  <g transform="translate(330 96)">
+    <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
+    <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
+  </g>
+  <g transform="translate(330 214)">
+    <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
+    <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
+    <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
+  </g>
+  <text class="cap" x="30" y="290">note · code · ask · you run it</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Public</span> · 2026 · Learning notebook</div>
+### Pappus
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+A local-first notebook that teaches. The AI sees every cell above your question and answers a hint or a guiding question at a time. It never runs a cell, and by default it cannot write files: running the code stays the learner's job. Built on Answer.AI's SolveIt method.
+<a class="card-link" href="https://slegroux.github.io/pappus/">Pappus site →</a>
+</div>
+:::
+
+::: {.proj data-layers="perceive reason"}
+<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens: the speech and language models Nimrod trains">
+  <g class="p">
+    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
+  </g>
+  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <g>
+    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
+    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
+    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
+    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
+    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
+    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
+    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
+  </g>
+  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
+</svg></div>
+<div class="body">
+<div class="eyebrow meta"><span class="status">Public</span> · 2023– · Deep-learning framework</div>
+### Nimrod
+<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
+A minimal deep-learning framework on PyTorch: modules, models and training recipes, each experiment one Hydra config, for getting from idea to training run quickly. Built for speech, audio and language modelling; on PyPI as `slg-nimrod`.
+<a class="card-link" href="https://slegroux.github.io/nimrod/">Nimrod docs →</a>
 </div>
 :::
 :::
@@ -107,7 +182,7 @@ A MuJoCo simulator for things that move. Its first creature is a quadrotor that 
 ## Creative ML {#creative-ml}
 
 ::: {.group-lede .muted}
-Generative models that set paintings in motion, and the audio toolkit underneath the music work.
+Generative models that set paintings in motion.
 :::
 
 ::: {.projgrid}
@@ -122,71 +197,15 @@ Still paintings dreamed into motion with diffusion models. Each piece takes one 
 </div>
 :::
 
-::: {.proj data-layers="perceive reason"}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
-  <g class="p">
-    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
-  </g>
-  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <g>
-    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
-    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
-    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
-    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
-    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
-    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
-    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
-  </g>
-  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow meta"><span class="status">Public</span> · 2023– · Speech and audio toolkit</div>
-### Nimrod
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-A personal open-source toolkit for speech, audio and language modelling: modules, models and training recipes for getting deep-learning experiments running quickly.
-<a class="card-link" href="https://slegroux.github.io/nimrod">Nimrod docs →</a>
-</div>
-:::
 :::
 
-## Learning & culture {#learning-culture}
+## Culture {#learning-culture}
 
 ::: {.group-lede .muted}
-Tools that help people learn by doing, and find what is on in their city.
+A city's cultural life, gathered in one place.
 :::
 
 ::: {.projgrid}
-::: {.proj data-layers="perceive reason"}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A notebook of note, code and question cells, with the AI allowed to read and hint but locked out of running code">
-  <rect class="fill-panel ink" x="30" y="24" width="236" height="236" rx="8" stroke-width="2"/>
-  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M48 50 H158 M48 64 H214 M48 78 H188"/></g>
-  <rect class="fill-panel ink" x="44" y="96" width="206" height="58" rx="5" stroke-width="1.5"/>
-  <g class="ps" stroke-width="3" stroke-linecap="round"><path d="M58 114 H108 M116 114 H158 M58 128 H88 M96 128 H178 M58 142 H128"/></g>
-  <text class="cap" x="214" y="148">run</text>
-  <rect class="fill-panel ink" x="44" y="170" width="206" height="72" rx="5" stroke-width="1.5"/>
-  <circle class="r" cx="62" cy="188" r="7"/>
-  <g class="rs" stroke-width="3" stroke-linecap="round"><path d="M78 188 H188 M62 210 H236 M62 224 H208"/></g>
-  <path class="rs" d="M266 206 C 310 206, 330 170, 330 130" stroke-width="2" fill="none" stroke-dasharray="4 5"/>
-  <g transform="translate(330 96)">
-    <circle class="r" cx="0" cy="0" r="22" opacity="0.9"/>
-    <text class="cap" x="0" y="-32" text-anchor="middle">reads · hints</text>
-  </g>
-  <g transform="translate(330 214)">
-    <rect class="fill-panel ink" x="-14" y="-4" width="28" height="22" rx="4" stroke-width="2"/>
-    <path class="ink" d="M-8 -4 V-12 A8 8 0 0 1 8 -12 V-4" fill="none" stroke-width="2"/>
-    <text class="cap" x="0" y="40" text-anchor="middle">won't run it</text>
-  </g>
-  <text class="cap" x="30" y="290">note · code · ask · you run it</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow meta"><span class="status">Public</span> · 2026 · Learning notebook</div>
-### Pappus
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-A local-first notebook that teaches. The AI sees every cell above your question and answers a hint or a guiding question at a time. It never runs a cell, and by default it cannot write files: running the code stays the learner's job. Built on Answer.AI's SolveIt method.
-<a class="card-link" href="https://slegroux.github.io/pappus/">Pappus site →</a>
-</div>
-:::
-
 ::: {.proj data-layers="perceive"}
 <div class="fig"><img src="assets/work/westside.jpg" alt="Westside LA Events: category filters and a map of event clusters across LA's Westside"></div>
 <div class="body">
