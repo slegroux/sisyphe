@@ -3,210 +3,150 @@ pagetitle: "Services"
 aliases: [work.html]
 description: "Sisyphe builds, advises and teaches AI for art, music and creative tools: agents inside creative software, music and audio ML, interactive art and installations with embodied AI, research to product, and workshops."
 image: assets/brand/og.png
+body-classes: services-page
 format:
   html:
-    page-layout: article
+    page-layout: full
 ---
 
-<div class="eyebrow">Services</div>
+```{=html}
+<header class="sv-mast">
+  <div class="sv-index-line">
+    <span>Sisyphe · Services</span>
+    <span class="sv-idx">Index <a href="#build">Build</a> <a href="#advise">Advise</a> <a href="#teach">Teach</a> <a href="#clients">Clients</a> <a href="#contact">Contact</a></span>
+  </div>
+  <h1 class="sv-h1"><span class="ln">Build, advise,</span> <span class="ln">teach<span class="visually-hidden">.</span><span class="rock" aria-hidden="true"></span></span></h1>
+  <p class="sv-lede">Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real stage, a real signal or a real collection. If you are not sure your problem fits, write anyway.</p>
+</header>
 
-# Build, advise, teach.
+<nav class="sv-toc" aria-label="Services">
+  <a href="#build"><span class="n">01</span><span class="k">Build</span><span class="l">We build it.</span><span class="s">Agents · audio ML · installations</span></a>
+  <a href="#advise"><span class="n">02</span><span class="k">Advise</span><span class="l">We check it before you build.</span><span class="s">Research to product · fractional CTO</span></a>
+  <a href="#teach"><span class="n">03</span><span class="k">Teach</span><span class="l">We teach your team.</span><span class="s">Workshops · courses</span></a>
+</nav>
 
-::: {.lede .muted}
-Sisyphe is small on purpose. One senior engineer, with trusted collaborators when the work needs them, on problems where the model has to meet a real instrument, a real stage, a real signal or a real collection: music technology, creative tools, art and culture. If you are not sure your problem fits, write anyway.
-:::
+<section class="sv-sec" id="build" aria-labelledby="build-h">
+  <div class="sv-head">
+    <span class="n">01</span>
+    <h2 id="build-h">Build</h2>
+    <p>Working software in your repo, measured against the real environment it has to run in.</p>
+  </div>
 
-::: {.modes}
-<a class="mode" href="#build"><span class="eyebrow">01 · Build</span><strong>We make the thing.</strong><span>Agents inside creative tools, music and audio ML, interactive art and installations.</span></a>
-<a class="mode" href="#advise"><span class="eyebrow">02 · Advise</span><strong>We de-risk the thing.</strong><span>Research to product, fractional CTO and scientific advice for creative-tech teams and cultural institutions.</span></a>
-<a class="mode" href="#teach"><span class="eyebrow">03 · Teach</span><strong>We make your team able to do it.</strong><span>Workshops and courses for studios, schools and art programs.</span></a>
-:::
+  <article class="sv-item">
+    <div class="sv-say">
+      <h3>Agents inside creative tools</h3>
+      <p class="sv-out">You get an agent that can operate your whole application, and an evaluation that tells you when its coverage slips.</p>
+    </div>
+    <div class="sv-do">
+      <p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see and build the bridge into your object model or archive.</p>
+      <dl class="sv-refs">
+        <div><dt>Our work</dt><dd><a href="projects.html#sideman">Sideman</a></dd></div>
+      </dl>
+    </div>
+  </article>
 
-## Build {#build}
+  <article class="sv-item">
+    <div class="sv-say">
+      <h3>Music, audio and voice ML</h3>
+      <p class="sv-out">You get music and audio models that hold up in a product, not only on a benchmark.</p>
+    </div>
+    <div class="sv-do">
+      <p>Music source separation, audio classification and recommendation, speech recognition and synthesis. Data pipelines, training, evaluation, and getting a model into a product.</p>
+      <dl class="sv-refs">
+        <div><dt>Our work</dt><dd><a href="projects.html#roadie">Roadie</a> · <a href="projects.html#nimrod">Nimrod</a></dd></div>
+        <div><dt>Clients</dt><dd><a href="#persona">Persona</a> · <a href="#parts-order">Parts Order</a></dd></div>
+      </dl>
+    </div>
+  </article>
 
-::: {.group-lede .muted}
-Working software in your repo, measured against the real environment it has to run in.
-:::
+  <article class="sv-item">
+    <div class="sv-say">
+      <h3>Interactive art and installations</h3>
+      <p class="sv-out">You get a real-time system that answers people, sensors or signals, with a mapping you can defend.</p>
+    </div>
+    <div class="sv-do">
+      <p>Embodied AI for the stage and the gallery: real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes.</p>
+      <dl class="sv-refs">
+        <div><dt>Our work</dt><dd><a href="projects.html#dream-fauna">Dream Fauna</a> (personal)</dd></div>
+      </dl>
+    </div>
+  </article>
+</section>
 
-::: {.svcgrid}
-::: {.svc .wide}
-<div class="fig"><img src="assets/work/sideman-live.jpg" alt="Ableton Live with three tracks Claude created and a filter automation curve it wrote"></div>
-<div class="body">
-<div class="eyebrow field">Music technology · creative tools</div>
-### Agents inside creative tools
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-<p class="outcome">You get an agent that can operate your whole application, and an evaluation that tells you when its coverage slips.</p>
-<p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see and build the bridge into your object model or archive.</p>
-<ul class="proof"><li><a href="https://slegroux.github.io/sideman/">Sideman</a>: 922 reachable members of Live measured against a running instance, with change observers nothing else in the field has.</li><li>Persona: real-time conversational voice pipelines, as an embedded ML engineer.</li></ul>
-</div>
-:::
+<section class="sv-sec" id="advise" aria-labelledby="advise-h">
+  <div class="sv-head">
+    <span class="n">02</span>
+    <h2 id="advise-h">Advise</h2>
+    <p>Read the paper, run the experiment, and say plainly what will work before you build it.</p>
+  </div>
 
-::: {.svc}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A waveform becoming a sequence of tokens">
-  <g class="p">
-    <rect x="40" y="130" width="6" height="40" rx="3"/><rect x="52" y="110" width="6" height="80" rx="3"/><rect x="64" y="95" width="6" height="110" rx="3"/><rect x="76" y="120" width="6" height="60" rx="3"/><rect x="88" y="80" width="6" height="140" rx="3"/><rect x="100" y="105" width="6" height="90" rx="3"/><rect x="112" y="135" width="6" height="30" rx="3"/><rect x="124" y="115" width="6" height="70" rx="3"/><rect x="136" y="90" width="6" height="120" rx="3"/><rect x="148" y="125" width="6" height="50" rx="3"/><rect x="160" y="140" width="6" height="20" rx="3"/>
-  </g>
-  <path class="ink" d="M185 150 L225 150 M216 142 L225 150 L216 158" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <g>
-    <rect class="r" x="240" y="86" width="44" height="26" rx="5"/><text class="mono" x="262" y="99">say</text>
-    <rect class="r" x="292" y="86" width="30" height="26" rx="5"/><text class="mono" x="307" y="99">it</text>
-    <rect class="r" x="240" y="122" width="34" height="26" rx="5"/><text class="mono" x="257" y="135">it</text>
-    <rect class="r" x="282" y="122" width="58" height="26" rx="5"/><text class="mono" x="311" y="135">lands</text>
-    <rect class="r" x="240" y="158" width="30" height="26" rx="5"/><text class="mono" x="255" y="171">in</text>
-    <rect class="r" x="278" y="158" width="48" height="26" rx="5"/><text class="mono" x="302" y="171">your</text>
-    <rect class="a" x="240" y="194" width="42" height="26" rx="5"/><text class="mono" x="261" y="207">Set</text>
-  </g>
-  <text class="cap" x="40" y="280">asr · tts · diarization · lm</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow field">Music and audio</div>
-### Music, audio and voice ML
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-<p class="outcome">You get music and audio models that hold up in a product, not only on a benchmark.</p>
-<p>Music source separation, audio classification and recommendation, speech recognition and synthesis, and the language models around them. Data pipelines, training, evaluation, and getting a model into a product people use without noticing it.</p>
-<ul class="proof"><li>Persona: real-time conversational voice pipelines.</li><li>Parts Order: scientific advice on music source separation.</li><li><a href="https://slegroux.github.io/roadie/">Roadie</a> (open source): stem separation for Ableton Live 12, with the stems loaded into your Set through Sideman.</li><li><a href="https://slegroux.github.io/nimrod/">Nimrod</a> (open source): a minimal deep-learning framework for speech, audio and language models.</li></ul>
-<p class="before"><span>Before Sisyphe</span> Speech recognition and speaker diarization shipped to millions of Webex users at Cisco; speech and speaker recognition at Ava and Voicea.</p>
-</div>
-:::
+  <article class="sv-item">
+    <div class="sv-say">
+      <h3>Research to product, fractional CTO, scientific advice</h3>
+      <p class="sv-out">You get a senior second opinion, or your prototype turned into software, before you commit a team to it.</p>
+    </div>
+    <div class="sv-do">
+      <p>For creative-tech teams and cultural institutions with a paper, a lab prototype or a collection that needs to become software. We talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor.</p>
+      <dl class="sv-refs">
+        <div><dt>Clients</dt><dd><a href="#tamada-visto">Tamada × Visto</a> · <a href="#parts-order">Parts Order</a></dd></div>
+      </dl>
+    </div>
+  </article>
+</section>
 
-::: {.svc}
-<div class="fig"><img src="assets/work/dreamfauna.png" alt="dreamfauna: watercolour creatures swarming in a generative ecosystem"></div>
-<div class="body">
-<div class="eyebrow field">Interactive art</div>
-### Interactive art and installations
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip act">act</span></div>
-<p class="outcome">You get a real-time system that answers people, sensors or signals, with a mapping you can defend.</p>
-<p>Embodied AI for the stage and the gallery: real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state. Installations, performances, robots on stage, museum and gallery prototypes. Psychoacoustics and emotion research underneath, so the mapping from signal to output is defensible rather than decorative.</p>
+<section class="sv-sec" id="teach" aria-labelledby="teach-h">
+  <div class="sv-head">
+    <span class="n">03</span>
+    <h2 id="teach-h">Teach</h2>
+    <p>Workshops and courses for studios, schools and art programs.</p>
+  </div>
 
-<ul class="proof"><li><a href="https://ccrma.stanford.edu/~slegroux/portfolio/performances/dreamfauna.html">Dream Fauna</a> (personal, 2026): an artificial ecosystem of watercolour creatures whose swarm composes a live melodic-techno set, and the music drives the swarm back.</li></ul>
-<p class="before"><span>Before Sisyphe</span> The Brain Orchestra, XIM and the Sónar Robot Arena, built in research labs in Barcelona. See <a href="about.html#background">the background</a>.</p>
-</div>
-:::
+  <article class="sv-item">
+    <div class="sv-say">
+      <h3>Teaching and workshops</h3>
+      <p class="sv-out">You get a team that can build and run agents without us.</p>
+    </div>
+    <div class="sv-do">
+      <p>Sideman workshops for studios, schools and labs, from a day to a term, from “what’s in my Set?” to a finished track. Custom courses on agents for creative tools, audio machine learning and sensor-to-actuator systems.</p>
+      <dl class="sv-refs">
+        <div><dt>Our work</dt><dd><a href="course.html">The Sideman course</a> · <a href="projects.html#dandelion">Dandelion</a></dd></div>
+      </dl>
+    </div>
+  </article>
+</section>
 
-:::
+<section class="sv-clients" id="clients" aria-labelledby="clients-h">
+  <div class="sv-head sv-head-s">
+    <h2 id="clients-h">Client work</h2>
+    <p>Engagements for companies building AI into creative, cultural and voice products.</p>
+  </div>
+  <ul class="sv-cl">
+    <li id="tamada-visto"><h3>Tamada × Visto</h3><span class="m">Fractional CTO · 2023–2025</span><p>An AI curation engine for <a href="https://www.visto.art/">Visto</a>, the art consultancy that builds collections for luxury hotels and landmark destinations: search by text or by image, taken from prototype to product with a team.</p></li>
+    <li id="persona"><h3>Persona</h3><span class="m">ML engineer, embedded · 2023–2025</span><p>Real-time conversational voice pipelines, built inside the product team.</p></li>
+    <li id="parts-order"><h3>Parts Order</h3><span class="m">Scientific advisor · 2023–2025</span><p>Scientific advice on music source separation.</p></li>
+  </ul>
+  <p class="sv-bg">For the two decades before Sisyphe, see <a href="about.html#background">the background</a>.</p>
+</section>
 
-::: {.svcgrid}
-::: {.grp}
-## Advise {#advise}
+<section class="sv-how" aria-labelledby="how-h">
+  <h2 id="how-h">How it works</h2>
+  <ol class="sv-steps">
+    <li><span class="n" aria-hidden="true">1</span><h3>A written brief</h3><p>Half a page: what you are building, where it is stuck, what a demo would need to show. We reply with a scope, a number of weeks and a price.</p></li>
+    <li><span class="n" aria-hidden="true">2</span><h3>Two to eight weeks</h3><p>A fixed engagement with a clear question. Working code in your repo from the first week, a check-in each week, and no open-ended retainers.</p></li>
+    <li><span class="n" aria-hidden="true">3</span><h3>A demo, then a decision</h3><p>It ends with the work running in front of you and a written account of what worked and what did not. You decide what happens next.</p></li>
+  </ol>
+  <dl class="sv-terms">
+    <div><dt>Advisory</dt><dd>The other shape: a few hours a month to review architecture, models or an agent design before you commit a team to it.</dd></div>
+    <div><dt>Open source first</dt><dd>If the work belongs in Sideman or a public library, we will say so and price it accordingly.</dd></div>
+  </dl>
+</section>
 
-::: {.group-lede .muted}
-Read the paper, run the experiment, and say plainly what will work before you build it.
-:::
-
-::: {.svc}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A paper turning into a shipped product">
-  <g transform="translate(50 70)">
-    <rect class="fill-panel ink" x="0" y="0" width="110" height="140" rx="6" stroke-width="2"/>
-    <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M18 26 H70 M18 44 H92 M18 62 H84 M18 80 H92 M18 98 H60"/></g>
-    <path class="rs" d="M18 116 H70" stroke-width="3" stroke-linecap="round"/>
-    <text class="cap" x="0" y="165">paper · prototype</text>
-  </g>
-  <path class="ink" d="M180 140 L215 140 M206 132 L215 140 L206 148" stroke-width="2" fill="none" stroke-linecap="round"/>
-  <g transform="translate(240 75)">
-    <path class="a" d="M0 40 L55 12 L110 40 L55 68 Z" opacity="0.9"/>
-    <path class="a" d="M0 40 L55 68 L55 130 L0 102 Z" opacity="0.7"/>
-    <path class="a" d="M55 68 L110 40 L110 102 L55 130 Z" opacity="0.5"/>
-    <path d="M40 72 L52 84 L76 56" stroke="var(--on-layer)" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-    <text class="cap" x="0" y="165">shipped</text>
-  </g>
-</svg></div>
-<div class="body">
-<div class="eyebrow field">Any field</div>
-### Research to product, fractional CTO, scientific advice
-<div class="chips"><span class="chip reason">reason</span></div>
-<p class="outcome">You get a senior second opinion, or your prototype turned into software, before you commit a team to it.</p>
-<p>For creative-tech teams and cultural institutions: you have a paper, a lab prototype or a collection that needs to become software, or a team that needs a senior second opinion. We read the paper, talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor. A decade in research labs, a decade in industry.</p>
-<ul class="proof"><li>Tamada × <a href="https://www.visto.art/">Visto</a>: fractional CTO on an AI curation engine for an art consultancy that builds collections for luxury hotels and landmark destinations, from prototype to product with a team.</li><li>Parts Order: scientific advisor on music source separation.</li></ul>
-<p class="before"><span>Before Sisyphe</span> Museaic Labs, an emotion-driven music recommendation system; technology transfer on interactive systems for autism with Fundación Orange and Universitat de València.</p>
-</div>
-:::
-
-:::
-
-::: {.grp}
-## Teach {#teach}
-
-::: {.group-lede .muted}
-So your team can do it without us.
-:::
-
-::: {.svc}
-<div class="fig"><svg class="ill" viewBox="0 0 400 300" role="img" aria-label="A whiteboard with the perceive, reason, act loop sketched on it, and a room of people">
-  <rect class="fill-panel ink" x="60" y="34" width="280" height="150" rx="6" stroke-width="2"/>
-  <g transform="translate(200 109) scale(0.42)">
-    <circle cx="0" cy="0" r="120" fill="none" class="ink3" stroke-width="3"/>
-    <path class="ps" d="M0,-120 A120,120 0 0 1 103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path class="rs" d="M103.9,60 A120,120 0 0 1 -103.9,60" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <path class="as" d="M-103.9,60 A120,120 0 0 1 0,-120" stroke-width="10" fill="none" stroke-linecap="round"/>
-    <circle class="p" cx="0" cy="-120" r="26"/><circle class="r" cx="103.9" cy="60" r="26"/><circle class="a" cx="-103.9" cy="60" r="26"/>
-  </g>
-  <g class="ink3" stroke-width="3" stroke-linecap="round"><path d="M80 60 H120 M80 74 H110 M292 150 H320 M292 164 H312"/></g>
-  <g class="ink" fill="none" stroke-width="2">
-    <g transform="translate(90 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(145 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(200 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(255 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-    <g transform="translate(310 232)"><circle cx="0" cy="0" r="9"/><path d="M-14 30 C-14 14, 14 14, 14 30"/></g>
-  </g>
-  <text class="cap" x="60" y="290">workshops · courses · studios</text>
-</svg></div>
-<div class="body">
-<div class="eyebrow field">Education</div>
-### Teaching and workshops
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span><span class="chip act">act</span></div>
-<p class="outcome">You get a team that can build and run agents without us.</p>
-<p>Sideman workshops for studios, schools and labs, from a day to a term, from “what’s in my Set?” to a finished track. Custom courses on agents for creative tools, audio machine learning and sensor-to-actuator systems.</p>
-<ul class="proof"><li>The <a href="course.html">Sideman course</a> is the current syllabus.</li><li><a href="https://slegroux.github.io/dandelion/">Dandelion</a>, our learning notebook: the AI hints, the learner runs the code.</li></ul>
-<p class="before"><span>Before Sisyphe</span> Four graduate courses designed and taught at Georgia Tech and Pompeu Fabra University, one built around the sensor-to-actuator loop.</p>
-</div>
-:::
-
-:::
-:::
-
-## Worked with
-
-::: {.worked .clients}
-<span class="faint">Clients</span>
-<span class="client">Persona</span><span class="client">Parts Order</span><span class="client">Tamada</span><span class="client">Visto</span>
-:::
-
-::: {.worked .before}
-<span class="faint">Before Sisyphe</span>
-<img class="logo cisco" src="assets/logos/cisco.svg" alt="Cisco"><img class="logo webex" src="assets/logos/webex.svg" alt="Webex"><span class="lockup"><img class="logo sym" src="assets/logos/voicea.svg" alt="">Voicea</span><span class="lockup"><img class="logo sym" src="assets/logos/ava.png" alt="">Ava</span><img class="logo ginger" src="assets/logos/ginger.png" alt="Ginger.io"><img class="logo gt" src="assets/logos/georgia-tech.svg" alt="Georgia Tech"><img class="logo upf" src="assets/logos/upf.png" alt="Pompeu Fabra University"><img class="logo orange" src="assets/logos/fundacion-orange.png" alt="Fundación Orange"><img class="logo sonar" src="assets/logos/sonar.png" alt="Sónar+D">
-<span>Stanford</span><span>Museaic Labs</span>
-:::
-
-## How it works
-
-::: {.steps}
-::: {.step}
-<div class="n">1</div>
-### A written brief
-Half a page: what you are building, where it is stuck, what a demo would need to show. We reply with a scope, a number of weeks and a price.
-:::
-::: {.step}
-<div class="n">2</div>
-### Two to eight weeks
-A fixed engagement with a clear question. Working code in your repo from the first week, a check-in each week, and no open-ended retainers.
-:::
-::: {.step}
-<div class="n">3</div>
-### A demo, then a decision
-It ends with the thing running in front of you and a written account of what worked and what did not. You decide what happens next.
-:::
-:::
-
-::: {.note}
-**Advisory** is the other shape: a few hours a month to review architecture, models or an agent design before you commit a team to it. **Open source first:** if the work belongs in Sideman or a public library, we will say so and price it accordingly.
-:::
-
-::: {.cta}
-## Start a conversation {#contact}
-
-Write with what you are building and where it is stuck. You will get a reply from the person who would do the work.
-
-<a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a>
-
-<p class="addr">Or copy the address: <code>sylvain.legroux@gmail.com</code> <button type="button" class="copy-email" data-email="sylvain.legroux@gmail.com">Copy</button></p>
-:::
+<section class="sv-closer" id="contact" aria-labelledby="contact-h">
+  <h2 id="contact-h">Start a conversation.</h2>
+  <div class="sv-cta">
+    <p>Write with what you are building and where it is stuck. You will get a reply from the person who would do the work.</p>
+    <p class="btn-row"><a class="btn-accent" href="mailto:sylvain.legroux@gmail.com?subject=Working%20with%20Sisyphe">Write to us</a></p>
+    <p class="addr">Or copy the address: <code>sylvain.legroux@gmail.com</code> <button type="button" class="copy-email" data-email="sylvain.legroux@gmail.com">Copy</button></p>
+  </div>
+</section>
+```

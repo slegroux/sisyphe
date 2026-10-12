@@ -423,3 +423,132 @@ $gw-head: $headings-font-family;
     .work video, .work img { transition: none; }
   }
 }
+
+// ---------------------------------------------------------------------------
+// Services: the home's catalogue language applied to the offer. No boxes:
+// black rules open each section, grey rules divide entries, mono numbers caption them.
+// ---------------------------------------------------------------------------
+.services-page {
+  $sv-gap: clamp(12px, 1.8vw, 24px);
+  @mixin sv-grid { display: grid; grid-template-columns: repeat(12, minmax(0, 1fr)); column-gap: $sv-gap; }
+  @mixin sv-mono { font-family: $gw-mono; font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase; font-weight: 400; }
+
+  #quarto-content { display: block; padding-left: clamp(16px, 3vw, 40px); padding-right: clamp(16px, 3vw, 40px); }
+  #quarto-content > main.content { grid-column: 1 / -1; width: 100%; max-width: 1360px; margin: 0 auto; min-width: 0; }
+  .page-columns .content { padding-bottom: 0; }
+  section[id], [id="contact"], .sv-cl li[id] { scroll-margin-top: 84px; }
+  main h2, main h3 { color: var(--ink); }
+  #quarto-content main section h2:first-of-type { margin-top: 0; } // beat Quarto's first-section h2 margin
+  main a:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 4px; border-radius: 2px; }
+
+  // Masthead: index line, a headline on two lines, the lede beside it.
+  .sv-mast { @include sv-grid; padding: clamp(0.4rem, 1.2vw, 1rem) 0 clamp(2rem, 4vw, 3.4rem); }
+  .sv-index-line { grid-column: 1 / -1; display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; @include sv-mono; color: var(--ink-2);
+    padding-bottom: 0.7rem; border-bottom: 1px solid var(--ink); margin-bottom: clamp(1.2rem, 2.6vw, 2.2rem);
+    .sv-idx { color: var(--ink-3); a { color: var(--ink); text-decoration: none; margin-left: 1.1em; &:hover { color: var(--accent-ink); } } } }
+  .sv-h1 { grid-column: 1 / span 8; margin: 0; font-weight: 800; letter-spacing: -0.05em; line-height: 0.86; text-wrap: initial; max-width: none;
+    font-size: clamp(3rem, calc((100vw - 2 * clamp(16px, 3vw, 40px)) / 9.6), 8.8rem);
+    .ln { display: block; animation: gw-rise 0.9s cubic-bezier(.2,.7,.2,1) both; }
+    .ln:nth-child(2) { animation-delay: 0.08s; }
+    .rock { display: inline-block; width: 0.2em; height: 0.2em; border-radius: 50%; background: var(--accent); margin-left: 0.04em; vertical-align: baseline; } }
+  .sv-lede { grid-column: 9 / -1; align-self: end; margin: 0 0 0.4rem; font-size: clamp(0.98rem, 1.15vw, 1.1rem); line-height: 1.45; color: var(--ink-2); max-width: 42ch;
+    animation: gw-fade 0.9s ease-out 0.3s both; }
+
+  // Index of the three services: catalogue entries, a rule over each.
+  .sv-toc { @include sv-grid; row-gap: 1.6rem; margin: 0 0 clamp(3rem, 6.5vw, 5.6rem);
+    a { grid-column: span 4; display: grid; grid-template-columns: auto 1fr; column-gap: 0.9rem; align-content: start; padding-top: 0.75rem; border-top: 1px solid var(--ink);
+      color: var(--ink) !important; text-decoration: none !important; transition: border-color 0.2s;
+      .n, .k { @include sv-mono; color: var(--ink-3); }
+      .k { color: var(--ink-2); }
+      .l { grid-column: 1 / -1; margin-top: 1rem; font-family: $gw-head; font-weight: 800; font-size: clamp(1.6rem, 2.6vw, 2.5rem); line-height: 0.98; letter-spacing: -0.035em; }
+      .l::after { content: "\00a0↓"; font-weight: 500; color: var(--accent-ink); opacity: 0; transition: opacity 0.2s; }
+      .s { grid-column: 1 / -1; margin-top: 0.7rem; font-size: 0.92rem; color: var(--ink-2); }
+      &:hover, &:focus-visible { border-top-color: var(--accent-ink); .l::after { opacity: 1; } } } }
+
+  // A service: black rule, mono number, a big name, its line on the right.
+  .sv-sec { border-top: 1px solid var(--ink); padding-top: clamp(0.9rem, 1.6vw, 1.3rem); margin-bottom: clamp(2.6rem, 5.5vw, 4.6rem); }
+  .sv-head { @include sv-grid; row-gap: 0.4rem; margin-bottom: clamp(1.6rem, 3.4vw, 3rem);
+    .n { grid-column: 1 / -1; @include sv-mono; color: var(--ink-3); }
+    h2 { grid-column: 1 / span 6; margin: 0; font-weight: 800; font-size: clamp(3rem, 8.4vw, 8rem); line-height: 0.86; letter-spacing: -0.05em; }
+    p { grid-column: 7 / -1; align-self: end; margin: 0 0 0.35rem; color: var(--ink-2); font-size: clamp(1.05rem, 1.3vw, 1.2rem); line-height: 1.4; max-width: 44ch; } }
+  .sv-head-s h2 { font-size: clamp(2.2rem, 4.6vw, 4.2rem); line-height: 0.95; letter-spacing: -0.045em; }
+
+  // An offering: what you get on the left, how and the proof on the right.
+  .sv-item { @include sv-grid; row-gap: 1.2rem; border-top: 1px solid var(--rule); padding: clamp(1.4rem, 2.6vw, 2.2rem) 0 clamp(1.4rem, 2.6vw, 2.2rem); }
+  .sv-say { grid-column: 1 / span 5;
+    h3 { margin: 0 0 1rem; font-size: clamp(1.5rem, 2.3vw, 2.15rem); font-weight: 800; line-height: 1.02; letter-spacing: -0.035em; max-width: 20ch; }
+    .sv-out { margin: 0; font-family: $gw-head; font-weight: 500; font-size: clamp(1.15rem, 1.7vw, 1.55rem); line-height: 1.24; letter-spacing: -0.015em; color: var(--ink); max-width: 28ch; } }
+  .sv-do { grid-column: 7 / -1; padding-top: 0.35rem;
+    > p { margin: 0 0 1.2rem; color: var(--ink-2); max-width: 58ch; } }
+  .sv-refs { margin: 0; border-top: 1px solid var(--rule);
+    > div { display: flex; gap: 1rem; align-items: baseline; padding: 0.55rem 0; border-bottom: 1px solid var(--rule); }
+    dt { @include sv-mono; font-size: 0.68rem; color: var(--ink-3); flex: none; width: 6.5rem; }
+    dd { margin: 0; font-size: 0.95rem; color: var(--ink-3);
+      a { color: var(--ink); font-weight: 500; } a:hover { color: var(--accent-ink); } } }
+
+  // Client work: names set like the service titles, role in mono, one or two lines each.
+  .sv-clients { border-top: 1px solid var(--ink); padding-top: clamp(0.9rem, 1.6vw, 1.3rem); margin-bottom: clamp(2.6rem, 5.5vw, 4.6rem);
+    .sv-head { margin-top: 0.4rem; } }
+  .sv-cl { list-style: none; margin: 0; padding: 0;
+    li { @include sv-grid; grid-template-rows: auto 1fr; row-gap: 0.5rem; align-items: start; border-top: 1px solid var(--rule); padding: 1.1rem 0 1.3rem; }
+    h3 { grid-column: 1 / span 6; grid-row: 1; margin: 0; font-size: clamp(1.4rem, 2.2vw, 2rem); font-weight: 800; letter-spacing: -0.035em; line-height: 1.02; }
+    .m { grid-column: 1 / span 6; grid-row: 2; @include sv-mono; font-size: 0.7rem; color: var(--ink-3); }
+    p { grid-column: 7 / -1; grid-row: 1 / span 2; margin: 0; padding-top: 0.3rem; color: var(--ink-2); max-width: 58ch; } }
+  .sv-bg { margin: 0; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: 0.92rem; color: var(--ink-3);
+    a { color: var(--ink-2); font-weight: 500; white-space: nowrap; } }
+
+  // How it works: three numbers you can read from across the room.
+  .sv-how { border-top: 1px solid var(--ink); padding-top: clamp(1.4rem, 2.6vw, 2.2rem); margin-bottom: clamp(2.6rem, 5.5vw, 4.6rem);
+    > h2 { margin: 0 0 clamp(1.8rem, 3.6vw, 3rem); font-size: clamp(2.2rem, 4.6vw, 4.2rem); line-height: 0.95; letter-spacing: -0.045em; } }
+  .sv-steps { @include sv-grid; row-gap: 2.4rem; list-style: none; margin: 0 0 clamp(2rem, 4vw, 3.4rem); padding: 0;
+    li { grid-column: span 4; border-top: 1px solid var(--rule); padding-top: 1rem; }
+    .n { display: block; font-family: $gw-head; font-weight: 800; font-size: clamp(4rem, 8vw, 7.2rem); line-height: 0.8; letter-spacing: -0.06em; color: var(--accent-ink); margin-bottom: 1.2rem; }
+    h3 { margin: 0 0 0.5rem; font-size: clamp(1.3rem, 1.8vw, 1.6rem); font-weight: 800; letter-spacing: -0.03em; }
+    p { margin: 0; color: var(--ink-2); max-width: 40ch; } }
+  .sv-terms { @include sv-grid; row-gap: 0; margin: 0;
+    > div { grid-column: span 6; display: grid; grid-template-columns: 9.5rem minmax(0, 1fr); gap: 1rem; align-items: baseline; border-top: 1px solid var(--rule); padding: 0.9rem 0; }
+    dt { @include sv-mono; font-size: 0.7rem; color: var(--ink); }
+    dd { margin: 0; color: var(--ink-2); font-size: 0.95rem; } }
+
+  // Contact: the home's closer, one big line and the way to reach us.
+  .sv-closer { @include sv-grid; row-gap: 2rem; border-top: 1px solid var(--ink); padding-top: clamp(1.6rem, 3vw, 2.4rem); margin-bottom: clamp(2.5rem, 5vw, 4rem);
+    h2 { grid-column: 1 / span 7; margin: 0; font-size: clamp(2.4rem, 5.4vw, 5rem); line-height: 0.92; letter-spacing: -0.05em; max-width: 12ch; }
+    .sv-cta { grid-column: 9 / -1; align-self: end;
+      > p:first-child { margin: 0 0 1rem; font-size: 1.05rem; color: var(--ink-2); }
+      .btn-row { margin: 0 0 1rem; }
+      .addr { font-size: 0.88rem; color: var(--ink-2); margin: 0;
+        code { background: transparent; color: var(--ink); padding: 0; user-select: all; overflow-wrap: anywhere; }
+        .copy-email { margin-left: 0.4rem; font: 600 0.78rem/1 $font-family-sans-serif; padding: 0.35rem 0.7rem; border-radius: 5px; border: 1px solid var(--rule); background: var(--ground); color: var(--ink); cursor: pointer;
+          &:hover { border-color: var(--ink-3); } &:focus-visible { outline: 2px solid var(--accent-ink); outline-offset: 2px; } } } } }
+
+  @media (max-width: 1100px) {
+    .sv-h1 { grid-column: 1 / -1; }
+    .sv-lede { grid-column: 1 / span 8; margin-top: 1.6rem; }
+    .sv-say { grid-column: 1 / span 6; }
+  }
+  @media (max-width: 860px) {
+    .sv-lede { grid-column: 1 / -1; }
+    .sv-toc a { grid-column: 1 / -1; .l { margin-top: 0.6rem; } }
+    .sv-head h2, .sv-head p { grid-column: 1 / -1; }
+    .sv-head p { margin-top: 0.8rem; }
+    .sv-say, .sv-do { grid-column: 1 / -1; }
+    .sv-do { padding-top: 0; }
+    .sv-cl li { grid-template-rows: none; }
+    .sv-cl h3, .sv-cl .m, .sv-cl p { grid-column: 1 / -1; grid-row: auto; }
+    .sv-cl p { padding-top: 0.2rem; }
+    .sv-steps li { grid-column: 1 / -1; }
+    .sv-steps .n { margin-bottom: 0.8rem; }
+    .sv-terms > div { grid-column: 1 / -1; }
+    .sv-closer h2, .sv-closer .sv-cta { grid-column: 1 / -1; }
+  }
+  @media (max-width: 640px) {
+    .sv-index-line .sv-idx { display: none; }
+    .sv-h1 { font-size: clamp(2.6rem, 14.5vw, 4.5rem); line-height: 0.9; }
+    .sv-terms > div { grid-template-columns: 1fr; gap: 0.3rem; }
+    .sv-refs dt { width: 5.2rem; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .sv-h1 .ln, .sv-lede { animation: none; }
+    .sv-toc a, .sv-toc .l::after { transition: none; }
+  }
+}

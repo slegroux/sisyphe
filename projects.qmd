@@ -1,7 +1,7 @@
 ---
 pagetitle: "Projects"
 aliases: [lineage.html, instruments.html]
-description: "What Sisyphe has built: Sideman and Roadie for music production, Kiln, Dandelion and Nimrod (tools and frameworks), Dream Fauna and Bestiary (embodied agents in simulated worlds), Moving Paintings and Westside LA Events (creative ML and culture), and client work for Tamada and Visto, Persona and Parts Order."
+description: "What Sisyphe has built: Sideman and Roadie for music production, Kiln, Dandelion and Nimrod (tools and frameworks), Dream Fauna and Bestiary (embodied agents in simulated worlds), and Moving Paintings and Westside LA Events (creative ML and culture)."
 format:
   html:
     page-layout: article
@@ -12,10 +12,10 @@ format:
 # What we have built.
 
 ::: {.lede .muted}
-Products, public tools, personal projects and client work, almost all of it since Sisyphe began in 2023. Each card is tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
+Products, public tools and our own projects, almost all of it since Sisyphe began in 2023. Each card is tagged with the layers it works hardest on: perceive, reason, act. For the two decades before, see [the background](about.html#background).
 :::
 
-<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#tools">Tools & frameworks</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML & culture</a> · <a href="#clients">Client work</a></nav>
+<nav class="jump" aria-label="Sections"><a href="#music">Music production</a> · <a href="#tools">Tools & frameworks</a> · <a href="#agents">Agents & simulated worlds</a> · <a href="#creative-ml">Creative ML & culture</a></nav>
 
 ## Music production {#music}
 
@@ -191,39 +191,8 @@ Sixty scrapers over venues, museums and community calendars on LA's Westside, un
 :::
 :::
 
-## Client work {#clients}
-
-::: {.group-lede .muted}
-Engagements for companies building AI into creative, cultural and voice products.
-:::
-
-::: {.projgrid .compact}
-::: {.proj data-layers="perceive reason"}
-<div class="body">
-<div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Fractional CTO</div>
-### Tamada × Visto
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-An AI curation engine for <a href="https://www.visto.art/">Visto</a>, the art consultancy that builds collections for luxury hotels, residences and landmark destinations: search a collection by text or by image, on CLIP embeddings and a vector index, taken from prototype to product with a team.
-</div>
-:::
-
-::: {.proj data-layers="perceive reason"}
-<div class="body">
-<div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · ML engineer, embedded</div>
-### Persona
-<div class="chips"><span class="chip perceive">perceive</span><span class="chip reason">reason</span></div>
-Real-time conversational voice pipelines, built inside the product team.
-</div>
-:::
-
-::: {.proj data-layers="perceive"}
-<div class="body">
-<div class="eyebrow meta"><span class="status">Client</span> · 2023–2025 · Scientific advisor</div>
-### Parts Order
-<div class="chips"><span class="chip perceive">perceive</span></div>
-Scientific advice on music source separation.
-</div>
-:::
+::: {.muted}
+Client engagements are on [Services](services.html#clients).
 :::
 
 {{< include _cta.qmd >}}
