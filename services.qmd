@@ -42,7 +42,7 @@ format:
       <figure class="sv-art">
         <img class="ill-l" src="assets/illus/01-agents-light.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Lanes of clips in a session, MIDI notes, audio waveforms and automation, with a bundle of fine violet lines threading through them from left to right. Stretches of a few clips are coloured blue where the path reads them and red where it edits them; a blue dot marks where the path is now.">
         <img class="ill-d" src="assets/illus/01-agents-dark.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Lanes of clips in a session, MIDI notes, audio waveforms and automation, with a bundle of fine violet lines threading through them from left to right. Stretches of a few clips are coloured blue where the path reads them and red where it edits them; a blue dot marks where the path is now.">
-        <figcaption class="cap"><span class="n">01a</span><span class="t">An agent’s path through a session’s tracks and clips, reading some and editing others · drawn with <a href="projects.html#kiln">Kiln</a></span></figcaption>
+        <figcaption class="cap"><span class="n">01a</span><span class="t">An agent’s path through a session’s tracks and clips, reading some and editing others · drawn with <a href="https://slegroux.github.io/kiln/">Kiln</a></span></figcaption>
       </figure>
       <p>MCP servers and tool design for DAWs, plug-ins, creative apps and collections. We decide what the model should see and build the bridge into your object model or archive.</p>
       <dl class="sv-refs">
@@ -60,7 +60,7 @@ format:
       <figure class="sv-art">
         <img class="ill-l" src="assets/illus/02-audio-light.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="A voice waveform on the left whose component waves fan out into separate frequency rows, become a hatched spectrogram in the middle, and end on the right as a grid of square tokens, each hatched according to its energy.">
         <img class="ill-d" src="assets/illus/02-audio-dark.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="A voice waveform on the left whose component waves fan out into separate frequency rows, become a hatched spectrogram in the middle, and end on the right as a grid of square tokens, each hatched according to its energy.">
-        <figcaption class="cap"><span class="n">01b</span><span class="t">A voice waveform split into its partials, then a spectrogram, then discrete tokens · drawn with <a href="projects.html#kiln">Kiln</a></span></figcaption>
+        <figcaption class="cap"><span class="n">01b</span><span class="t">A voice waveform split into its partials, then a spectrogram, then discrete tokens · drawn with <a href="https://slegroux.github.io/kiln/">Kiln</a></span></figcaption>
       </figure>
       <p>Music source separation, audio classification and recommendation, speech recognition and synthesis. Data pipelines, training, evaluation, and getting a model into a product.</p>
       <dl class="sv-refs">
@@ -79,7 +79,7 @@ format:
       <figure class="sv-art">
         <img class="ill-l" src="assets/illus/03-installation-light.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="A room seen from above, filled with thousands of fine flowing strokes. Three small sensors with rings around them read one visitor, a blue dot; the strokes swirl around the sensors and part around the visitor.">
         <img class="ill-d" src="assets/illus/03-installation-dark.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="A room seen from above, filled with thousands of fine flowing strokes. Three small sensors with rings around them read one visitor, a blue dot; the strokes swirl around the sensors and part around the visitor.">
-        <figcaption class="cap"><span class="n">01c</span><span class="t">Three sensors read one visitor and bend a field of strokes across a room · drawn with <a href="projects.html#kiln">Kiln</a></span></figcaption>
+        <figcaption class="cap"><span class="n">01c</span><span class="t">Three sensors read one visitor and bend a field of strokes across a room · drawn with <a href="https://slegroux.github.io/kiln/">Kiln</a></span></figcaption>
       </figure>
       <p>Embodied AI for the stage and the gallery: real-time composition, sound, light and machines that respond to sensors, biosignals, movement or game state. Installations, performances, museum and gallery prototypes.</p>
       <dl class="sv-refs">
@@ -105,7 +105,7 @@ format:
       <figure class="sv-art">
         <img class="ill-l" src="assets/illus/04-research-light.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="A lattice of triangles drawn as loose, repeated pencil strokes on the left that gradually straighten into clean double lines with ringed joints and a dimension line on the right. Two triangles are hatched in colour.">
         <img class="ill-d" src="assets/illus/04-research-dark.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="A lattice of triangles drawn as loose, repeated pencil strokes on the left that gradually straighten into clean double lines with ringed joints and a dimension line on the right. Two triangles are hatched in colour.">
-        <figcaption class="cap"><span class="n">02a</span><span class="t">One structure, sketched loose on the left and built clean on the right · drawn with <a href="projects.html#kiln">Kiln</a></span></figcaption>
+        <figcaption class="cap"><span class="n">02a</span><span class="t">One structure, sketched loose on the left and built clean on the right · drawn with <a href="https://slegroux.github.io/kiln/">Kiln</a></span></figcaption>
       </figure>
       <p>For creative-tech teams and cultural institutions with a paper, a lab prototype or a collection that needs to become software. We talk to the scientists and ship the code, or sit beside your team as a fractional CTO or scientific advisor.</p>
       <dl class="sv-refs">
@@ -132,7 +132,7 @@ format:
       <figure class="sv-art">
         <img class="ill-l" src="assets/illus/05-teaching-light.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Hundreds of short marks scattered at random angles on the left, each leaving a faint trail as it moves right and settles into place in a single spiral pattern, like the seeds of a sunflower. A few marks are coloured so their paths can be followed.">
         <img class="ill-d" src="assets/illus/05-teaching-dark.webp" width="1600" height="1000" loading="lazy" decoding="async" alt="Hundreds of short marks scattered at random angles on the left, each leaving a faint trail as it moves right and settles into place in a single spiral pattern, like the seeds of a sunflower. A few marks are coloured so their paths can be followed.">
-        <figcaption class="cap"><span class="n">03a</span><span class="t">Scattered marks, each an agent, finding their place in one shared pattern · drawn with <a href="projects.html#kiln">Kiln</a></span></figcaption>
+        <figcaption class="cap"><span class="n">03a</span><span class="t">Scattered marks, each an agent, finding their place in one shared pattern · drawn with <a href="https://slegroux.github.io/kiln/">Kiln</a></span></figcaption>
       </figure>
       <p>Sideman workshops for studios, schools and labs, from a day to a term, from “what’s in my Set?” to a finished track. Custom courses on agents for creative tools, audio machine learning and sensor-to-actuator systems.</p>
       <dl class="sv-refs">
