@@ -31,7 +31,7 @@ format:
       <div class="media">
         <video poster="assets/hero/flocking.jpg" muted loop playsinline preload="metadata" aria-hidden="true"><source src="assets/hero/flocking-960.mp4" type="video/mp4" media="(max-width: 960px)"><source src="assets/hero/flocking.mp4" type="video/mp4"></video>
       </div>
-      <div class="cap"><span class="n">01</span><span class="t"><b>Kiln</b> · ember sparks, flocking</span><span class="s">In development</span></div>
+      <div class="cap"><span class="n">01</span><span class="t"><b>Kiln</b> · ember sparks, flocking</span><span class="s">Open source</span></div>
     </a>
     <button class="vid-toggle" type="button" aria-pressed="false">Pause<span class="visually-hidden"> the animation</span></button>
   </div>

@@ -28,7 +28,7 @@ format:
     <p class="pj-ig-k" id="ix-products">Products</p>
     <ol aria-labelledby="ix-products">
       <li><a class="pj-row" href="#sideman"><span class="n">01</span><span class="k">Sideman</span><span class="w">Ableton Live MCP server</span><span class="d" aria-hidden="true"><i class="perceive on"></i><i class="reason on"></i><i class="act on"></i></span><span class="s">Open source</span><span class="y">2026</span></a></li>
-      <li><a class="pj-row" href="#kiln"><span class="n">02</span><span class="k">Kiln</span><span class="w">Creative-coding framework</span><span class="d" aria-hidden="true"><i class="perceive on"></i><i class="reason on"></i><i class="act on"></i></span><span class="s">In development</span><span class="y">2026</span></a></li>
+      <li><a class="pj-row" href="#kiln"><span class="n">02</span><span class="k">Kiln</span><span class="w">Creative-coding framework</span><span class="d" aria-hidden="true"><i class="perceive on"></i><i class="reason on"></i><i class="act on"></i></span><span class="s">Open source</span><span class="y">2026</span></a></li>
       <li><a class="pj-row" href="#dandelion"><span class="n">03</span><span class="k">Dandelion</span><span class="w">Learning notebook</span><span class="d" aria-hidden="true"><i class="perceive on"></i><i class="reason on"></i><i class="act"></i></span><span class="s">Public</span><span class="y">2026</span></a></li>
     </ol>
   </div>
@@ -81,11 +81,12 @@ format:
       <figcaption class="cap"><span class="n">02a</span><span class="t">Ember sparks, flocking</span></figcaption>
     </figure>
     <div class="pj-txt">
-      <p class="pj-meta"><span class="n">02</span><span class="s">In development</span><span class="y">2026</span></p>
+      <p class="pj-meta"><span class="n">02</span><span class="s">Product · Open source</span><span class="y">2026</span></p>
       <h3 id="kiln-h">Kiln</h3>
       <p class="pj-what">Creative-coding framework</p>
       <p class="pj-lyrs"><span class="lyr perceive">perceive</span><span class="lyr reason">reason</span><span class="lyr act">act</span></p>
-      <p>Sketch with agents. Sketch agents. Python on the GPU: a coding agent can look at what its sketch drew and fix it, and inside the sketch thousands of agents share one behaviour tree. Not public yet.</p>
+      <p>Sketch with agents. Sketch agents. Python on the GPU: a coding agent can look at what its sketch drew and fix it, and inside the sketch thousands of agents share one behaviour tree.</p>
+      <p class="pj-go"><a href="https://slegroux.github.io/kiln/">Kiln docs →</a></p>
     </div>
     <figure class="pj-fig pj-still framed">
       <div class="media"><img src="assets/work/kiln.jpg" width="1200" height="900" loading="lazy" alt="Kiln's showcase window: nineteen panels of shapes, colour, blend modes, curves, shaders, text, a GUI panel and a sound spectrum, all drawn live by one Python sketch"></div>
